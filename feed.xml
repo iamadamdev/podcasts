@@ -10,7 +10,7 @@
     <description>Two long-form audio briefings about artificial intelligence, electricity demand, and the power grid.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Sun, 09 Aug 2026 15:38:12 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 15:48:31 -0700</lastBuildDate>
     <generator>Static RSS on GitHub Pages</generator>
     <ttl>60</ttl>
 
@@ -34,9 +34,9 @@
       <pubDate>Sun, 09 Aug 2026 15:38:12 -0700</pubDate>
       <guid isPermaLink="false">ec379db03fed819136f7ddaf068ac7c60227b7f9f1ca2edfafd37143b66117f0</guid>
       <enclosure
-        url="https://github.com/iamadamdev/podcasts/releases/download/v1.0.0/gemini_AI_is_swallowing_the_power_grid.m4a"
-        length="149289107"
-        type="audio/mp4" />
+        url="https://iamadamdev.github.io/podcasts/audio_files/ai-is-swallowing-the-power-grid.mp3"
+        length="55664269"
+        type="audio/mpeg" />
       <itunes:author>Adam</itunes:author>
       <itunes:duration>01:17:19</itunes:duration>
       <itunes:episode>2</itunes:episode>
@@ -51,9 +51,9 @@
       <pubDate>Sun, 09 Aug 2026 15:36:25 -0700</pubDate>
       <guid isPermaLink="false">741d60e7abb593601cbec0ffe68ef474d184bd274cc267793840db3e999e5629</guid>
       <enclosure
-        url="https://github.com/iamadamdev/podcasts/releases/download/v1.0.0/gemini_Why_electricity_is_the_AI_bottleneck.m4a"
-        length="137257495"
-        type="audio/mp4" />
+        url="https://iamadamdev.github.io/podcasts/audio_files/why-electricity-is-the-ai-bottleneck.mp3"
+        length="51178213"
+        type="audio/mpeg" />
       <itunes:author>Adam</itunes:author>
       <itunes:duration>01:11:05</itunes:duration>
       <itunes:episode>1</itunes:episode>
@@ -62,4 +62,3 @@
     </item>
   </channel>
 </rss>
-
