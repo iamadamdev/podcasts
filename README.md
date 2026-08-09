@@ -1,4 +1,4 @@
-# AI & the Power Grid
+# Custom generated podcasts
 
 A small, static podcast site published with GitHub Pages.
 
