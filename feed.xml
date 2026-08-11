@@ -7,10 +7,10 @@
     <title>AI &amp; the Power Grid</title>
     <link>https://iamadamdev.github.io/podcasts/</link>
     <atom:link href="https://iamadamdev.github.io/podcasts/feed.xml" rel="self" type="application/rss+xml" />
-    <description>Two long-form audio briefings about artificial intelligence, electricity demand, and the power grid.</description>
+    <description>A long-form audio briefing about artificial intelligence, electricity demand, and the power grid.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Sun, 09 Aug 2026 15:48:31 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 20:27:40 -0700</lastBuildDate>
     <generator>Static RSS on GitHub Pages</generator>
     <ttl>60</ttl>
 
@@ -21,28 +21,11 @@
     </image>
 
     <itunes:author>Adam</itunes:author>
-    <itunes:summary>Two long-form audio briefings about artificial intelligence, electricity demand, and the power grid.</itunes:summary>
+    <itunes:summary>A long-form audio briefing about artificial intelligence, electricity demand, and the power grid.</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
-
-    <item>
-      <title>AI Is Swallowing the Power Grid</title>
-      <itunes:title>AI Is Swallowing the Power Grid</itunes:title>
-      <description>A deep dive into how AI data centers are reshaping electricity demand and testing the power grid.</description>
-      <pubDate>Sun, 09 Aug 2026 15:38:12 -0700</pubDate>
-      <guid isPermaLink="false">ec379db03fed819136f7ddaf068ac7c60227b7f9f1ca2edfafd37143b66117f0</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/ai-is-swallowing-the-power-grid.mp3"
-        length="55664269"
-        type="audio/mpeg" />
-      <itunes:author>Adam</itunes:author>
-      <itunes:duration>01:17:19</itunes:duration>
-      <itunes:episode>2</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
 
     <item>
       <title>Why Electricity Is the AI Bottleneck</title>
