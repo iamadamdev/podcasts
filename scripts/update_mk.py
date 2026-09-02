@@ -290,7 +290,7 @@ def render_feed(episodes: list[dict[str, Any]]) -> str:
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
     <lastBuildDate>{published_rfc2822(latest)}</lastBuildDate>
-    <generator>scripts/update_meet_kevin.py</generator>
+    <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
     <image>
