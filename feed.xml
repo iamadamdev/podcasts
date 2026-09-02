@@ -11,7 +11,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Wed, 02 Sep 2026 03:34:19 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 18:57:50 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -28,6 +28,60 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Sam Altman JUST SAID the QUIET Part Out Loud: YIKES!</title>
+      <itunes:title>Sam Altman JUST SAID the QUIET Part Out Loud: YIKES!</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=VUzlDkmHqCI</description>
+      <link>https://www.youtube.com/watch?v=VUzlDkmHqCI</link>
+      <pubDate>Wed, 02 Sep 2026 18:57:50 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-VUzlDkmHqCI</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260902-VUzlDkmHqCI.mp3"
+        length="17519407"
+        type="audio/mpeg" />
+      <podcast:transcript url="https://iamadamdev.github.io/podcasts/transcripts/meet-kevin-20260902-VUzlDkmHqCI.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:24:19</itunes:duration>
+      <itunes:episode>10</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Iran MINES Explode Ships &amp; "Strait of Trump" | New Dangers.</title>
+      <itunes:title>Iran MINES Explode Ships &amp; "Strait of Trump" | New Dangers.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=_YmWRsjEkvQ</description>
+      <link>https://www.youtube.com/watch?v=_YmWRsjEkvQ</link>
+      <pubDate>Wed, 02 Sep 2026 17:09:53 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-_YmWRsjEkvQ</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260902-_YmWRsjEkvQ.mp3"
+        length="10993166"
+        type="audio/mpeg" />
+      <podcast:transcript url="https://iamadamdev.github.io/podcasts/transcripts/meet-kevin-20260902-_YmWRsjEkvQ.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:15:15</itunes:duration>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Why the Trump Economy Hasn’t Crashed Yet (It’s Down to ONE Stat)</title>
+      <itunes:title>Why the Trump Economy Hasn’t Crashed Yet (It’s Down to ONE Stat)</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Rlj9JBrfGCU</description>
+      <link>https://www.youtube.com/watch?v=Rlj9JBrfGCU</link>
+      <pubDate>Wed, 02 Sep 2026 15:24:42 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-Rlj9JBrfGCU</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260902-Rlj9JBrfGCU.mp3"
+        length="13131743"
+        type="audio/mpeg" />
+      <podcast:transcript url="https://iamadamdev.github.io/podcasts/transcripts/meet-kevin-20260902-Rlj9JBrfGCU.vtt" type="text/vtt" language="en" rel="captions" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:18:14</itunes:duration>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>How Anthropic Will Pop the AI Bubble [IPO Warning].</title>
       <itunes:title>How Anthropic Will Pop the AI Bubble [IPO Warning].</itunes:title>
