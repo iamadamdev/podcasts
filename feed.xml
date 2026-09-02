@@ -4,34 +4,136 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>AI &amp; the Power Grid</title>
+    <title>Custom Video Podcasts</title>
     <link>https://iamadamdev.github.io/podcasts/</link>
     <atom:link href="https://iamadamdev.github.io/podcasts/feed.xml" rel="self" type="application/rss+xml" />
-    <description>A long-form audio briefing about artificial intelligence, electricity demand, and the power grid.</description>
+    <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Mon, 10 Aug 2026 20:27:40 -0700</lastBuildDate>
-    <generator>Static RSS on GitHub Pages</generator>
+    <lastBuildDate>Wed, 02 Sep 2026 03:34:19 GMT</lastBuildDate>
+    <generator>scripts/update_meet_kevin.py</generator>
     <ttl>60</ttl>
 
     <image>
       <url>https://iamadamdev.github.io/podcasts/cover.png</url>
-      <title>AI &amp; the Power Grid</title>
+      <title>Custom Video Podcasts</title>
       <link>https://iamadamdev.github.io/podcasts/</link>
     </image>
 
     <itunes:author>Adam</itunes:author>
-    <itunes:summary>A long-form audio briefing about artificial intelligence, electricity demand, and the power grid.</itunes:summary>
+    <itunes:summary>Audio editions of selected YouTube videos and original audio briefings.</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
     <item>
+      <title>How Anthropic Will Pop the AI Bubble [IPO Warning].</title>
+      <itunes:title>How Anthropic Will Pop the AI Bubble [IPO Warning].</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=TWTBfxQwMaU</description>
+      <link>https://www.youtube.com/watch?v=TWTBfxQwMaU</link>
+      <pubDate>Wed, 02 Sep 2026 03:34:19 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-TWTBfxQwMaU</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260902-TWTBfxQwMaU.mp3"
+        length="25857994"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:35:54</itunes:duration>
+      <itunes:episode>7</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>THIS AI Stock *JUST* DESTROYED Analyst Expectations! BOOM!</title>
+      <itunes:title>THIS AI Stock *JUST* DESTROYED Analyst Expectations! BOOM!</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=6706fMdAhYU</description>
+      <link>https://www.youtube.com/watch?v=6706fMdAhYU</link>
+      <pubDate>Wed, 02 Sep 2026 01:00:26 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-6706fMdAhYU</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260902-6706fMdAhYU.mp3"
+        length="13069875"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:18:09</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Iran Attacks US Base! (Claims Americans DEAD)</title>
+      <itunes:title>Iran Attacks US Base! (Claims Americans DEAD)</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=nUvEdCPidtE</description>
+      <link>https://www.youtube.com/watch?v=nUvEdCPidtE</link>
+      <pubDate>Tue, 01 Sep 2026 22:42:23 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-nUvEdCPidtE</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260901-nUvEdCPidtE.mp3"
+        length="9128930"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:12:40</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Palantir CEO Investing in NEW Military Tech [Buy THIS Stock?]</title>
+      <itunes:title>Palantir CEO Investing in NEW Military Tech [Buy THIS Stock?]</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=FgkFU0FrcV0</description>
+      <link>https://www.youtube.com/watch?v=FgkFU0FrcV0</link>
+      <pubDate>Tue, 01 Sep 2026 20:15:20 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-FgkFU0FrcV0</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260901-FgkFU0FrcV0.mp3"
+        length="19138838"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:26:34</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>US *JUST* Struck Iran | ESCALATION -- Tankers &amp; Military Hit</title>
+      <itunes:title>US *JUST* Struck Iran | ESCALATION -- Tankers &amp; Military Hit</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=AhR5UBxdVgk</description>
+      <link>https://www.youtube.com/watch?v=AhR5UBxdVgk</link>
+      <pubDate>Tue, 01 Sep 2026 17:03:46 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-AhR5UBxdVgk</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260901-AhR5UBxdVgk.mp3"
+        length="17110577"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:23:45</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Elon Musk *NEW Speech* JUST Left G20 SPEECHLESS</title>
+      <itunes:title>Elon Musk *NEW Speech* JUST Left G20 SPEECHLESS</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=FyOu7hmZcVs</description>
+      <link>https://www.youtube.com/watch?v=FyOu7hmZcVs</link>
+      <pubDate>Tue, 01 Sep 2026 14:29:56 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-FyOu7hmZcVs</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260901-FyOu7hmZcVs.mp3"
+        length="18012248"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:25:00</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Why Electricity Is the AI Bottleneck</title>
       <itunes:title>Why Electricity Is the AI Bottleneck</itunes:title>
       <description>An exploration of why electricity supply, transmission, and grid capacity may constrain AI growth.</description>
-      <pubDate>Sun, 09 Aug 2026 15:36:25 -0700</pubDate>
+      <pubDate>Sun, 09 Aug 2026 22:36:25 GMT</pubDate>
       <guid isPermaLink="false">741d60e7abb593601cbec0ffe68ef474d184bd274cc267793840db3e999e5629</guid>
       <enclosure
         url="https://iamadamdev.github.io/podcasts/audio_files/why-electricity-is-the-ai-bottleneck.mp3"
