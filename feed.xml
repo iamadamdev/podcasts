@@ -2,7 +2,8 @@
 <rss version="2.0"
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>Custom Video Podcasts</title>
     <link>https://iamadamdev.github.io/podcasts/</link>
@@ -38,6 +39,7 @@
         url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260902-TWTBfxQwMaU.mp3"
         length="25857994"
         type="audio/mpeg" />
+      <podcast:transcript url="https://iamadamdev.github.io/podcasts/transcripts/meet-kevin-20260902-TWTBfxQwMaU.vtt" type="text/vtt" language="en" rel="captions" />
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:35:54</itunes:duration>
       <itunes:episode>7</itunes:episode>
@@ -55,6 +57,7 @@
         url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260902-6706fMdAhYU.mp3"
         length="13069875"
         type="audio/mpeg" />
+      <podcast:transcript url="https://iamadamdev.github.io/podcasts/transcripts/meet-kevin-20260902-6706fMdAhYU.vtt" type="text/vtt" language="en" rel="captions" />
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:18:09</itunes:duration>
       <itunes:episode>6</itunes:episode>
@@ -72,6 +75,7 @@
         url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260901-nUvEdCPidtE.mp3"
         length="9128930"
         type="audio/mpeg" />
+      <podcast:transcript url="https://iamadamdev.github.io/podcasts/transcripts/meet-kevin-20260901-nUvEdCPidtE.vtt" type="text/vtt" language="en" rel="captions" />
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:12:40</itunes:duration>
       <itunes:episode>5</itunes:episode>
@@ -89,6 +93,7 @@
         url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260901-FgkFU0FrcV0.mp3"
         length="19138838"
         type="audio/mpeg" />
+      <podcast:transcript url="https://iamadamdev.github.io/podcasts/transcripts/meet-kevin-20260901-FgkFU0FrcV0.vtt" type="text/vtt" language="en" rel="captions" />
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:26:34</itunes:duration>
       <itunes:episode>4</itunes:episode>
@@ -106,6 +111,7 @@
         url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260901-AhR5UBxdVgk.mp3"
         length="17110577"
         type="audio/mpeg" />
+      <podcast:transcript url="https://iamadamdev.github.io/podcasts/transcripts/meet-kevin-20260901-AhR5UBxdVgk.vtt" type="text/vtt" language="en" rel="captions" />
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:23:45</itunes:duration>
       <itunes:episode>3</itunes:episode>
@@ -123,6 +129,7 @@
         url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260901-FyOu7hmZcVs.mp3"
         length="18012248"
         type="audio/mpeg" />
+      <podcast:transcript url="https://iamadamdev.github.io/podcasts/transcripts/meet-kevin-20260901-FyOu7hmZcVs.vtt" type="text/vtt" language="en" rel="captions" />
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:25:00</itunes:duration>
       <itunes:episode>2</itunes:episode>

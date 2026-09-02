@@ -4,7 +4,8 @@
 The script is deliberately noninteractive and idempotent so it can be run by a
 future scheduler. It discovers videos with yt-dlp, applies an exact rolling
 time cutoff, downloads 96 kbps MP3 audio, updates episodes.json, and rebuilds
-feed.xml plus the episode cards in index.html.
+feed.xml plus the episode cards in index.html. English YouTube captions are
+hosted as WebVTT transcripts when available.
 """
 
 from __future__ import annotations
@@ -26,6 +27,7 @@ from xml.sax.saxutils import escape as xml_escape
 
 ROOT = Path(__file__).resolve().parents[1]
 AUDIO_DIR = ROOT / "audio_files"
+TRANSCRIPTS_DIR = ROOT / "transcripts"
 EPISODES_PATH = ROOT / "episodes.json"
 FEED_PATH = ROOT / "feed.xml"
 INDEX_PATH = ROOT / "index.html"
@@ -202,6 +204,86 @@ def download_audio(metadata: dict[str, Any]) -> Path:
     return relative_path
 
 
+def english_caption_language(metadata: dict[str, Any]) -> str | None:
+    preferred = ("en", "en-US", "en-GB", "en-orig")
+    for caption_group in (
+        metadata.get("subtitles") or {},
+        metadata.get("automatic_captions") or {},
+    ):
+        for language in preferred:
+            if language in caption_group:
+                return language
+        for language in caption_group:
+            if language.lower().startswith("en"):
+                return language
+    return None
+
+
+def download_transcript(metadata: dict[str, Any]) -> Path | None:
+    video_id = metadata["id"]
+    published = time.gmtime(int(metadata["timestamp"]))
+    date_part = time.strftime("%Y%m%d", published)
+    relative_path = (
+        Path("transcripts") / f"meet-kevin-{date_part}-{video_id}.vtt"
+    )
+    destination = ROOT / relative_path
+    if destination.exists():
+        normalize_webvtt(destination)
+        validate_webvtt(destination)
+        return relative_path
+
+    language = english_caption_language(metadata)
+    if not language:
+        log(f"Warning: no English captions are available for {video_id}")
+        return None
+
+    output_template = str(destination.with_suffix(".%(ext)s"))
+    log(f"Downloading {language} captions: {metadata['title']}")
+    run(
+        [
+            "yt-dlp",
+            "--no-playlist",
+            "--skip-download",
+            "--write-subs",
+            "--write-auto-subs",
+            "--sub-langs",
+            language,
+            "--sub-format",
+            "vtt",
+            "--output",
+            output_template,
+            metadata["webpage_url"],
+        ]
+    )
+
+    generated = destination.with_name(f"{destination.stem}.{language}.vtt")
+    if not generated.exists():
+        matches = sorted(TRANSCRIPTS_DIR.glob(f"{destination.stem}.*.vtt"))
+        if len(matches) != 1:
+            raise RuntimeError(
+                f"yt-dlp did not produce one VTT transcript for {video_id}"
+            )
+        generated = matches[0]
+    os.replace(generated, destination)
+    os.chmod(destination, 0o644)
+    normalize_webvtt(destination)
+    validate_webvtt(destination)
+    return relative_path
+
+
+def normalize_webvtt(path: Path) -> None:
+    content = path.read_text(encoding="utf-8")
+    normalized = "\n".join(line.rstrip() for line in content.splitlines()).rstrip() + "\n"
+    if normalized != content:
+        atomic_write(path, normalized)
+
+
+def validate_webvtt(path: Path) -> None:
+    content = path.read_text(encoding="utf-8")
+    if not content.startswith("WEBVTT") or "-->" not in content:
+        raise RuntimeError(f"Invalid or empty WebVTT transcript: {path}")
+
+
 def probe_duration(path: Path) -> int:
     output = run(
         [
@@ -250,38 +332,55 @@ def render_feed(episodes: list[dict[str, Any]]) -> str:
         enclosure_url = xml_escape(f"{SITE_URL}{filename}", {'"': "&quot;"})
         enclosure_length = (ROOT / filename).stat().st_size
         source_url = episode.get("source_url")
+        transcript_filename = episode.get("transcript_filename")
         link_line = (
             f"      <link>{xml_escape(str(source_url))}</link>\n" if source_url else ""
         )
+        item_lines = [
+            "    <item>",
+            f"      <title>{title}</title>",
+            f"      <itunes:title>{title}</itunes:title>",
+            f"      <description>{description}</description>",
+        ]
+        if link_line:
+            item_lines.append(link_line.rstrip("\n"))
+        item_lines.extend(
+            [
+                f"      <pubDate>{published_rfc2822(int(episode['published_timestamp']))}</pubDate>",
+                f"      <guid isPermaLink=\"false\">{xml_escape(str(episode['guid']))}</guid>",
+                "      <enclosure",
+                f"        url=\"{enclosure_url}\"",
+                f"        length=\"{enclosure_length}\"",
+                "        type=\"audio/mpeg\" />",
+            ]
+        )
+        if transcript_filename:
+            transcript_url = xml_escape(f"{SITE_URL}{transcript_filename}")
+            item_lines.append(
+                "      <podcast:transcript "
+                f"url=\"{transcript_url}\" type=\"text/vtt\" "
+                "language=\"en\" rel=\"captions\" />"
+            )
+        item_lines.extend(
+            [
+                f"      <itunes:author>{author}</itunes:author>",
+                f"      <itunes:duration>{duration_text(int(episode['duration_seconds']))}</itunes:duration>",
+                f"      <itunes:episode>{int(episode['episode_number'])}</itunes:episode>",
+                "      <itunes:episodeType>full</itunes:episodeType>",
+                "      <itunes:explicit>false</itunes:explicit>",
+                "    </item>",
+            ]
+        )
         items.append(
-            "\n".join(
-                [
-                    "    <item>",
-                    f"      <title>{title}</title>",
-                    f"      <itunes:title>{title}</itunes:title>",
-                    f"      <description>{description}</description>",
-                    link_line.rstrip("\n"),
-                    f"      <pubDate>{published_rfc2822(int(episode['published_timestamp']))}</pubDate>",
-                    f"      <guid isPermaLink=\"false\">{xml_escape(str(episode['guid']))}</guid>",
-                    "      <enclosure",
-                    f"        url=\"{enclosure_url}\"",
-                    f"        length=\"{enclosure_length}\"",
-                    "        type=\"audio/mpeg\" />",
-                    f"      <itunes:author>{author}</itunes:author>",
-                    f"      <itunes:duration>{duration_text(int(episode['duration_seconds']))}</itunes:duration>",
-                    f"      <itunes:episode>{int(episode['episode_number'])}</itunes:episode>",
-                    "      <itunes:episodeType>full</itunes:episodeType>",
-                    "      <itunes:explicit>false</itunes:explicit>",
-                    "    </item>",
-                ]
-            ).replace("\n\n      <pubDate>", "\n      <pubDate>")
+            "\n".join(item_lines)
         )
 
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>{xml_escape(SHOW_TITLE)}</title>
     <link>{SITE_URL}</link>
@@ -331,6 +430,9 @@ def validate_episodes(episodes: list[dict[str, Any]]) -> None:
             raise RuntimeError(f"Missing episode audio: {path}")
         if path.stat().st_size >= 100_000_000:
             raise RuntimeError(f"Episode audio exceeds GitHub's 100 MB limit: {path}")
+        transcript_filename = episode.get("transcript_filename")
+        if transcript_filename:
+            validate_webvtt(ROOT / str(transcript_filename))
 
 
 def render_episode_cards(episodes: list[dict[str, Any]]) -> str:
@@ -346,18 +448,23 @@ def render_episode_cards(episodes: list[dict[str, Any]]) -> str:
             "%b %-d, %Y", time.localtime(int(episode["published_timestamp"]))
         )
         source_url = episode.get("source_url")
-        source_link = (
-            f' · <a href="{html.escape(str(source_url), quote=True)}">Original video</a>'
-            if source_url
-            else ""
-        )
+        extra_links: list[str] = []
+        if source_url:
+            extra_links.append(
+                f'<a href="{html.escape(str(source_url), quote=True)}">Original video</a>'
+            )
+        transcript_filename = episode.get("transcript_filename")
+        if transcript_filename:
+            transcript_url = html.escape(str(transcript_filename), quote=True)
+            extra_links.append(f'<a href="{transcript_url}">Transcript</a>')
+        extra_links_html = f" · {' · '.join(extra_links)}" if extra_links else ""
         cards.append(
             f'''        <article>
           <div class="episode-number">{author} · {published} · {compact_duration(int(episode["duration_seconds"]))}</div>
           <h3>{title}</h3>
           <p>{description}</p>
           <audio controls preload="metadata" src="{filename}"></audio>
-          <div class="episode-links"><a class="download" href="{filename}">Download audio</a>{source_link}</div>
+          <div class="episode-links"><a class="download" href="{filename}">Download audio</a>{extra_links_html}</div>
         </article>'''
         )
     return "\n".join(cards)
@@ -405,6 +512,7 @@ def main() -> int:
         raise RuntimeError("--hours and --max-scan must be positive")
     require_tools()
     AUDIO_DIR.mkdir(exist_ok=True)
+    TRANSCRIPTS_DIR.mkdir(exist_ok=True)
 
     episodes = load_episodes()
     known_source_ids = {
@@ -446,6 +554,20 @@ def main() -> int:
             }
         )
         next_episode_number += 1
+
+    metadata_by_id = {metadata["id"]: metadata for metadata in candidates}
+    for episode in episodes:
+        source_id = episode.get("source_id")
+        if not source_id or episode.get("transcript_filename"):
+            continue
+        metadata = metadata_by_id.get(source_id) or video_metadata(source_id)
+        if not metadata:
+            log(f"Warning: could not backfill captions for {source_id}")
+            continue
+        metadata["timestamp"] = int(episode["published_timestamp"])
+        transcript_path = download_transcript(metadata)
+        if transcript_path:
+            episode["transcript_filename"] = transcript_path.as_posix()
 
     validate_episodes(episodes)
     save_episodes(episodes)
