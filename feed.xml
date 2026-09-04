@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Thu, 03 Sep 2026 14:23:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 13:40:25 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,74 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Holy WTF: The Jobs Report.</title>
+      <itunes:title>Holy WTF: The Jobs Report.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ZR16P8x0VHs</description>
+      <link>https://www.youtube.com/watch?v=ZR16P8x0VHs</link>
+      <pubDate>Fri, 04 Sep 2026 13:40:25 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-ZR16P8x0VHs</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260904-ZR16P8x0VHs.mp3"
+        length="10354805"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:14:22</itunes:duration>
+      <itunes:episode>16</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Tesla Cybercab Launch: Elon No Show'd. What we Know &amp; Tesla Stock.</title>
+      <itunes:title>The Tesla Cybercab Launch: Elon No Show'd. What we Know &amp; Tesla Stock.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=l0KQptcYYPM</description>
+      <link>https://www.youtube.com/watch?v=l0KQptcYYPM</link>
+      <pubDate>Fri, 04 Sep 2026 02:21:44 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-l0KQptcYYPM</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260904-l0KQptcYYPM.mp3"
+        length="12198049"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:16:56</itunes:duration>
+      <itunes:episode>15</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>FIRED over Trump LEAK: Fox Business Maria Bartiromo</title>
+      <itunes:title>FIRED over Trump LEAK: Fox Business Maria Bartiromo</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=R45RtYADQZU</description>
+      <link>https://www.youtube.com/watch?v=R45RtYADQZU</link>
+      <pubDate>Fri, 04 Sep 2026 00:38:41 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-R45RtYADQZU</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260904-R45RtYADQZU.mp3"
+        length="9021492"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:12:31</itunes:duration>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Wall Street is Warning: The Crash of 2027 is Coming: PREPARE.</title>
+      <itunes:title>Wall Street is Warning: The Crash of 2027 is Coming: PREPARE.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=oGS0G9N_evc</description>
+      <link>https://www.youtube.com/watch?v=oGS0G9N_evc</link>
+      <pubDate>Thu, 03 Sep 2026 17:56:00 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-oGS0G9N_evc</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260903-oGS0G9N_evc.mp3"
+        length="17045780"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:23:40</itunes:duration>
+      <itunes:episode>13</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Fed JUST Bailed Us Out.</title>
       <itunes:title>The Fed JUST Bailed Us Out.</itunes:title>
