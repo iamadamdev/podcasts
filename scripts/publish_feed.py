@@ -62,8 +62,9 @@ def publish() -> int:
                 raise RuntimeError(f"Unexpected episode audio path: {filename}")
 
         # Stage only the feed, site, manifest, and audio referenced by the manifest.
-        run("git", "add", "--", "episodes.json", "feed.xml", "index.html", *audio_paths)
-        if run("git", "diff", "--cached", "--name-only", capture=True):
+        publish_paths = ["episodes.json", "feed.xml", "index.html", *audio_paths]
+        run("git", "add", "--", *publish_paths)
+        if run("git", "diff", "--cached", "--name-only", "--", *publish_paths, capture=True):
             run(
                 "git", "commit",
                 "-m", "Refresh Meet Kevin podcast feed",
@@ -72,6 +73,8 @@ def publish() -> int:
                     "feed and episode cards.\n\n"
                     "Validated episode IDs, audio files, and file sizes with scripts/update_mk.py."
                 ),
+                # Leave unrelated changes staged by a person during the download alone.
+                "--only", "--", *publish_paths,
             )
         else:
             log("No feed changes to commit.")

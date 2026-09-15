@@ -121,6 +121,15 @@ class PublishFeedTests(unittest.TestCase):
         self.assertEqual(self.git("ls-files", "scratch.txt"), "")
         self.assertEqual((self.root / "scratch.txt").read_text(), "unrelated")
 
+    def test_preserves_unrelated_changes_staged_during_download(self):
+        self.set_updater(
+            UPDATER + '\nimport subprocess\nPath("scratch.txt").write_text("user work")\n'
+            'subprocess.run(["git", "add", "scratch.txt"], check=True)\n'
+        )
+        self.publish()
+        self.assertEqual(self.git("ls-tree", "--name-only", "HEAD", "scratch.txt"), "")
+        self.assertEqual(self.git("diff", "--cached", "--name-only"), "scratch.txt")
+
     def test_skips_overlapping_publisher(self):
         with (self.root / ".git/publish-feed.lock").open("w") as lock:
             fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
