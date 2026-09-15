@@ -19,6 +19,11 @@ Overlapping publisher runs are skipped. Uncommitted changes, a different branch,
 or diverged Git history stop the run with an error in the logs. Keep this checkout
 on `main` and commit or move any unfinished changes before the scheduled time.
 
+The publisher pins both the commit author and committer to **Adam
+<36013816+iamadamdev@users.noreply.github.com>**, overriding Git configuration and
+inherited identity environment variables. Future Git identity changes will not
+change the identity used for automated feed commits.
+
 To update files without committing or pushing:
 
 ```sh

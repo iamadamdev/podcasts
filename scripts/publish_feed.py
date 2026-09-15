@@ -13,6 +13,8 @@ import sys
 
 
 ROOT = Path(__file__).resolve().parents[1]
+COMMIT_NAME = "Adam"
+COMMIT_EMAIL = "36013816+iamadamdev@users.noreply.github.com"
 
 
 def log(message: str) -> None:
@@ -23,7 +25,16 @@ def run(*command: str, capture: bool = False) -> str:
     result = subprocess.run(
         command,
         cwd=ROOT,
-        env={**os.environ, "GIT_TERMINAL_PROMPT": "0"},
+        env={
+            **os.environ,
+            "GIT_TERMINAL_PROMPT": "0",
+            # Explicit author and committer values override Git config and the
+            # calling shell's identity, including the launch agent environment.
+            "GIT_AUTHOR_NAME": COMMIT_NAME,
+            "GIT_AUTHOR_EMAIL": COMMIT_EMAIL,
+            "GIT_COMMITTER_NAME": COMMIT_NAME,
+            "GIT_COMMITTER_EMAIL": COMMIT_EMAIL,
+        },
         check=True,
         text=True,
         stdout=subprocess.PIPE if capture else None,

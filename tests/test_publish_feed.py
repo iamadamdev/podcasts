@@ -3,6 +3,7 @@
 import contextlib
 import fcntl
 import io
+import os
 from pathlib import Path
 import subprocess
 import tempfile
@@ -85,6 +86,31 @@ class PublishFeedTests(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, "uncommitted changes"):
             self.publish()
         self.assertEqual(self.remote_head(), self.initial_head)
+
+    def assert_podcast_identity(self):
+        identity = self.git("log", "-1", "--format=%an%n%ae%n%cn%n%ce").splitlines()
+        self.assertEqual(identity, [
+            "Adam", "36013816+iamadamdev@users.noreply.github.com",
+            "Adam", "36013816+iamadamdev@users.noreply.github.com",
+        ])
+        self.assertEqual(self.remote_head(), self.git("rev-parse", "HEAD"))
+
+    def test_pins_author_and_committer_despite_git_config_changes(self):
+        for section in ("user", "author", "committer"):
+            self.git("config", f"{section}.name", "Different Person")
+            self.git("config", f"{section}.email", "different@example.test")
+        self.publish()
+        self.assert_podcast_identity()
+
+    def test_pins_author_and_committer_despite_environment_changes(self):
+        with patch.dict(os.environ, {
+            "GIT_AUTHOR_NAME": "Different Author",
+            "GIT_AUTHOR_EMAIL": "author@example.test",
+            "GIT_COMMITTER_NAME": "Different Committer",
+            "GIT_COMMITTER_EMAIL": "committer@example.test",
+        }):
+            self.publish()
+        self.assert_podcast_identity()
 
     def test_refuses_a_different_branch(self):
         self.git("checkout", "-b", "feature")
