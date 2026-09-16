@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Tue, 15 Sep 2026 15:10:30 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 15:05:25 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,91 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Final Warning on Fed [Watch Now]</title>
+      <itunes:title>Final Warning on Fed [Watch Now]</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=uXS337Waf7w</description>
+      <link>https://www.youtube.com/watch?v=uXS337Waf7w</link>
+      <pubDate>Wed, 16 Sep 2026 15:05:25 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-uXS337Waf7w</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260916-uXS337Waf7w.mp3"
+        length="7277723"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:10:06</itunes:duration>
+      <itunes:episode>40</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Fed MUST Hike Today.</title>
+      <itunes:title>The Fed MUST Hike Today.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ZHgxrjR5KgE</description>
+      <link>https://www.youtube.com/watch?v=ZHgxrjR5KgE</link>
+      <pubDate>Wed, 16 Sep 2026 06:55:07 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-ZHgxrjR5KgE</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260916-ZHgxrjR5KgE.mp3"
+        length="8300048"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:11:31</itunes:duration>
+      <itunes:episode>39</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>NBC News Helicopter JUST CRASHED | LIVE FOOTAGE | Analysis</title>
+      <itunes:title>NBC News Helicopter JUST CRASHED | LIVE FOOTAGE | Analysis</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=tnPDAasQK0g</description>
+      <link>https://www.youtube.com/watch?v=tnPDAasQK0g</link>
+      <pubDate>Wed, 16 Sep 2026 05:41:19 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-tnPDAasQK0g</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260916-tnPDAasQK0g.mp3"
+        length="10975677"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:15:14</itunes:duration>
+      <itunes:episode>38</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Iran War JUST Hit Rock Bottom.</title>
+      <itunes:title>The Iran War JUST Hit Rock Bottom.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=2pSUF0ITjAk</description>
+      <link>https://www.youtube.com/watch?v=2pSUF0ITjAk</link>
+      <pubDate>Tue, 15 Sep 2026 23:31:03 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-2pSUF0ITjAk</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260915-2pSUF0ITjAk.mp3"
+        length="12069735"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:16:45</itunes:duration>
+      <itunes:episode>37</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Clarity Act FAILS | What Now?!?!?!</title>
+      <itunes:title>Clarity Act FAILS | What Now?!?!?!</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=iQRLu0ZMmOs</description>
+      <link>https://www.youtube.com/watch?v=iQRLu0ZMmOs</link>
+      <pubDate>Tue, 15 Sep 2026 19:10:41 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-iQRLu0ZMmOs</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260915-iQRLu0ZMmOs.mp3"
+        length="9621461"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:13:21</itunes:duration>
+      <itunes:episode>36</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Warning: Fed Chair Warsh is about to Middle Finger Trump.</title>
       <itunes:title>Warning: Fed Chair Warsh is about to Middle Finger Trump.</itunes:title>
