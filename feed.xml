@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Wed, 16 Sep 2026 15:05:25 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 16:52:39 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,108 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Palantir CEO Leaves CNBC SPEECHLES | UNHINGED INTERVIEW</title>
+      <itunes:title>Palantir CEO Leaves CNBC SPEECHLES | UNHINGED INTERVIEW</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=mOKAVplATpY</description>
+      <link>https://www.youtube.com/watch?v=mOKAVplATpY</link>
+      <pubDate>Thu, 17 Sep 2026 16:52:39 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-mOKAVplATpY</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260917-mOKAVplATpY.mp3"
+        length="13106290"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:18:11</itunes:duration>
+      <itunes:episode>46</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Trump is TACO'ing on Iran!!</title>
+      <itunes:title>Trump is TACO'ing on Iran!!</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Y3FOZfOm_mU</description>
+      <link>https://www.youtube.com/watch?v=Y3FOZfOm_mU</link>
+      <pubDate>Thu, 17 Sep 2026 15:30:10 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-Y3FOZfOm_mU</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260917-Y3FOZfOm_mU.mp3"
+        length="10538166"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:14:37</itunes:duration>
+      <itunes:episode>45</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>THIS Stock is about to 2x!</title>
+      <itunes:title>THIS Stock is about to 2x!</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=b92Fzo1GkSY</description>
+      <link>https://www.youtube.com/watch?v=b92Fzo1GkSY</link>
+      <pubDate>Thu, 17 Sep 2026 05:14:58 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-b92Fzo1GkSY</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260917-b92Fzo1GkSY.mp3"
+        length="12878513"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:17:52</itunes:duration>
+      <itunes:episode>44</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Trump *JUST* Lashed Out | Big Mistakes.</title>
+      <itunes:title>Trump *JUST* Lashed Out | Big Mistakes.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=eUS1QM-w9-Q</description>
+      <link>https://www.youtube.com/watch?v=eUS1QM-w9-Q</link>
+      <pubDate>Thu, 17 Sep 2026 01:29:08 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-eUS1QM-w9-Q</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260917-eUS1QM-w9-Q.mp3"
+        length="10162144"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:14:06</itunes:duration>
+      <itunes:episode>43</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Cause of Crash? DEADLY NBC News Helicopter Crash [N358TV]</title>
+      <itunes:title>Cause of Crash? DEADLY NBC News Helicopter Crash [N358TV]</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ivfor21qz3U</description>
+      <link>https://www.youtube.com/watch?v=ivfor21qz3U</link>
+      <pubDate>Wed, 16 Sep 2026 22:00:44 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-ivfor21qz3U</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260916-ivfor21qz3U.mp3"
+        length="10099540"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:14:01</itunes:duration>
+      <itunes:episode>42</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Fed is PISSED.</title>
+      <itunes:title>The Fed is PISSED.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=qISyErK8cd8</description>
+      <link>https://www.youtube.com/watch?v=qISyErK8cd8</link>
+      <pubDate>Wed, 16 Sep 2026 19:33:47 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-qISyErK8cd8</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260916-qISyErK8cd8.mp3"
+        length="16730157"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:23:13</itunes:duration>
+      <itunes:episode>41</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Final Warning on Fed [Watch Now]</title>
       <itunes:title>Final Warning on Fed [Watch Now]</itunes:title>
