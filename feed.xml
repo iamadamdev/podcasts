@@ -792,21 +792,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>Why Electricity Is the AI Bottleneck</title>
-      <itunes:title>Why Electricity Is the AI Bottleneck</itunes:title>
-      <description>An exploration of why electricity supply, transmission, and grid capacity may constrain AI growth.</description>
-      <pubDate>Sun, 09 Aug 2026 22:36:25 GMT</pubDate>
-      <guid isPermaLink="false">741d60e7abb593601cbec0ffe68ef474d184bd274cc267793840db3e999e5629</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/why-electricity-is-the-ai-bottleneck.mp3"
-        length="51178213"
-        type="audio/mpeg" />
-      <itunes:author>Adam</itunes:author>
-      <itunes:duration>01:11:05</itunes:duration>
-      <itunes:episode>1</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
