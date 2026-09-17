@@ -3,8 +3,8 @@
 
 The script is deliberately noninteractive and idempotent so it can be run by a
 future scheduler. It discovers videos with yt-dlp, applies an exact rolling
-time cutoff, downloads 96 kbps MP3 audio, updates episodes.json, and rebuilds
-feed.xml plus the episode cards in index.html.
+time cutoff, downloads 96 kbps MP3 audio, removes episodes older than 30 days,
+updates episodes.json, and rebuilds feed.xml plus the episode cards in index.html.
 """
 
 from __future__ import annotations
@@ -38,6 +38,7 @@ SHOW_TITLE = "Custom Video Podcasts"
 SHOW_DESCRIPTION = (
     "Audio editions of selected YouTube videos and original audio briefings."
 )
+RETENTION_DAYS = 30
 
 EPISODES_START = "      <!-- EPISODES_START -->"
 EPISODES_END = "      <!-- EPISODES_END -->"
@@ -238,7 +239,11 @@ def published_rfc2822(timestamp: int) -> str:
 
 
 def render_feed(episodes: list[dict[str, Any]]) -> str:
-    latest = max(int(episode["published_timestamp"]) for episode in episodes)
+    latest = max((int(episode["published_timestamp"]) for episode in episodes), default=None)
+    build_date = (
+        f"    <lastBuildDate>{published_rfc2822(latest)}</lastBuildDate>\n"
+        if latest is not None else ""
+    )
     items: list[str] = []
     for episode in sorted(
         episodes, key=lambda item: int(item["published_timestamp"]), reverse=True
@@ -297,8 +302,7 @@ def render_feed(episodes: list[dict[str, Any]]) -> str:
     <description>{xml_escape(SHOW_DESCRIPTION)}</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>{published_rfc2822(latest)}</lastBuildDate>
-    <generator>scripts/update_mk.py</generator>
+{build_date}    <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
     <image>
@@ -320,10 +324,20 @@ def render_feed(episodes: list[dict[str, Any]]) -> str:
 '''
 
 
-def validate_episodes(episodes: list[dict[str, Any]]) -> None:
-    if not episodes:
-        raise RuntimeError("episodes.json must contain at least one episode")
+def episode_audio_path(filename: str) -> Path:
+    relative_path = Path(filename)
+    path = ROOT / relative_path
+    if (
+        relative_path.parent != Path("audio_files")
+        or relative_path.suffix != ".mp3"
+        or path.is_symlink()
+        or path.resolve().parent != AUDIO_DIR
+    ):
+        raise RuntimeError(f"Unexpected episode audio path: {filename}")
+    return path
 
+
+def validate_episodes(episodes: list[dict[str, Any]]) -> None:
     for field in ("guid", "episode_number", "filename"):
         values = [episode[field] for episode in episodes]
         if len(values) != len(set(values)):
@@ -334,7 +348,7 @@ def validate_episodes(episodes: list[dict[str, Any]]) -> None:
         raise RuntimeError("Duplicate source_id in episodes.json")
 
     for episode in episodes:
-        path = ROOT / str(episode["filename"])
+        path = episode_audio_path(str(episode["filename"]))
         if not path.is_file():
             raise RuntimeError(f"Missing episode audio: {path}")
         if path.stat().st_size >= 100_000_000:
@@ -373,8 +387,7 @@ def render_episode_cards(episodes: list[dict[str, Any]]) -> str:
 
 
 def rebuild_outputs(episodes: list[dict[str, Any]]) -> None:
-    atomic_write(FEED_PATH, render_feed(episodes))
-
+    feed = render_feed(episodes)
     index = INDEX_PATH.read_text(encoding="utf-8")
     if EPISODES_START not in index or EPISODES_END not in index:
         raise RuntimeError("index.html is missing episode marker comments")
@@ -383,6 +396,7 @@ def rebuild_outputs(episodes: list[dict[str, Any]]) -> None:
     replacement = (
         f"{EPISODES_START}\n{render_episode_cards(episodes)}\n{EPISODES_END}"
     )
+    atomic_write(FEED_PATH, feed)
     atomic_write(INDEX_PATH, prefix + replacement + suffix)
 
 
@@ -403,7 +417,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="list qualifying videos without downloading or changing files",
+        help="preview new videos and expired episodes without changing files",
     )
     return parser.parse_args()
 
@@ -416,11 +430,20 @@ def main() -> int:
     AUDIO_DIR.mkdir(exist_ok=True)
 
     episodes = load_episodes()
+    retention_cutoff = int(time.time()) - RETENTION_DAYS * 24 * 3600
+    expired = [
+        episode for episode in episodes
+        if int(episode["published_timestamp"]) < retention_cutoff
+    ]
     known_source_ids = {
         episode["source_id"] for episode in episodes if episode.get("source_id")
     }
     candidates = discover_recent_videos(args.hours, args.max_scan)
-    new_candidates = [item for item in candidates if item["id"] not in known_source_ids]
+    new_candidates = [
+        item for item in candidates
+        if item["id"] not in known_source_ids
+        and int(item["timestamp"]) >= retention_cutoff
+    ]
 
     log(
         f"Found {len(candidates)} qualifying video(s) in the last {args.hours:g} "
@@ -428,6 +451,9 @@ def main() -> int:
     )
     for metadata in new_candidates:
         log(f"  {metadata['id']}  {metadata['title']}")
+    log(f"Removing {len(expired)} episode(s) older than {RETENTION_DAYS} days.")
+    for episode in expired:
+        log(f"  Expired: {episode['filename']}")
     if args.dry_run:
         return 0
 
@@ -457,9 +483,16 @@ def main() -> int:
         next_episode_number += 1
 
     validate_episodes(episodes)
-    save_episodes(episodes)
-    rebuild_outputs(episodes)
-    log(f"Updated feed and site with {len(episodes)} total episode(s).")
+    retained = [
+        episode for episode in episodes
+        if int(episode["published_timestamp"]) >= retention_cutoff
+    ]
+    rebuild_outputs(retained)
+    save_episodes(retained)
+    # Validate and rebuild all references before deleting any audio.
+    for episode in expired:
+        episode_audio_path(str(episode["filename"])).unlink()
+    log(f"Updated feed and site with {len(retained)} total episode(s).")
     return 0
 
 

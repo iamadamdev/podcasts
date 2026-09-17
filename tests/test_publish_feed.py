@@ -87,6 +87,35 @@ class PublishFeedTests(unittest.TestCase):
             self.publish()
         self.assertEqual(self.remote_head(), self.initial_head)
 
+    def test_commits_and_pushes_expired_audio_deletion(self):
+        self.publish()
+        self.set_updater(
+            UPDATER.replace("episode.mp3", "recent.mp3")
+            + '\nPath("audio_files/episode.mp3").unlink()\n'
+        )
+        self.publish()
+        self.assertEqual(self.remote_head(), self.git("rev-parse", "HEAD"))
+        self.assertEqual(self.git("status", "--porcelain"), "")
+        self.assertEqual(self.git("ls-tree", "--name-only", "HEAD", "audio_files/episode.mp3"), "")
+        self.assertEqual(self.git("diff-tree", "--no-commit-id", "--name-only", "--diff-filter=D", "-r", "HEAD"), "audio_files/episode.mp3")
+        self.assertEqual(self.git("ls-tree", "--name-only", "HEAD", "audio_files/recent.mp3"), "audio_files/recent.mp3")
+
+    def test_commits_cleanup_with_no_new_episodes_and_an_empty_manifest(self):
+        self.publish()
+        self.set_updater('''from pathlib import Path
+Path("audio_files/episode.mp3").unlink(missing_ok=True)
+Path("episodes.json").write_text("[]")
+Path("feed.xml").write_text("empty feed")
+Path("index.html").write_text("empty site")
+''')
+        self.publish()
+        self.assertEqual(self.remote_head(), self.git("rev-parse", "HEAD"))
+        self.assertEqual(self.git("status", "--porcelain"), "")
+        self.assertEqual(self.git("ls-tree", "--name-only", "HEAD", "audio_files/"), "")
+        published = self.git("rev-parse", "HEAD")
+        self.publish()
+        self.assertEqual(self.git("rev-parse", "HEAD"), published)
+
     def assert_podcast_identity(self):
         identity = self.git("log", "-1", "--format=%an%n%ae%n%cn%n%ce").splitlines()
         self.assertEqual(identity, [

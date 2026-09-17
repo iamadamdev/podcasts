@@ -13,8 +13,14 @@ python3 scripts/publish_feed.py
 ```
 
 This pulls `main` with `--ff-only`, runs `python3 scripts/update_mk.py --hours 96`,
-commits feed changes when present, and pushes normally. It stages only
-`episodes.json`, `feed.xml`, `index.html`, and the MP3s referenced by the manifest.
+removes episodes older than **30 days**, commits feed changes when present, and
+pushes normally. The cutoff uses each episode's publication timestamp, applies
+to every author, and keeps episodes exactly 30 days old. Expired episodes are
+removed from `episodes.json`, `feed.xml`, `index.html`, and `audio_files/`, even
+when no new videos are found. An empty feed is supported if all episodes expire.
+It stages only the manifest, feed, site, and MP3s referenced before or after the
+update, so audio deletions are included in the commit and push. Deleted audio
+remains in earlier Git history.
 Overlapping publisher runs are skipped. Uncommitted changes, a different branch,
 or diverged Git history stop the run with an error in the logs. Keep this checkout
 on `main` and commit or move any unfinished changes before the scheduled time.
@@ -24,13 +30,13 @@ The publisher pins both the commit author and committer to **Adam
 inherited identity environment variables. Future Git identity changes will not
 change the identity used for automated feed commits.
 
-To update files without committing or pushing:
+To import recent videos and remove expired episodes without committing or pushing:
 
 ```sh
 python3 scripts/update_mk.py --hours 96
 ```
 
-To preview new videos without changing the feed:
+To preview new videos and expired episodes without changing the feed:
 
 ```sh
 python3 scripts/update_mk.py --hours 96 --dry-run
@@ -48,6 +54,7 @@ The job runs every day at **10:00am in the Mac's local timezone** (currently
 America/Los_Angeles), including daylight saving changes. It stays installed across
 reboots and loads when you log in. The installer records this checkout's location
 and Python path; rerun it if either changes.
+The existing job automatically uses the 30-day cleanup; no reinstall is needed.
 
 The screen can be locked and Terminal can be closed. You must remain logged in,
 have network access, and have Git credentials available without interaction.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Update the last 96 hours of the feed, commit changes, and push to main."""
+"""Import recent episodes, prune episodes older than 30 days, and push to main."""
 
 from __future__ import annotations
 
@@ -42,6 +42,16 @@ def run(*command: str, capture: bool = False) -> str:
     return result.stdout.strip() if capture else ""
 
 
+def episode_audio_paths() -> set[str]:
+    episodes = json.loads((ROOT / "episodes.json").read_text(encoding="utf-8"))
+    audio_paths = {episode["filename"] for episode in episodes}
+    for filename in audio_paths:
+        path = (ROOT / filename).resolve()
+        if path.parent != ROOT / "audio_files" or path.suffix != ".mp3":
+            raise RuntimeError(f"Unexpected episode audio path: {filename}")
+    return audio_paths
+
+
 def publish() -> int:
     lock_path = Path(run("git", "rev-parse", "--git-path", "publish-feed.lock", capture=True))
     if not lock_path.is_absolute():
@@ -63,25 +73,20 @@ def publish() -> int:
 
         # Stop if histories diverge; never overwrite remote or local commits.
         run("git", "pull", "--ff-only", "origin", "main")
+        previous_audio_paths = episode_audio_paths()
         run(sys.executable, str(ROOT / "scripts" / "update_mk.py"), "--hours", "96")
 
-        episodes = json.loads((ROOT / "episodes.json").read_text(encoding="utf-8"))
-        audio_paths = sorted({episode["filename"] for episode in episodes})
-        for filename in audio_paths:
-            path = (ROOT / filename).resolve()
-            if path.parent != ROOT / "audio_files" or path.suffix != ".mp3":
-                raise RuntimeError(f"Unexpected episode audio path: {filename}")
-
-        # Stage only the feed, site, manifest, and audio referenced by the manifest.
-        publish_paths = ["episodes.json", "feed.xml", "index.html", *audio_paths]
+        # Include the old manifest's paths so removed MP3s are committed as well.
+        audio_paths = previous_audio_paths | episode_audio_paths()
+        publish_paths = ["episodes.json", "feed.xml", "index.html", *sorted(audio_paths)]
         run("git", "add", "--", *publish_paths)
         if run("git", "diff", "--cached", "--name-only", "--", *publish_paths, capture=True):
             run(
                 "git", "commit",
                 "-m", "Refresh Meet Kevin podcast feed",
                 "-m", (
-                    "Import new videos from the last 96 hours and regenerate the RSS "
-                    "feed and episode cards.\n\n"
+                    "Import new videos from the last 96 hours, remove episodes and "
+                    "MP3s older than 30 days, and regenerate the RSS feed and episode cards.\n\n"
                     "Validated episode IDs, audio files, and file sizes with scripts/update_mk.py."
                 ),
                 # Leave unrelated changes staged by a person during the download alone.
