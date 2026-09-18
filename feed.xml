@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Fri, 18 Sep 2026 15:48:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 20:58:28 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>WARNING: The Two Paths to Recession.</title>
+      <itunes:title>WARNING: The Two Paths to Recession.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=S3U8mVvbqYw</description>
+      <link>https://www.youtube.com/watch?v=S3U8mVvbqYw</link>
+      <pubDate>Fri, 18 Sep 2026 20:58:28 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-S3U8mVvbqYw</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260918-S3U8mVvbqYw.mp3"
+        length="18532307"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:25:43</itunes:duration>
+      <itunes:episode>49</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>How Trump JUST Bailed out All Stocks &amp; Crypto. Again.</title>
+      <itunes:title>How Trump JUST Bailed out All Stocks &amp; Crypto. Again.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=FVM4MN7raH0</description>
+      <link>https://www.youtube.com/watch?v=FVM4MN7raH0</link>
+      <pubDate>Fri, 18 Sep 2026 17:04:23 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-FVM4MN7raH0</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260918-FVM4MN7raH0.mp3"
+        length="19673102"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:27:19</itunes:duration>
+      <itunes:episode>48</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Trump Issues NEW WARNING | Iran Tankers Struck AGAIN</title>
       <itunes:title>Trump Issues NEW WARNING | Iran Tankers Struck AGAIN</itunes:title>
