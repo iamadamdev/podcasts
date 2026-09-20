@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Sat, 19 Sep 2026 02:17:09 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 14:53:13 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>The Oil &amp; Iran Situation JUST got Really Bad.</title>
+      <itunes:title>The Oil &amp; Iran Situation JUST got Really Bad.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=VXfzcEdZhQE</description>
+      <link>https://www.youtube.com/watch?v=VXfzcEdZhQE</link>
+      <pubDate>Sun, 20 Sep 2026 14:53:13 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-VXfzcEdZhQE</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260920-VXfzcEdZhQE.mp3"
+        length="15421460"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:21:24</itunes:duration>
+      <itunes:episode>52</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Palantir BLAMED: 123 Children Deaths in Iran [Pentagon Failure]</title>
+      <itunes:title>Palantir BLAMED: 123 Children Deaths in Iran [Pentagon Failure]</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=cgW7x3wi6DI</description>
+      <link>https://www.youtube.com/watch?v=cgW7x3wi6DI</link>
+      <pubDate>Sat, 19 Sep 2026 21:28:23 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-cgW7x3wi6DI</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260919-cgW7x3wi6DI.mp3"
+        length="14128988"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:19:37</itunes:duration>
+      <itunes:episode>51</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>are we f**k'd</title>
       <itunes:title>are we f**k'd</itunes:title>
