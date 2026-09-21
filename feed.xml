@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Sun, 20 Sep 2026 14:53:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 15:02:03 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>why stocks are skyrocketing [spoiler: it's just getting started]</title>
+      <itunes:title>why stocks are skyrocketing [spoiler: it's just getting started]</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ImLNQWvwLus</description>
+      <link>https://www.youtube.com/watch?v=ImLNQWvwLus</link>
+      <pubDate>Mon, 21 Sep 2026 15:02:03 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-ImLNQWvwLus</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260921-ImLNQWvwLus.mp3"
+        length="18068611"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:25:05</itunes:duration>
+      <itunes:episode>53</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Oil &amp; Iran Situation JUST got Really Bad.</title>
       <itunes:title>The Oil &amp; Iran Situation JUST got Really Bad.</itunes:title>
