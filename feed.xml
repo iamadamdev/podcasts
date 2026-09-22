@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Mon, 21 Sep 2026 15:02:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 15:31:18 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,74 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Trump JUST Left the UN *Speechless*</title>
+      <itunes:title>Trump JUST Left the UN *Speechless*</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=6EQqr-ua9FA</description>
+      <link>https://www.youtube.com/watch?v=6EQqr-ua9FA</link>
+      <pubDate>Tue, 22 Sep 2026 15:31:18 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-6EQqr-ua9FA</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260922-6EQqr-ua9FA.mp3"
+        length="13115628"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:18:12</itunes:duration>
+      <itunes:episode>57</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Agentic AI Stocks to Buy! HOLY ROCKETSHIP</title>
+      <itunes:title>Agentic AI Stocks to Buy! HOLY ROCKETSHIP</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=r8pa1nIhprg</description>
+      <link>https://www.youtube.com/watch?v=r8pa1nIhprg</link>
+      <pubDate>Tue, 22 Sep 2026 00:05:19 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-r8pa1nIhprg</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260922-r8pa1nIhprg.mp3"
+        length="29428024"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:40:51</itunes:duration>
+      <itunes:episode>56</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>*NEW* Trump $5 BILLION Dollar Middle East Bailout! IRAN DEAL?!?!?!?!?</title>
+      <itunes:title>*NEW* Trump $5 BILLION Dollar Middle East Bailout! IRAN DEAL?!?!?!?!?</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=xUE-7EI2ACE</description>
+      <link>https://www.youtube.com/watch?v=xUE-7EI2ACE</link>
+      <pubDate>Mon, 21 Sep 2026 21:19:22 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-xUE-7EI2ACE</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260921-xUE-7EI2ACE.mp3"
+        length="18554330"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:25:45</itunes:duration>
+      <itunes:episode>55</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>HOLY TESLA SEMI TRUCK | Tesla Stock GAME CHANGER</title>
+      <itunes:title>HOLY TESLA SEMI TRUCK | Tesla Stock GAME CHANGER</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=21bJunhHjDQ</description>
+      <link>https://www.youtube.com/watch?v=21bJunhHjDQ</link>
+      <pubDate>Mon, 21 Sep 2026 17:01:48 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-21bJunhHjDQ</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260921-21bJunhHjDQ.mp3"
+        length="17454905"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:24:14</itunes:duration>
+      <itunes:episode>54</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>why stocks are skyrocketing [spoiler: it's just getting started]</title>
       <itunes:title>why stocks are skyrocketing [spoiler: it's just getting started]</itunes:title>
