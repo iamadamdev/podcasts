@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Tue, 22 Sep 2026 15:31:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 14:47:25 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,74 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>WTF just Happened</title>
+      <itunes:title>WTF just Happened</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Esbopj4n75w</description>
+      <link>https://www.youtube.com/watch?v=Esbopj4n75w</link>
+      <pubDate>Wed, 23 Sep 2026 14:47:25 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-Esbopj4n75w</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260923-Esbopj4n75w.mp3"
+        length="18193560"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:25:15</itunes:duration>
+      <itunes:episode>61</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Why Software &amp; Money Stocks Dumped</title>
+      <itunes:title>Why Software &amp; Money Stocks Dumped</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Fd-wKbnG-34</description>
+      <link>https://www.youtube.com/watch?v=Fd-wKbnG-34</link>
+      <pubDate>Wed, 23 Sep 2026 04:22:18 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-Fd-wKbnG-34</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260923-Fd-wKbnG-34.mp3"
+        length="18513855"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:25:42</itunes:duration>
+      <itunes:episode>60</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Fed JUST Issued a New Warning. Damn.</title>
+      <itunes:title>The Fed JUST Issued a New Warning. Damn.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=1i_QB1qGkMs</description>
+      <link>https://www.youtube.com/watch?v=1i_QB1qGkMs</link>
+      <pubDate>Tue, 22 Sep 2026 22:29:22 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-1i_QB1qGkMs</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260922-1i_QB1qGkMs.mp3"
+        length="12047915"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:16:43</itunes:duration>
+      <itunes:episode>59</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Goldman ISSUES Warning for the Total Stock Market | 2027 will SUCK.</title>
+      <itunes:title>Goldman ISSUES Warning for the Total Stock Market | 2027 will SUCK.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Ub560vVBwJ8</description>
+      <link>https://www.youtube.com/watch?v=Ub560vVBwJ8</link>
+      <pubDate>Tue, 22 Sep 2026 19:01:57 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-Ub560vVBwJ8</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260922-Ub560vVBwJ8.mp3"
+        length="12266068"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:17:01</itunes:duration>
+      <itunes:episode>58</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Trump JUST Left the UN *Speechless*</title>
       <itunes:title>Trump JUST Left the UN *Speechless*</itunes:title>
