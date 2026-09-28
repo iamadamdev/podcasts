@@ -12,7 +12,8 @@ From a clean `main` checkout, run:
 python3 scripts/publish_feed.py
 ```
 
-This pulls `main` with `--ff-only`, runs `python3 scripts/update_mk.py --hours 96`,
+This pulls `main` with `--ff-only`, runs `python3 scripts/update_mk.py --hours 96`
+in a temporary Git worktree,
 removes episodes older than **30 days**, commits feed changes when present, and
 pushes normally. The cutoff uses each episode's publication timestamp, applies
 to every author, and keeps episodes exactly 30 days old. Expired episodes are
@@ -21,9 +22,24 @@ when no new videos are found. An empty feed is supported if all episodes expire.
 It stages only the manifest, feed, site, and MP3s referenced before or after the
 update, so audio deletions are included in the commit and push. Deleted audio
 remains in earlier Git history.
+Only a successful update is committed and fast-forwarded into this checkout.
+Downloads and partial outputs from a failed update are discarded with the temporary
+worktree, so they cannot block the next scheduled run. Download attempts check for
+working formats and retry up to three times with fresh media URLs; incomplete
+audio is never reused as a finished episode.
+
 Overlapping publisher runs are skipped. Uncommitted changes, a different branch,
 or diverged Git history stop the run with an error in the logs. Keep this checkout
 on `main` and commit or move any unfinished changes before the scheduled time.
+
+To catch up after an outage longer than the normal four-day import window:
+
+```sh
+python3 scripts/publish_feed.py --hours 168 --max-scan 100
+```
+
+This scans up to 100 videos for the last seven days, still retaining only 30 days
+of episodes. The daily schedule continues to use its normal 96-hour window.
 
 The publisher pins both the commit author and committer to **Adam
 <36013816+iamadamdev@users.noreply.github.com>**, overriding Git configuration and
@@ -75,8 +91,10 @@ tail -n 50 ~/Library/Logs/podcasts/daily-update.error.log
 The job label is `com.iamadamdev.podcasts.daily-update`. The plist lives at
 `~/Library/LaunchAgents/com.iamadamdev.podcasts.daily-update.plist`.
 
-A failed update never proceeds to the commit/push steps. Inspect the logs and
-resolve any partially written files before retrying. If only the push failed,
+A failed update never proceeds to the commit/push steps and leaves this checkout
+unchanged, apart from the initial fast-forward pull. Inspect the logs before retrying.
+Manual runs of `scripts/update_mk.py` still write directly to the current checkout;
+use `scripts/publish_feed.py` for failure isolation. If only the push failed,
 the commit remains locally and the next successful run retries the push even
 when there are no new episodes. A rejected push is reported without force-pushing.
 

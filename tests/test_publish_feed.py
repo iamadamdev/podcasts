@@ -56,9 +56,9 @@ class PublishFeedTests(unittest.TestCase):
             stdout=subprocess.PIPE, stderr=subprocess.PIPE,
         ).stdout.strip()
 
-    def publish(self):
+    def publish(self, **kwargs):
         with contextlib.redirect_stdout(io.StringIO()):
-            return publish_feed.publish()
+            return publish_feed.publish(**kwargs)
 
     def remote_head(self):
         return self.git("--git-dir", str(self.remote), "rev-parse", "refs/heads/main")
@@ -148,13 +148,35 @@ Path("index.html").write_text("empty site")
         self.assertEqual(self.remote_head(), self.initial_head)
 
     def test_failed_update_is_not_committed_or_pushed(self):
-        self.set_updater('from pathlib import Path\nPath("feed.xml").write_text("partial")\nraise SystemExit(7)\n')
+        self.publish()
+        self.set_updater('''from pathlib import Path
+Path("feed.xml").write_text("partial")
+Path("episodes.json").write_text("broken manifest")
+Path("audio_files/episode.mp3").unlink()
+Path("audio_files/download.mp3").write_bytes(b"completed download")
+Path("audio_files/download.webm.part").write_bytes(b"partial download")
+raise SystemExit(7)
+''')
         before = self.remote_head()
         with self.assertRaises(subprocess.CalledProcessError):
             self.publish()
         self.assertEqual(self.git("rev-parse", "HEAD"), before)
         self.assertEqual(self.remote_head(), before)
         self.assertEqual(self.git("diff", "--cached", "--name-only"), "")
+        self.assertEqual(self.git("status", "--porcelain", "--untracked-files=all"), "")
+        self.assertEqual((self.root / "audio_files/episode.mp3").read_bytes(), b"test audio")
+        self.assertFalse((self.root / "audio_files/download.mp3").exists())
+        self.assertEqual(self.git("worktree", "list", "--porcelain").count("worktree "), 1)
+        self.set_updater(UPDATER)
+        self.assertEqual(self.publish(), 0)
+        self.assertEqual(self.remote_head(), self.git("rev-parse", "HEAD"))
+
+    def test_forwards_catchup_window_and_scan_limit(self):
+        self.set_updater(UPDATER.replace(
+            '["--hours", "96"]', '["--hours", "168", "--max-scan", "100"]'
+        ))
+        self.assertEqual(self.publish(hours=168, max_scan=100), 0)
+        self.assertIn("last 168 hours", self.git("log", "-1", "--format=%B"))
 
     def test_retries_failed_push_even_without_new_feed_changes(self):
         hook = self.remote / "hooks/pre-receive"
@@ -171,19 +193,42 @@ Path("index.html").write_text("empty site")
         self.assertEqual(self.git("rev-parse", "HEAD"), pending)
 
     def test_does_not_stage_unrelated_files_created_during_update(self):
-        self.set_updater(UPDATER + '\nPath("scratch.txt").write_text("unrelated")\n')
+        self.set_updater(UPDATER + f'\nPath({str(self.root / "scratch.txt")!r}).write_text("unrelated")\n')
         self.publish()
         self.assertEqual(self.git("ls-files", "scratch.txt"), "")
         self.assertEqual((self.root / "scratch.txt").read_text(), "unrelated")
 
     def test_preserves_unrelated_changes_staged_during_download(self):
         self.set_updater(
-            UPDATER + '\nimport subprocess\nPath("scratch.txt").write_text("user work")\n'
-            'subprocess.run(["git", "add", "scratch.txt"], check=True)\n'
+            UPDATER + f'\nimport subprocess\nPath({str(self.root / "scratch.txt")!r}).write_text("user work")\n'
+            f'subprocess.run(["git", "-C", {str(self.root)!r}, "add", "scratch.txt"], check=True)\n'
         )
         self.publish()
         self.assertEqual(self.git("ls-tree", "--name-only", "HEAD", "scratch.txt"), "")
         self.assertEqual(self.git("diff", "--cached", "--name-only"), "scratch.txt")
+
+    def test_preserves_conflicting_feed_edit_during_download(self):
+        self.set_updater(
+            UPDATER + f'\nPath({str(self.root / "feed.xml")!r}).write_text("user edit")\n'
+        )
+        before = self.remote_head()
+        with self.assertRaises(subprocess.CalledProcessError):
+            self.publish()
+        self.assertEqual((self.root / "feed.xml").read_text(), "user edit")
+        self.assertEqual(self.git("rev-parse", "HEAD"), before)
+        self.assertEqual(self.remote_head(), before)
+
+    def test_refuses_branch_changed_during_download(self):
+        self.set_updater(
+            UPDATER + '\nimport subprocess\n'
+            f'subprocess.run(["git", "-C", {str(self.root)!r}, "checkout", "-b", "user-work"], check=True)\n'
+        )
+        before = self.remote_head()
+        with self.assertRaisesRegex(RuntimeError, "checkout changed during the update"):
+            self.publish()
+        self.assertEqual(self.git("branch", "--show-current"), "user-work")
+        self.assertEqual(self.git("rev-parse", "HEAD"), before)
+        self.assertEqual(self.remote_head(), before)
 
     def test_skips_overlapping_publisher(self):
         with (self.root / ".git/publish-feed.lock").open("w") as lock:

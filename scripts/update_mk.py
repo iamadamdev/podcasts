@@ -169,38 +169,59 @@ def download_audio(metadata: dict[str, Any]) -> Path:
     published = time.gmtime(int(metadata["timestamp"]))
     date_part = time.strftime("%Y%m%d", published)
     relative_path = Path("audio_files") / f"meet-kevin-{date_part}-{video_id}.mp3"
-    destination = ROOT / relative_path
+    destination = episode_audio_path(relative_path.as_posix())
     if destination.exists():
+        validate_download(destination)
         return relative_path
 
-    output_template = str(destination.with_suffix(".%(ext)s"))
     log(f"Downloading audio: {metadata['title']}")
-    run(
-        [
-            "yt-dlp",
-            "--no-playlist",
-            "--format",
-            "bestaudio/best",
-            "--extract-audio",
-            "--audio-format",
-            "mp3",
-            "--audio-quality",
-            "96K",
-            "--embed-metadata",
-            "--no-overwrites",
-            "--output",
-            output_template,
-            metadata["webpage_url"],
-        ]
-    )
-    if not destination.exists():
-        raise RuntimeError(f"yt-dlp did not produce {destination}")
-    if destination.stat().st_size >= 100_000_000:
+    for attempt in range(1, 4):
+        try:
+            # A fresh extraction refreshes expired media URLs. Each attempt gets
+            # a private directory so failed conversions cannot masquerade as MP3s.
+            with tempfile.TemporaryDirectory(prefix=".download-", dir=AUDIO_DIR) as temporary:
+                downloaded = Path(temporary) / destination.name
+                run(
+                    [
+                        "yt-dlp",
+                        "--no-playlist",
+                        "--format", "bestaudio/best",
+                        "--check-formats",
+                        "--socket-timeout", "30",
+                        "--retries", "3",
+                        "--fragment-retries", "3",
+                        "--abort-on-unavailable-fragments",
+                        "--retry-sleep", "http:exp=1:4",
+                        "--extract-audio",
+                        "--audio-format", "mp3",
+                        "--audio-quality", "96K",
+                        "--embed-metadata",
+                        "--no-overwrites",
+                        "--output", str(downloaded.with_suffix(".%(ext)s")),
+                        metadata["webpage_url"],
+                    ]
+                )
+                validate_download(downloaded)
+                os.replace(downloaded, destination)
+            return relative_path
+        except (subprocess.CalledProcessError, RuntimeError, ValueError) as error:
+            if attempt == 3:
+                raise
+            delay = 2 ** attempt
+            log(f"Warning: download attempt {attempt}/3 failed for {video_id}: {error}; "
+                f"retrying with fresh media URLs in {delay}s.")
+            time.sleep(delay)
+
+
+def validate_download(path: Path) -> None:
+    if not path.is_file() or path.stat().st_size == 0:
+        raise RuntimeError(f"yt-dlp did not produce nonempty audio: {path}")
+    if path.stat().st_size >= 100_000_000:
         raise RuntimeError(
-            f"{destination.name} exceeds GitHub's 100 MB file limit; "
+            f"{path.name} exceeds GitHub's 100 MB file limit; "
             "reduce the audio bitrate before publishing"
         )
-    return relative_path
+    probe_duration(path)
 
 
 def probe_duration(path: Path) -> int:

@@ -4,6 +4,7 @@ import contextlib
 import io
 import json
 from pathlib import Path
+import subprocess
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -180,6 +181,72 @@ class RetentionTests(unittest.TestCase):
             self.update()
         self.assertTrue(audio.is_symlink())
         self.assertEqual(self.snapshot(), before)
+
+
+class DownloadTests(unittest.TestCase):
+    def setUp(self):
+        temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(temporary.cleanup)
+        self.root = Path(temporary.name).resolve()
+        self.audio = self.root / "audio_files"
+        self.audio.mkdir()
+        for name, value in (("ROOT", self.root), ("AUDIO_DIR", self.audio)):
+            patcher = patch.object(update_mk, name, value)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+        sleeper = patch.object(update_mk.time, "sleep")
+        self.sleep = sleeper.start()
+        self.addCleanup(sleeper.stop)
+        self.metadata = {
+            "id": "example", "timestamp": NOW, "title": "Test episode",
+            "webpage_url": "https://www.youtube.com/watch?v=example",
+        }
+
+    def output_path(self, command):
+        return Path(command[command.index("--output") + 1].replace("%(ext)s", "mp3"))
+
+    def test_retries_with_clean_audio_after_partial_download_failure(self):
+        attempts = []
+
+        def download(command):
+            output = self.output_path(command)
+            self.assertFalse(output.exists())
+            attempts.append(output)
+            output.with_suffix(".webm.part").write_bytes(b"partial source")
+            if len(attempts) == 1:
+                output.write_bytes(b"incomplete audio")
+                raise subprocess.CalledProcessError(1, command)
+            output.write_bytes(b"complete audio")
+
+        with patch.object(update_mk, "run", side_effect=download), patch.object(update_mk, "probe_duration", return_value=60):
+            path = update_mk.download_audio(self.metadata)
+        self.assertEqual((self.root / path).read_bytes(), b"complete audio")
+        self.assertEqual(len(attempts), 2)
+        self.assertTrue(all(not path.parent.exists() for path in attempts))
+        self.assertEqual(list(self.audio.iterdir()), [self.root / path])
+
+    def test_exhausted_retries_leave_no_audio_or_partial_files(self):
+        def fail(command):
+            self.output_path(command).with_suffix(".webm.part").write_bytes(b"partial")
+            raise subprocess.CalledProcessError(1, command)
+
+        with patch.object(update_mk, "run", side_effect=fail) as downloader:
+            with self.assertRaises(subprocess.CalledProcessError):
+                update_mk.download_audio(self.metadata)
+        self.assertEqual(downloader.call_count, 3)
+        self.assertEqual(list(self.audio.iterdir()), [])
+        self.assertEqual(self.sleep.call_count, 2)
+
+    def test_invalid_audio_is_not_promoted_or_reused(self):
+        def download(command):
+            self.output_path(command).write_bytes(b"invalid audio")
+
+        with patch.object(update_mk, "run", side_effect=download), patch.object(
+            update_mk, "probe_duration", side_effect=subprocess.CalledProcessError(1, ["ffprobe"])
+        ):
+            with self.assertRaises(subprocess.CalledProcessError):
+                update_mk.download_audio(self.metadata)
+        self.assertEqual(list(self.audio.iterdir()), [])
 
 
 if __name__ == "__main__":

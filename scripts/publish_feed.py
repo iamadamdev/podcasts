@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+import argparse
+from contextlib import contextmanager
 from datetime import datetime
 import fcntl
 import json
@@ -10,6 +12,7 @@ import os
 from pathlib import Path
 import subprocess
 import sys
+import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,10 +24,10 @@ def log(message: str) -> None:
     print(f"[{datetime.now().astimezone().isoformat(timespec='seconds')}] {message}", flush=True)
 
 
-def run(*command: str, capture: bool = False) -> str:
+def run(*command: str, capture: bool = False, cwd: Path | None = None) -> str:
     result = subprocess.run(
         command,
-        cwd=ROOT,
+        cwd=ROOT if cwd is None else cwd,
         env={
             **os.environ,
             "GIT_TERMINAL_PROMPT": "0",
@@ -42,17 +45,33 @@ def run(*command: str, capture: bool = False) -> str:
     return result.stdout.strip() if capture else ""
 
 
-def episode_audio_paths() -> set[str]:
-    episodes = json.loads((ROOT / "episodes.json").read_text(encoding="utf-8"))
+def episode_audio_paths(root: Path) -> set[str]:
+    episodes = json.loads((root / "episodes.json").read_text(encoding="utf-8"))
     audio_paths = {episode["filename"] for episode in episodes}
     for filename in audio_paths:
-        path = (ROOT / filename).resolve()
-        if path.parent != ROOT / "audio_files" or path.suffix != ".mp3":
+        path = (root / filename).resolve()
+        if path.parent != root / "audio_files" or path.suffix != ".mp3":
             raise RuntimeError(f"Unexpected episode audio path: {filename}")
     return audio_paths
 
 
-def publish() -> int:
+@contextmanager
+def isolated_checkout():
+    # Keep downloads and partially written outputs out of the scheduled checkout.
+    # Even an interrupted process can only leave files under Git's private dir.
+    git_dir = Path(run("git", "rev-parse", "--absolute-git-dir", capture=True))
+    with tempfile.TemporaryDirectory(prefix="publish-feed-", dir=git_dir) as temporary:
+        checkout = Path(temporary) / "checkout"
+        run("git", "worktree", "add", "--detach", str(checkout), "HEAD", capture=True)
+        try:
+            yield checkout
+        finally:
+            run("git", "worktree", "remove", "--force", str(checkout), capture=True)
+
+
+def publish(hours: float = 96, max_scan: int = 30) -> int:
+    if hours <= 0 or max_scan <= 0:
+        raise RuntimeError("--hours and --max-scan must be positive")
     lock_path = Path(run("git", "rev-parse", "--git-path", "publish-feed.lock", capture=True))
     if not lock_path.is_absolute():
         lock_path = ROOT / lock_path
@@ -73,27 +92,40 @@ def publish() -> int:
 
         # Stop if histories diverge; never overwrite remote or local commits.
         run("git", "pull", "--ff-only", "origin", "main")
-        previous_audio_paths = episode_audio_paths()
-        run(sys.executable, str(ROOT / "scripts" / "update_mk.py"), "--hours", "96")
+        starting_head = run("git", "rev-parse", "HEAD", capture=True)
+        with isolated_checkout() as checkout:
+            previous_audio_paths = episode_audio_paths(checkout)
+            update_command = [sys.executable, str(checkout / "scripts" / "update_mk.py"),
+                              "--hours", f"{hours:g}"]
+            if max_scan != 30:
+                update_command.extend(["--max-scan", str(max_scan)])
+            run(*update_command, cwd=checkout)
 
-        # Include the old manifest's paths so removed MP3s are committed as well.
-        audio_paths = previous_audio_paths | episode_audio_paths()
-        publish_paths = ["episodes.json", "feed.xml", "index.html", *sorted(audio_paths)]
-        run("git", "add", "--", *publish_paths)
-        if run("git", "diff", "--cached", "--name-only", "--", *publish_paths, capture=True):
-            run(
-                "git", "commit",
-                "-m", "Refresh Meet Kevin podcast feed",
-                "-m", (
-                    "Import new videos from the last 96 hours, remove episodes and "
-                    "MP3s older than 30 days, and regenerate the RSS feed and episode cards.\n\n"
-                    "Validated episode IDs, audio files, and file sizes with scripts/update_mk.py."
-                ),
-                # Leave unrelated changes staged by a person during the download alone.
-                "--only", "--", *publish_paths,
-            )
-        else:
-            log("No feed changes to commit.")
+            # Include the old manifest's paths so removed MP3s are committed as well.
+            audio_paths = previous_audio_paths | episode_audio_paths(checkout)
+            publish_paths = ["episodes.json", "feed.xml", "index.html", *sorted(audio_paths)]
+            run("git", "add", "--", *publish_paths, cwd=checkout)
+            if run("git", "diff", "--cached", "--name-only", "--", *publish_paths,
+                   capture=True, cwd=checkout):
+                run(
+                    "git", "commit",
+                    "-m", "Refresh Meet Kevin podcast feed",
+                    "-m", (
+                        f"Import new videos from the last {hours:g} hours, remove episodes and "
+                        "MP3s older than 30 days, and regenerate the RSS feed and episode cards.\n\n"
+                        "Validated episode IDs, audio files, and file sizes with scripts/update_mk.py."
+                    ),
+                    "--only", "--", *publish_paths, cwd=checkout,
+                )
+            else:
+                log("No feed changes to commit.")
+
+            prepared_head = run("git", "rev-parse", "HEAD", capture=True, cwd=checkout)
+            if (run("git", "branch", "--show-current", capture=True) != "main"
+                    or run("git", "rev-parse", "HEAD", capture=True) != starting_head):
+                raise RuntimeError("The checkout changed during the update; retry after finishing that work.")
+            # A normal fast-forward preserves concurrent edits or refuses conflicts.
+            run("git", "merge", "--ff-only", prepared_head)
 
         # Still push on a no-op run to retry a commit left by a failed earlier push.
         run("git", "push", "origin", "HEAD:main")
@@ -103,7 +135,13 @@ def publish() -> int:
 
 if __name__ == "__main__":
     try:
-        raise SystemExit(publish())
+        parser = argparse.ArgumentParser(description=__doc__)
+        parser.add_argument("--hours", type=float, default=96,
+                            help="rolling import window in hours (default: 96)")
+        parser.add_argument("--max-scan", type=int, default=30,
+                            help="maximum channel entries to inspect (default: 30)")
+        args = parser.parse_args()
+        raise SystemExit(publish(args.hours, args.max_scan))
     except (RuntimeError, OSError, subprocess.CalledProcessError, ValueError, KeyError) as error:
         log(f"ERROR: {error}")
         raise SystemExit(1)
