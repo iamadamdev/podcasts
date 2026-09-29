@@ -28,9 +28,28 @@ worktree, so they cannot block the next scheduled run. Download attempts check f
 working formats and retry up to three times with fresh media URLs; incomplete
 audio is never reused as a finished episode.
 
-Overlapping publisher runs are skipped. Uncommitted changes, a different branch,
-or diverged Git history stop the run with an error in the logs. Keep this checkout
-on `main` and commit or move any unfinished changes before the scheduled time.
+If a feed-only commit omitted an MP3 that still exists locally, the publisher
+automatically recovers it. This exception applies only to untracked MP3s already
+referenced by the unchanged, committed manifest and RSS feed. Recovery verifies
+the enclosure size, episode duration, and full audio decoding, preserves the file
+in `.git/publish-audio-recovery/`, and commits and pushes the repaired audio before
+attempting new downloads. Failed recovery attempts keep that private copy for
+the next run. Every normal publish also checks that all referenced audio exists
+and is staged in Git before committing.
+
+Overlapping publisher runs are skipped. Unrelated untracked files, tracked or
+staged edits, a different branch, or diverged Git history stop the run with an
+error in the logs. Keep this checkout on `main` and commit or move any unfinished
+changes before the scheduled time. Use `scripts/publish_feed.py` for manual
+publishing too; committing only the feed files can omit new MP3s.
+
+The daily-job installer also installs `scripts/pre-push` as this checkout's Git
+pre-push hook. It checks the actual commit being pushed to `main`, rejecting
+missing or symlinked audio, invalid enclosure sizes, and manifest/RSS mismatches.
+Having an MP3 only in the working directory or staging area is insufficient.
+Existing custom hooks are preserved; the installer asks that you chain the guard
+into them. Install the job in each new checkout to enable this local guard there.
+You can run the same check manually with `python3 scripts/check_feed_commit.py`.
 
 To catch up after an outage longer than the normal four-day import window:
 
@@ -91,8 +110,11 @@ tail -n 50 ~/Library/Logs/podcasts/daily-update.error.log
 The job label is `com.iamadamdev.podcasts.daily-update`. The plist lives at
 `~/Library/LaunchAgents/com.iamadamdev.podcasts.daily-update.plist`.
 
-A failed update never proceeds to the commit/push steps and leaves this checkout
-unchanged, apart from the initial fast-forward pull. Inspect the logs before retrying.
+New downloads and feed updates are committed only after the updater succeeds.
+Failed attempts leave this checkout unchanged apart from the initial fast-forward
+pull and any omitted-audio repair. Repairs are committed and pushed separately
+before the update, so they remain published even if a subsequent download fails.
+Inspect the logs before retrying.
 Manual runs of `scripts/update_mk.py` still write directly to the current checkout;
 use `scripts/publish_feed.py` for failure isolation. If only the push failed,
 the commit remains locally and the next successful run retries the push even

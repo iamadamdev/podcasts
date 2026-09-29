@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+repository=$(git rev-parse --show-toplevel)
+exec python3 "$repository/scripts/check_feed_commit.py" --pre-push

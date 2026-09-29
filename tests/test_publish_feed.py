@@ -3,8 +3,10 @@
 import contextlib
 import fcntl
 import io
+import json
 import os
 from pathlib import Path
+import shutil
 import subprocess
 import tempfile
 import unittest
@@ -25,7 +27,7 @@ Path("index.html").write_text("updated site")
 '''
 
 
-class PublishFeedTests(unittest.TestCase):
+class PublisherTestCase(unittest.TestCase):
     def setUp(self):
         self.temporary = tempfile.TemporaryDirectory()
         self.addCleanup(self.temporary.cleanup)
@@ -69,6 +71,16 @@ class PublishFeedTests(unittest.TestCase):
         self.git("commit", "-m", "Configure test updater")
         self.git("push", "origin", "main")
 
+    def assert_podcast_identity(self):
+        identity = self.git("log", "-1", "--format=%an%n%ae%n%cn%n%ce").splitlines()
+        self.assertEqual(identity, [
+            "Adam", "36013816+iamadamdev@users.noreply.github.com",
+            "Adam", "36013816+iamadamdev@users.noreply.github.com",
+        ])
+        self.assertEqual(self.remote_head(), self.git("rev-parse", "HEAD"))
+
+
+class PublishFeedTests(PublisherTestCase):
     def test_publishes_generated_files_and_skips_empty_commit(self):
         self.assertEqual(self.publish(), 0)
         published = self.git("rev-parse", "HEAD")
@@ -86,6 +98,14 @@ class PublishFeedTests(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, "uncommitted changes"):
             self.publish()
         self.assertEqual(self.remote_head(), self.initial_head)
+
+    def test_refuses_staged_changes_even_when_working_file_matches_head(self):
+        (self.root / "feed.xml").write_text("staged edit")
+        self.git("add", "feed.xml")
+        (self.root / "feed.xml").write_text("original feed")
+        with self.assertRaisesRegex(RuntimeError, "uncommitted changes"):
+            self.publish()
+        self.assertEqual(self.git("show", ":feed.xml"), "staged edit")
 
     def test_commits_and_pushes_expired_audio_deletion(self):
         self.publish()
@@ -115,14 +135,6 @@ Path("index.html").write_text("empty site")
         published = self.git("rev-parse", "HEAD")
         self.publish()
         self.assertEqual(self.git("rev-parse", "HEAD"), published)
-
-    def assert_podcast_identity(self):
-        identity = self.git("log", "-1", "--format=%an%n%ae%n%cn%n%ce").splitlines()
-        self.assertEqual(identity, [
-            "Adam", "36013816+iamadamdev@users.noreply.github.com",
-            "Adam", "36013816+iamadamdev@users.noreply.github.com",
-        ])
-        self.assertEqual(self.remote_head(), self.git("rev-parse", "HEAD"))
 
     def test_pins_author_and_committer_despite_git_config_changes(self):
         for section in ("user", "author", "committer"):
@@ -177,6 +189,15 @@ raise SystemExit(7)
         ))
         self.assertEqual(self.publish(hours=168, max_scan=100), 0)
         self.assertIn("last 168 hours", self.git("log", "-1", "--format=%B"))
+
+    def test_refuses_successful_updater_that_leaves_referenced_audio_missing(self):
+        self.publish()
+        self.set_updater('from pathlib import Path\nPath("audio_files/episode.mp3").unlink()\n')
+        before = self.remote_head()
+        with self.assertRaisesRegex(RuntimeError, "Refusing to publish a feed without its audio"):
+            self.publish()
+        self.assertEqual(self.remote_head(), before)
+        self.assertEqual(self.git("status", "--porcelain"), "")
 
     def test_retries_failed_push_even_without_new_feed_changes(self):
         hook = self.remote / "hooks/pre-receive"
@@ -254,6 +275,116 @@ raise SystemExit(7)
             self.publish()
         self.assertEqual(self.git("rev-parse", "HEAD"), local_head)
         self.assertEqual(self.remote_head(), remote_head)
+
+
+@unittest.skipUnless(shutil.which("ffmpeg") and shutil.which("ffprobe"), "requires audio tools")
+class AudioRecoveryTests(PublisherTestCase):
+    def seed_omitted_audio(self, updater="pass\n"):
+        self.filename = "audio_files/omitted.mp3"
+        audio = self.root / self.filename
+        audio.parent.mkdir(exist_ok=True)
+        subprocess.run([
+            "ffmpeg", "-v", "error", "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo",
+            "-t", "1", "-c:a", "libmp3lame", "-b:a", "96k", str(audio),
+        ], check=True)
+        self.audio_bytes = audio.read_bytes()
+        (self.root / "episodes.json").write_text(json.dumps([{
+            "filename": self.filename, "guid": "omitted", "duration_seconds": 1,
+        }]))
+        (self.root / "feed.xml").write_text(
+            '<rss><channel><item><guid>omitted</guid><enclosure '
+            f'url="https://example.test/{self.filename}" length="{len(self.audio_bytes)}" />'
+            '</item></channel></rss>'
+        )
+        self.git("add", "episodes.json", "feed.xml")
+        self.git("commit", "-m", "Reproduce a feed committed without its audio")
+        self.git("push", "origin", "main")
+        self.set_updater(updater)
+        return audio
+
+    def test_recovers_and_publishes_only_audio_referenced_by_committed_feed(self):
+        audio = self.seed_omitted_audio()
+        self.assertEqual(self.publish(), 0)
+        self.assertEqual(audio.read_bytes(), self.audio_bytes)
+        self.assertEqual(self.git("ls-tree", "--name-only", "HEAD", self.filename), self.filename)
+        self.assertEqual(self.remote_head(), self.git("rev-parse", "HEAD"))
+        self.assertEqual(self.git("status", "--porcelain"), "")
+        self.assertFalse(publish_feed.recovery_directory().exists())
+        self.assert_podcast_identity()
+
+    def test_publishes_repair_even_if_new_downloads_fail(self):
+        audio = self.seed_omitted_audio('raise SystemExit(7)\n')
+        with self.assertRaises(subprocess.CalledProcessError):
+            self.publish()
+        self.assertEqual(audio.read_bytes(), self.audio_bytes)
+        self.assertEqual(self.remote_head(), self.git("rev-parse", "HEAD"))
+        self.assertEqual(self.git("ls-tree", "--name-only", "HEAD", self.filename), self.filename)
+        self.assertEqual(self.git("status", "--porcelain"), "")
+
+    def test_preserves_recovery_cache_after_commit_failure_and_retries(self):
+        audio = self.seed_omitted_audio()
+        hook = self.root / ".git/hooks/pre-commit"
+        hook.write_text("#!/bin/sh\nexit 1\n")
+        hook.chmod(0o755)
+        before = self.remote_head()
+        with self.assertRaises(subprocess.CalledProcessError):
+            self.publish()
+        backup = publish_feed.recovery_directory() / audio.name
+        self.assertEqual(backup.read_bytes(), self.audio_bytes)
+        self.assertFalse(audio.exists())
+        self.assertEqual(self.remote_head(), before)
+        self.assertEqual(self.git("status", "--porcelain"), "")
+        hook.unlink()
+        self.assertEqual(self.publish(), 0)
+        self.assertEqual(audio.read_bytes(), self.audio_bytes)
+        self.assertEqual(self.remote_head(), self.git("rev-parse", "HEAD"))
+        self.assertFalse(backup.exists())
+
+    def test_retries_repair_push_before_attempting_new_downloads(self):
+        self.seed_omitted_audio('raise SystemExit(7)\n')
+        hook = self.remote / "hooks/pre-receive"
+        hook.write_text("#!/bin/sh\nexit 1\n")
+        hook.chmod(0o755)
+        before = self.remote_head()
+        with self.assertRaises(subprocess.CalledProcessError):
+            self.publish()
+        repaired = self.git("rev-parse", "HEAD")
+        self.assertNotEqual(repaired, before)
+        self.assertEqual(self.remote_head(), before)
+        hook.unlink()
+        with self.assertRaises(subprocess.CalledProcessError):
+            self.publish()
+        self.assertEqual(self.remote_head(), repaired)
+        self.assertEqual(self.git("status", "--porcelain"), "")
+
+    def test_refuses_unrelated_audio_without_moving_any_files(self):
+        audio = self.seed_omitted_audio()
+        unrelated = self.root / "audio_files/private.mp3"
+        unrelated.write_bytes(b"private recording")
+        with self.assertRaisesRegex(RuntimeError, "uncommitted changes"):
+            self.publish()
+        self.assertEqual(audio.read_bytes(), self.audio_bytes)
+        self.assertEqual(unrelated.read_bytes(), b"private recording")
+        self.assertFalse(publish_feed.recovery_directory().exists())
+
+    def test_rejects_truncated_audio_without_committing_or_moving_it(self):
+        audio = self.seed_omitted_audio()
+        audio.write_bytes(self.audio_bytes[:100])
+        before = self.remote_head()
+        with self.assertRaisesRegex(RuntimeError, "does not match the committed feed"):
+            self.publish()
+        self.assertEqual(audio.read_bytes(), self.audio_bytes[:100])
+        self.assertEqual(self.remote_head(), before)
+        self.assertFalse(publish_feed.recovery_directory().exists())
+
+    def test_rejects_corrupt_audio_even_when_size_matches(self):
+        audio = self.seed_omitted_audio()
+        audio.write_bytes(b"x" * len(self.audio_bytes))
+        before = self.remote_head()
+        with self.assertRaises(subprocess.CalledProcessError):
+            self.publish()
+        self.assertEqual(audio.read_bytes(), b"x" * len(self.audio_bytes))
+        self.assertEqual(self.remote_head(), before)
 
 
 if __name__ == "__main__":

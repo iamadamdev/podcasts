@@ -15,6 +15,30 @@ ROOT = Path(__file__).resolve().parents[1]
 LABEL = "com.iamadamdev.podcasts.daily-update"
 
 
+def install_publish_guard() -> None:
+    configured = subprocess.run(
+        ["git", "config", "--get", "core.hooksPath"],
+        cwd=ROOT, text=True, stdout=subprocess.PIPE,
+    )
+    if configured.stdout.strip():
+        raise RuntimeError("Custom core.hooksPath was preserved. Chain scripts/pre-push into that configuration.")
+    result = subprocess.run(
+        ["git", "rev-parse", "--git-path", "hooks/pre-push"],
+        cwd=ROOT, check=True, text=True, stdout=subprocess.PIPE,
+    )
+    hook = Path(result.stdout.strip())
+    if not hook.is_absolute():
+        hook = ROOT / hook
+    source = ROOT / "scripts" / "pre-push"
+    if hook.exists() or hook.is_symlink():
+        if hook.is_symlink() and hook.resolve() == source.resolve():
+            return
+        raise RuntimeError(f"Existing pre-push hook was preserved: {hook}. Chain scripts/pre-push into it before reinstalling.")
+    hook.parent.mkdir(parents=True, exist_ok=True)
+    hook.symlink_to(source)
+    print(f"Installed feed publication guard: {hook}")
+
+
 def main() -> None:
     if sys.platform != "darwin":
         raise SystemExit("This installer requires macOS.")
@@ -27,6 +51,7 @@ def main() -> None:
             raise SystemExit(f"Missing required tool: {name}")
         tool_dirs.append(str(Path(executable).parent))
     tool_dirs.extend(["/opt/homebrew/bin", "/usr/local/bin", "/usr/bin", "/bin", "/usr/sbin", "/sbin"])
+    install_publish_guard()
 
     agents_dir = Path.home() / "Library" / "LaunchAgents"
     logs_dir = Path.home() / "Library" / "Logs" / "podcasts"
