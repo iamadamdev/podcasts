@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Mon, 28 Sep 2026 22:18:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 16:12:13 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,57 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>buy now.</title>
+      <itunes:title>buy now.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=4-vUYqlX6v4</description>
+      <link>https://www.youtube.com/watch?v=4-vUYqlX6v4</link>
+      <pubDate>Tue, 29 Sep 2026 16:12:13 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-4-vUYqlX6v4</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260929-4-vUYqlX6v4.mp3"
+        length="15168367"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:21:03</itunes:duration>
+      <itunes:episode>81</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>the fed JUST warned | hiking could be a big mistake</title>
+      <itunes:title>the fed JUST warned | hiking could be a big mistake</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=hUdk2DuTDYM</description>
+      <link>https://www.youtube.com/watch?v=hUdk2DuTDYM</link>
+      <pubDate>Tue, 29 Sep 2026 12:27:01 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-hUdk2DuTDYM</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260929-hUdk2DuTDYM.mp3"
+        length="18392386"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:25:32</itunes:duration>
+      <itunes:episode>80</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>holy moly... Anthropic financials JUST dropped</title>
+      <itunes:title>holy moly... Anthropic financials JUST dropped</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=qJLS_dpVtbU</description>
+      <link>https://www.youtube.com/watch?v=qJLS_dpVtbU</link>
+      <pubDate>Tue, 29 Sep 2026 02:07:09 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-qJLS_dpVtbU</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260929-qJLS_dpVtbU.mp3"
+        length="11256183"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:15:37</itunes:duration>
+      <itunes:episode>79</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Warning Signal: The AI Bubble TOP.</title>
       <itunes:title>The Warning Signal: The AI Bubble TOP.</itunes:title>
