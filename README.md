@@ -77,6 +77,12 @@ To preview new videos and expired episodes without changing the feed:
 python3 scripts/update_mk.py --hours 96 --dry-run
 ```
 
+The preview still checks YouTube for each video's exact publication time, which
+can take a minute or more. It prints progress before listing the channel and
+before checking each video. Discovery requests use a 30-second socket timeout,
+and each channel listing or video metadata command has a two-minute total limit.
+Exceeding the total limit stops the update before any feed files or audio are changed.
+
 ## Daily macOS automation
 
 Install or reinstall the background job from this checkout:

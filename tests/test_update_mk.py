@@ -1,10 +1,12 @@
-"""Exercise retention with real manifests, audio files, and generated outputs."""
+"""Exercise discovery timeouts, downloads, and retention of generated feeds."""
 
 import contextlib
 import io
 import json
+import os
 from pathlib import Path
 import subprocess
+import sys
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -15,6 +17,47 @@ from scripts import update_mk
 
 NOW = 1_800_000_000
 CUTOFF = NOW - 30 * 24 * 3600
+
+
+class DiscoveryTests(unittest.TestCase):
+    def test_stalled_listing_and_metadata_commands_abort_instead_of_skipping(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            downloader = Path(temporary) / "yt-dlp"
+            downloader.write_text(f"#!{sys.executable}\nimport time\ntime.sleep(30)\n")
+            downloader.chmod(0o755)
+            with patch.dict(os.environ, {"PATH": temporary + os.pathsep + os.environ["PATH"]}), patch.object(
+                update_mk, "DISCOVERY_TIMEOUT_SECONDS", 0.1
+            ):
+                for operation, argument in (
+                    (update_mk.flat_video_ids, 30),
+                    (update_mk.video_metadata, "stalled-video"),
+                ):
+                    with self.subTest(operation=operation.__name__):
+                        with self.assertRaisesRegex(RuntimeError, "timed out after 0.1s"):
+                            operation(argument)
+
+    def test_progress_is_visible_before_each_network_request(self):
+        output = io.StringIO()
+
+        def listing(max_scan):
+            self.assertIn("Scanning up to 30 Meet Kevin videos", output.getvalue())
+            return ["newest", "older"]
+
+        def metadata(video_id):
+            index = 1 if video_id == "newest" else 2
+            self.assertIn(f"Checking video {index}/2: {video_id}", output.getvalue())
+            return {
+                "id": video_id, "channel_id": update_mk.EXPECTED_CHANNEL_ID,
+                "timestamp": NOW if video_id == "newest" else NOW - 60,
+            }
+
+        with contextlib.redirect_stdout(output), patch.object(
+            update_mk.time, "time", return_value=NOW
+        ), patch.object(update_mk, "flat_video_ids", side_effect=listing), patch.object(
+            update_mk, "video_metadata", side_effect=metadata
+        ):
+            videos = update_mk.discover_recent_videos(96, 30)
+        self.assertEqual([video["id"] for video in videos], ["older", "newest"])
 
 
 class RetentionTests(unittest.TestCase):

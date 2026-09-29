@@ -39,6 +39,7 @@ SHOW_DESCRIPTION = (
     "Audio editions of selected YouTube videos and original audio briefings."
 )
 RETENTION_DAYS = 30
+DISCOVERY_TIMEOUT_SECONDS = 120
 
 EPISODES_START = "      <!-- EPISODES_START -->"
 EPISODES_END = "      <!-- EPISODES_END -->"
@@ -48,14 +49,23 @@ def log(message: str) -> None:
     print(message, flush=True)
 
 
-def run(command: list[str], *, capture: bool = False) -> str:
-    result = subprocess.run(
-        command,
-        cwd=ROOT,
-        check=True,
-        text=True,
-        stdout=subprocess.PIPE if capture else None,
-    )
+def run(
+    command: list[str], *, capture: bool = False, timeout: float | None = None
+) -> str:
+    try:
+        result = subprocess.run(
+            command,
+            cwd=ROOT,
+            check=True,
+            text=True,
+            stdout=subprocess.PIPE if capture else None,
+            timeout=timeout,
+        )
+    except subprocess.TimeoutExpired as error:
+        raise RuntimeError(
+            f"{command[0]} timed out after {timeout:g}s: {command[-1]}. "
+            "Check your connection and retry the update."
+        ) from error
     return result.stdout if capture else ""
 
 
@@ -98,9 +108,12 @@ def flat_video_ids(max_scan: int) -> list[str]:
             "--print",
             "%(id)s",
             "--no-warnings",
+            "--socket-timeout", "30",
+            "--extractor-retries", "2",
             CHANNEL_URL,
         ],
         capture=True,
+        timeout=DISCOVERY_TIMEOUT_SECONDS,
     )
     return [line.strip() for line in output.splitlines() if line.strip()]
 
@@ -115,9 +128,12 @@ def video_metadata(video_id: str) -> dict[str, Any] | None:
                 "--skip-download",
                 "--no-playlist",
                 "--no-warnings",
+                "--socket-timeout", "30",
+                "--extractor-retries", "2",
                 url,
             ],
             capture=True,
+            timeout=DISCOVERY_TIMEOUT_SECONDS,
         )
     except subprocess.CalledProcessError:
         log(f"Warning: could not read metadata for {url}; skipping")
@@ -131,7 +147,11 @@ def discover_recent_videos(hours: float, max_scan: int) -> list[dict[str, Any]]:
     candidates: list[dict[str, Any]] = []
     consecutive_old = 0
 
-    for video_id in flat_video_ids(max_scan):
+    log(f"Scanning up to {max_scan} Meet Kevin videos from the last {hours:g} hours...")
+    video_ids = flat_video_ids(max_scan)
+    log(f"Found {len(video_ids)} channel entries; checking publication times...")
+    for index, video_id in enumerate(video_ids, start=1):
+        log(f"  Checking video {index}/{len(video_ids)}: {video_id}")
         metadata = video_metadata(video_id)
         if not metadata:
             continue
@@ -148,6 +168,7 @@ def discover_recent_videos(hours: float, max_scan: int) -> list[dict[str, Any]]:
         if timestamp < cutoff:
             consecutive_old += 1
             if consecutive_old >= 3:
+                log("Reached three consecutive videos older than the import window; scan complete.")
                 break
             continue
 
