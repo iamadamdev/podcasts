@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Tue, 29 Sep 2026 16:12:13 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 21:05:57 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>what Trump and AI Executives JUST SAID at the White House</title>
+      <itunes:title>what Trump and AI Executives JUST SAID at the White House</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=fWvNuaXI5EI</description>
+      <link>https://www.youtube.com/watch?v=fWvNuaXI5EI</link>
+      <pubDate>Tue, 29 Sep 2026 21:05:57 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-fWvNuaXI5EI</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260929-fWvNuaXI5EI.mp3"
+        length="12067666"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:16:45</itunes:duration>
+      <itunes:episode>82</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>buy now.</title>
       <itunes:title>buy now.</itunes:title>
