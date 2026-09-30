@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Tue, 29 Sep 2026 21:05:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 16:05:21 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,74 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>We have Problems.</title>
+      <itunes:title>We have Problems.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=p6L7s1BjRgs</description>
+      <link>https://www.youtube.com/watch?v=p6L7s1BjRgs</link>
+      <pubDate>Wed, 30 Sep 2026 16:05:21 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-p6L7s1BjRgs</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260930-p6L7s1BjRgs.mp3"
+        length="19904000"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:27:38</itunes:duration>
+      <itunes:episode>86</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>737 Max *JUST* Hijacked: FlyDubai - Israel Aircraft Hijack [Dubai to Tel Aviv Hijack FZ1073 A6-FKF]</title>
+      <itunes:title>737 Max *JUST* Hijacked: FlyDubai - Israel Aircraft Hijack [Dubai to Tel Aviv Hijack FZ1073 A6-FKF]</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=IVbfu7kzCIE</description>
+      <link>https://www.youtube.com/watch?v=IVbfu7kzCIE</link>
+      <pubDate>Wed, 30 Sep 2026 13:09:31 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-IVbfu7kzCIE</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260930-IVbfu7kzCIE.mp3"
+        length="12759084"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:17:42</itunes:duration>
+      <itunes:episode>85</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>HOLY SH*T: THE FED RESERVE *JUST* BAILED US OUT</title>
+      <itunes:title>HOLY SH*T: THE FED RESERVE *JUST* BAILED US OUT</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Jj6In4c4180</description>
+      <link>https://www.youtube.com/watch?v=Jj6In4c4180</link>
+      <pubDate>Wed, 30 Sep 2026 02:36:53 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-Jj6In4c4180</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260930-Jj6In4c4180.mp3"
+        length="9808112"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:13:36</itunes:duration>
+      <itunes:episode>84</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>THESE Stocks might Get SCREWED</title>
+      <itunes:title>THESE Stocks might Get SCREWED</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=QEswpKUPn4g</description>
+      <link>https://www.youtube.com/watch?v=QEswpKUPn4g</link>
+      <pubDate>Wed, 30 Sep 2026 00:23:10 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-QEswpKUPn4g</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260930-QEswpKUPn4g.mp3"
+        length="9911349"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:13:45</itunes:duration>
+      <itunes:episode>83</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>what Trump and AI Executives JUST SAID at the White House</title>
       <itunes:title>what Trump and AI Executives JUST SAID at the White House</itunes:title>
