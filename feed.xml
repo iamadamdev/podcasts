@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Wed, 30 Sep 2026 16:05:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 15:29:44 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,74 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>The Market Collapse Shock</title>
+      <itunes:title>The Market Collapse Shock</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=jXST_heT8H0</description>
+      <link>https://www.youtube.com/watch?v=jXST_heT8H0</link>
+      <pubDate>Thu, 01 Oct 2026 15:29:44 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-jXST_heT8H0</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261001-jXST_heT8H0.mp3"
+        length="18211974"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:25:17</itunes:duration>
+      <itunes:episode>90</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Apple's Next Device.</title>
+      <itunes:title>Apple's Next Device.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=-e9je44Oju8</description>
+      <link>https://www.youtube.com/watch?v=-e9je44Oju8</link>
+      <pubDate>Thu, 01 Oct 2026 11:00:16 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin--e9je44Oju8</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261001--e9je44Oju8.mp3"
+        length="12188065"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:16:55</itunes:duration>
+      <itunes:episode>89</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Ultimate Tax Hack for Wealth Compounders.</title>
+      <itunes:title>The Ultimate Tax Hack for Wealth Compounders.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=0p8_ou8dUpM</description>
+      <link>https://www.youtube.com/watch?v=0p8_ou8dUpM</link>
+      <pubDate>Thu, 01 Oct 2026 03:28:45 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-0p8_ou8dUpM</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261001-0p8_ou8dUpM.mp3"
+        length="17111756"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:23:45</itunes:duration>
+      <itunes:episode>88</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Two BEST Investments *NOW* in THIS Economy.</title>
+      <itunes:title>The Two BEST Investments *NOW* in THIS Economy.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=0Cj-rRA_wog</description>
+      <link>https://www.youtube.com/watch?v=0Cj-rRA_wog</link>
+      <pubDate>Wed, 30 Sep 2026 18:49:54 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-0Cj-rRA_wog</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260930-0Cj-rRA_wog.mp3"
+        length="21552438"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:29:55</itunes:duration>
+      <itunes:episode>87</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>We have Problems.</title>
       <itunes:title>We have Problems.</itunes:title>
@@ -1435,40 +1503,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:26:34</itunes:duration>
       <itunes:episode>4</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>US *JUST* Struck Iran | ESCALATION -- Tankers &amp; Military Hit</title>
-      <itunes:title>US *JUST* Struck Iran | ESCALATION -- Tankers &amp; Military Hit</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=AhR5UBxdVgk</description>
-      <link>https://www.youtube.com/watch?v=AhR5UBxdVgk</link>
-      <pubDate>Tue, 01 Sep 2026 17:03:46 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-AhR5UBxdVgk</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260901-AhR5UBxdVgk.mp3"
-        length="17110577"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:23:45</itunes:duration>
-      <itunes:episode>3</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Elon Musk *NEW Speech* JUST Left G20 SPEECHLESS</title>
-      <itunes:title>Elon Musk *NEW Speech* JUST Left G20 SPEECHLESS</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=FyOu7hmZcVs</description>
-      <link>https://www.youtube.com/watch?v=FyOu7hmZcVs</link>
-      <pubDate>Tue, 01 Sep 2026 14:29:56 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-FyOu7hmZcVs</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260901-FyOu7hmZcVs.mp3"
-        length="18012248"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:25:00</itunes:duration>
-      <itunes:episode>2</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

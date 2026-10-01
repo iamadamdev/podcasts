@@ -1,30 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=FyOu7hmZcVs",
-    "duration_seconds": 1500,
-    "episode_number": 2,
-    "filename": "audio_files/meet-kevin-20260901-FyOu7hmZcVs.mp3",
-    "guid": "meet-kevin-FyOu7hmZcVs",
-    "published_timestamp": 1788272996,
-    "source_id": "FyOu7hmZcVs",
-    "source_url": "https://www.youtube.com/watch?v=FyOu7hmZcVs",
-    "title": "Elon Musk *NEW Speech* JUST Left G20 SPEECHLESS"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=AhR5UBxdVgk",
-    "duration_seconds": 1425,
-    "episode_number": 3,
-    "filename": "audio_files/meet-kevin-20260901-AhR5UBxdVgk.mp3",
-    "guid": "meet-kevin-AhR5UBxdVgk",
-    "published_timestamp": 1788282226,
-    "source_id": "AhR5UBxdVgk",
-    "source_url": "https://www.youtube.com/watch?v=AhR5UBxdVgk",
-    "title": "US *JUST* Struck Iran | ESCALATION -- Tankers & Military Hit"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=FgkFU0FrcV0",
     "duration_seconds": 1594,
     "episode_number": 4,
@@ -1018,5 +994,53 @@
     "source_id": "p6L7s1BjRgs",
     "source_url": "https://www.youtube.com/watch?v=p6L7s1BjRgs",
     "title": "We have Problems."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=0Cj-rRA_wog",
+    "duration_seconds": 1795,
+    "episode_number": 87,
+    "filename": "audio_files/meet-kevin-20260930-0Cj-rRA_wog.mp3",
+    "guid": "meet-kevin-0Cj-rRA_wog",
+    "published_timestamp": 1790794194,
+    "source_id": "0Cj-rRA_wog",
+    "source_url": "https://www.youtube.com/watch?v=0Cj-rRA_wog",
+    "title": "The Two BEST Investments *NOW* in THIS Economy."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=0p8_ou8dUpM",
+    "duration_seconds": 1425,
+    "episode_number": 88,
+    "filename": "audio_files/meet-kevin-20261001-0p8_ou8dUpM.mp3",
+    "guid": "meet-kevin-0p8_ou8dUpM",
+    "published_timestamp": 1790825325,
+    "source_id": "0p8_ou8dUpM",
+    "source_url": "https://www.youtube.com/watch?v=0p8_ou8dUpM",
+    "title": "The Ultimate Tax Hack for Wealth Compounders."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=-e9je44Oju8",
+    "duration_seconds": 1015,
+    "episode_number": 89,
+    "filename": "audio_files/meet-kevin-20261001--e9je44Oju8.mp3",
+    "guid": "meet-kevin--e9je44Oju8",
+    "published_timestamp": 1790852416,
+    "source_id": "-e9je44Oju8",
+    "source_url": "https://www.youtube.com/watch?v=-e9je44Oju8",
+    "title": "Apple's Next Device."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=jXST_heT8H0",
+    "duration_seconds": 1517,
+    "episode_number": 90,
+    "filename": "audio_files/meet-kevin-20261001-jXST_heT8H0.mp3",
+    "guid": "meet-kevin-jXST_heT8H0",
+    "published_timestamp": 1790868584,
+    "source_id": "jXST_heT8H0",
+    "source_url": "https://www.youtube.com/watch?v=jXST_heT8H0",
+    "title": "The Market Collapse Shock"
   }
 ]
