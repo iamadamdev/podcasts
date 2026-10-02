@@ -91,7 +91,7 @@ Install or reinstall the background job from this checkout:
 python3 scripts/install_daily_update.py
 ```
 
-The job runs every day at **10:00am in the Mac's local timezone** (currently
+The job runs every day at **9:30am in the Mac's local timezone** (currently
 America/Los_Angeles), including daylight saving changes. It stays installed across
 reboots and loads when you log in. The installer records this checkout's location
 and Python path; rerun it if either changes.
@@ -100,9 +100,9 @@ The existing job automatically uses the 30-day cleanup; no reinstall is needed.
 The screen can be locked and Terminal can be closed. You must remain logged in,
 have network access, and have Git credentials available without interaction.
 `caffeinate` prevents idle sleep during an active update. If the Mac is already
-asleep at 10am, [launchd runs the job after wake](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html).
+asleep at 9:30am, [launchd runs the job after wake](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html).
 It cannot run while the Mac is shut down, and shutting down at the scheduled time
-does not create a catch-up run. For a 10am run, leave the Mac awake and online.
+does not create a catch-up run. For a 9:30am run, leave the Mac awake and online.
 
 ### Run now or check status
 

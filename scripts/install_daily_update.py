@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Install a macOS launch agent that publishes this checkout daily at 10am."""
+"""Install a macOS launch agent that publishes this checkout daily at 9:30am."""
 
 from __future__ import annotations
 
@@ -70,7 +70,7 @@ def main() -> None:
             "GIT_TERMINAL_PROMPT": "0",
             "PYTHONUNBUFFERED": "1",
         },
-        "StartCalendarInterval": {"Hour": 10, "Minute": 0},
+        "StartCalendarInterval": {"Hour": 9, "Minute": 30},
         "StandardOutPath": str(logs_dir / "daily-update.log"),
         "StandardErrorPath": str(logs_dir / "daily-update.error.log"),
         "ProcessType": "Background",
@@ -87,7 +87,7 @@ def main() -> None:
     subprocess.run(["launchctl", "enable", service], check=True)
     subprocess.run(["launchctl", "bootstrap", domain, str(plist_path)], check=True)
     print(f"Installed {plist_path}")
-    print("Scheduled daily at 10:00am in the Mac's local timezone.")
+    print("Scheduled daily at 9:30am in the Mac's local timezone.")
     print(f"Logs: {logs_dir}")
     print(f"Run now: launchctl kickstart {service}")
 
