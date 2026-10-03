@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Thu, 01 Oct 2026 15:29:44 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 21:25:12 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,57 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>F**K Systemic Risk Is EXPLODING In Financial Markets</title>
+      <itunes:title>F**K Systemic Risk Is EXPLODING In Financial Markets</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=VUPuNo__yYU</description>
+      <link>https://www.youtube.com/watch?v=VUPuNo__yYU</link>
+      <pubDate>Fri, 02 Oct 2026 21:25:12 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-VUPuNo__yYU</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261002-VUPuNo__yYU.mp3"
+        length="10721091"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:14:53</itunes:duration>
+      <itunes:episode>93</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Holy Sh*t Tesla</title>
+      <itunes:title>Holy Sh*t Tesla</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=1y9JuHMvkyc</description>
+      <link>https://www.youtube.com/watch?v=1y9JuHMvkyc</link>
+      <pubDate>Fri, 02 Oct 2026 19:59:47 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-1y9JuHMvkyc</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261002-1y9JuHMvkyc.mp3"
+        length="17825652"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:24:45</itunes:duration>
+      <itunes:episode>92</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Iran War is Flipping | Warning.</title>
+      <itunes:title>The Iran War is Flipping | Warning.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=cevpGyjZfKk</description>
+      <link>https://www.youtube.com/watch?v=cevpGyjZfKk</link>
+      <pubDate>Fri, 02 Oct 2026 17:00:27 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-cevpGyjZfKk</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261002-cevpGyjZfKk.mp3"
+        length="14680618"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:20:22</itunes:duration>
+      <itunes:episode>91</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Market Collapse Shock</title>
       <itunes:title>The Market Collapse Shock</itunes:title>
@@ -1367,57 +1418,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:16:48</itunes:duration>
       <itunes:episode>12</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>AVOID the TRAP in these AI Stocks: The Earnings Divide.</title>
-      <itunes:title>AVOID the TRAP in these AI Stocks: The Earnings Divide.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=9HhW3-mGUCU</description>
-      <link>https://www.youtube.com/watch?v=9HhW3-mGUCU</link>
-      <pubDate>Thu, 03 Sep 2026 00:37:53 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-9HhW3-mGUCU</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260903-9HhW3-mGUCU.mp3"
-        length="16339474"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:22:41</itunes:duration>
-      <itunes:episode>11</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Sam Altman JUST SAID the QUIET Part Out Loud: YIKES!</title>
-      <itunes:title>Sam Altman JUST SAID the QUIET Part Out Loud: YIKES!</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=VUzlDkmHqCI</description>
-      <link>https://www.youtube.com/watch?v=VUzlDkmHqCI</link>
-      <pubDate>Wed, 02 Sep 2026 18:57:50 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-VUzlDkmHqCI</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260902-VUzlDkmHqCI.mp3"
-        length="17519407"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:24:19</itunes:duration>
-      <itunes:episode>10</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Iran MINES Explode Ships &amp; "Strait of Trump" | New Dangers.</title>
-      <itunes:title>Iran MINES Explode Ships &amp; "Strait of Trump" | New Dangers.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=_YmWRsjEkvQ</description>
-      <link>https://www.youtube.com/watch?v=_YmWRsjEkvQ</link>
-      <pubDate>Wed, 02 Sep 2026 17:09:53 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-_YmWRsjEkvQ</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260902-_YmWRsjEkvQ.mp3"
-        length="10993166"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:15:15</itunes:duration>
-      <itunes:episode>9</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

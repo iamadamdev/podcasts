@@ -1,42 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=_YmWRsjEkvQ",
-    "duration_seconds": 915,
-    "episode_number": 9,
-    "filename": "audio_files/meet-kevin-20260902-_YmWRsjEkvQ.mp3",
-    "guid": "meet-kevin-_YmWRsjEkvQ",
-    "published_timestamp": 1788368993,
-    "source_id": "_YmWRsjEkvQ",
-    "source_url": "https://www.youtube.com/watch?v=_YmWRsjEkvQ",
-    "title": "Iran MINES Explode Ships & \"Strait of Trump\" | New Dangers."
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=VUzlDkmHqCI",
-    "duration_seconds": 1459,
-    "episode_number": 10,
-    "filename": "audio_files/meet-kevin-20260902-VUzlDkmHqCI.mp3",
-    "guid": "meet-kevin-VUzlDkmHqCI",
-    "published_timestamp": 1788375470,
-    "source_id": "VUzlDkmHqCI",
-    "source_url": "https://www.youtube.com/watch?v=VUzlDkmHqCI",
-    "title": "Sam Altman JUST SAID the QUIET Part Out Loud: YIKES!"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=9HhW3-mGUCU",
-    "duration_seconds": 1361,
-    "episode_number": 11,
-    "filename": "audio_files/meet-kevin-20260903-9HhW3-mGUCU.mp3",
-    "guid": "meet-kevin-9HhW3-mGUCU",
-    "published_timestamp": 1788395873,
-    "source_id": "9HhW3-mGUCU",
-    "source_url": "https://www.youtube.com/watch?v=9HhW3-mGUCU",
-    "title": "AVOID the TRAP in these AI Stocks: The Earnings Divide."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=z0Ecyj72VYU",
     "duration_seconds": 1008,
     "episode_number": 12,
@@ -982,5 +946,41 @@
     "source_id": "jXST_heT8H0",
     "source_url": "https://www.youtube.com/watch?v=jXST_heT8H0",
     "title": "The Market Collapse Shock"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=cevpGyjZfKk",
+    "duration_seconds": 1222,
+    "episode_number": 91,
+    "filename": "audio_files/meet-kevin-20261002-cevpGyjZfKk.mp3",
+    "guid": "meet-kevin-cevpGyjZfKk",
+    "published_timestamp": 1790960427,
+    "source_id": "cevpGyjZfKk",
+    "source_url": "https://www.youtube.com/watch?v=cevpGyjZfKk",
+    "title": "The Iran War is Flipping | Warning."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=1y9JuHMvkyc",
+    "duration_seconds": 1485,
+    "episode_number": 92,
+    "filename": "audio_files/meet-kevin-20261002-1y9JuHMvkyc.mp3",
+    "guid": "meet-kevin-1y9JuHMvkyc",
+    "published_timestamp": 1790971187,
+    "source_id": "1y9JuHMvkyc",
+    "source_url": "https://www.youtube.com/watch?v=1y9JuHMvkyc",
+    "title": "Holy Sh*t Tesla"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=VUPuNo__yYU",
+    "duration_seconds": 893,
+    "episode_number": 93,
+    "filename": "audio_files/meet-kevin-20261002-VUPuNo__yYU.mp3",
+    "guid": "meet-kevin-VUPuNo__yYU",
+    "published_timestamp": 1790976312,
+    "source_id": "VUPuNo__yYU",
+    "source_url": "https://www.youtube.com/watch?v=VUPuNo__yYU",
+    "title": "F**K Systemic Risk Is EXPLODING In Financial Markets"
   }
 ]
