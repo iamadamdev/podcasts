@@ -1387,22 +1387,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>Wall Street is Warning: The Crash of 2027 is Coming: PREPARE.</title>
-      <itunes:title>Wall Street is Warning: The Crash of 2027 is Coming: PREPARE.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=oGS0G9N_evc</description>
-      <link>https://www.youtube.com/watch?v=oGS0G9N_evc</link>
-      <pubDate>Thu, 03 Sep 2026 17:56:00 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-oGS0G9N_evc</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260903-oGS0G9N_evc.mp3"
-        length="17045780"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:23:40</itunes:duration>
-      <itunes:episode>13</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
