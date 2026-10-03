@@ -1404,22 +1404,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>The Fed JUST Bailed Us Out.</title>
-      <itunes:title>The Fed JUST Bailed Us Out.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=z0Ecyj72VYU</description>
-      <link>https://www.youtube.com/watch?v=z0Ecyj72VYU</link>
-      <pubDate>Thu, 03 Sep 2026 14:23:06 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-z0Ecyj72VYU</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260903-z0Ecyj72VYU.mp3"
-        length="12106190"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:16:48</itunes:duration>
-      <itunes:episode>12</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
