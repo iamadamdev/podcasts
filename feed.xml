@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Mon, 05 Oct 2026 16:02:20 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 16:12:02 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>DO THIS NOW</title>
+      <itunes:title>DO THIS NOW</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=6jJaBG0_UkE</description>
+      <link>https://www.youtube.com/watch?v=6jJaBG0_UkE</link>
+      <pubDate>Tue, 06 Oct 2026 16:12:02 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-6jJaBG0_UkE</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261006-6jJaBG0_UkE.mp3"
+        length="20602022"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:28:36</itunes:duration>
+      <itunes:episode>96</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Our Economy is about to EXPLODE | Agentic AI SHOCK</title>
+      <itunes:title>Our Economy is about to EXPLODE | Agentic AI SHOCK</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=2G642xbFBig</description>
+      <link>https://www.youtube.com/watch?v=2G642xbFBig</link>
+      <pubDate>Tue, 06 Oct 2026 03:39:35 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-2G642xbFBig</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261006-2G642xbFBig.mp3"
+        length="15189109"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:21:05</itunes:duration>
+      <itunes:episode>95</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nervous About Economic DOOM</title>
       <itunes:title>Nervous About Economic DOOM</itunes:title>
