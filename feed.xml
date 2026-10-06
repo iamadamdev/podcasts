@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Tue, 06 Oct 2026 16:12:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 20:24:38 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Trump JUST *Launched* the GREAT Wealth Transfer</title>
+      <itunes:title>Trump JUST *Launched* the GREAT Wealth Transfer</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=e-h6qfvdgBY</description>
+      <link>https://www.youtube.com/watch?v=e-h6qfvdgBY</link>
+      <pubDate>Tue, 06 Oct 2026 20:24:38 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-e-h6qfvdgBY</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261006-e-h6qfvdgBY.mp3"
+        length="15689168"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:21:47</itunes:duration>
+      <itunes:episode>97</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>DO THIS NOW</title>
       <itunes:title>DO THIS NOW</itunes:title>
