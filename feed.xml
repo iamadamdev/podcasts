@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Wed, 07 Oct 2026 19:06:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 15:15:28 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>DANGER: The Starbucks Chipotle Stock Merger</title>
+      <itunes:title>DANGER: The Starbucks Chipotle Stock Merger</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=hYIglxhLyD8</description>
+      <link>https://www.youtube.com/watch?v=hYIglxhLyD8</link>
+      <pubDate>Thu, 08 Oct 2026 15:15:28 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-hYIglxhLyD8</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261008-hYIglxhLyD8.mp3"
+        length="9400572"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:13:03</itunes:duration>
+      <itunes:episode>103</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>oh f**k me</title>
+      <itunes:title>oh f**k me</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=75GpqXV0rao</description>
+      <link>https://www.youtube.com/watch?v=75GpqXV0rao</link>
+      <pubDate>Thu, 08 Oct 2026 01:30:40 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-75GpqXV0rao</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261008-75GpqXV0rao.mp3"
+        length="16472639"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:22:52</itunes:duration>
+      <itunes:episode>102</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>What the Fed *JUST* Warned</title>
       <itunes:title>What the Fed *JUST* Warned</itunes:title>
