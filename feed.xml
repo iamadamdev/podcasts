@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Thu, 08 Oct 2026 21:07:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 08:23:35 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>My $2 Million Dollar Fixer is getting RUINED by California</title>
+      <itunes:title>My $2 Million Dollar Fixer is getting RUINED by California</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=4ZPfCp53vxI</description>
+      <link>https://www.youtube.com/watch?v=4ZPfCp53vxI</link>
+      <pubDate>Fri, 09 Oct 2026 08:23:35 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-4ZPfCp53vxI</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261009-4ZPfCp53vxI.mp3"
+        length="15497591"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:21:31</itunes:duration>
+      <itunes:episode>107</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>What Elon Musk JUST Pulled Off to F**K the Oligarchy</title>
+      <itunes:title>What Elon Musk JUST Pulled Off to F**K the Oligarchy</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=oety7huQ4Nw</description>
+      <link>https://www.youtube.com/watch?v=oety7huQ4Nw</link>
+      <pubDate>Fri, 09 Oct 2026 01:00:07 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-oety7huQ4Nw</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261009-oety7huQ4Nw.mp3"
+        length="12498717"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:17:21</itunes:duration>
+      <itunes:episode>106</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Bubble *JUST* Popped | WTF Just Happened.</title>
       <itunes:title>The Bubble *JUST* Popped | WTF Just Happened.</itunes:title>
