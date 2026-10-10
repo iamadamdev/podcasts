@@ -1472,22 +1472,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>Revealing My Current Stock Thesis &amp; Allocation Framework.</title>
-      <itunes:title>Revealing My Current Stock Thesis &amp; Allocation Framework.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=KNOw7zuR00E</description>
-      <link>https://www.youtube.com/watch?v=KNOw7zuR00E</link>
-      <pubDate>Thu, 10 Sep 2026 18:46:38 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-KNOw7zuR00E</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260910-KNOw7zuR00E.mp3"
-        length="13257966"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:18:24</itunes:duration>
-      <itunes:episode>24</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
