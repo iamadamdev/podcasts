@@ -1421,56 +1421,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>DANGER: Report Warns 12 Ways AI Being used to KILL Humans</title>
-      <itunes:title>DANGER: Report Warns 12 Ways AI Being used to KILL Humans</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=KY9VfQPoo04</description>
-      <link>https://www.youtube.com/watch?v=KY9VfQPoo04</link>
-      <pubDate>Fri, 11 Sep 2026 16:11:15 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-KY9VfQPoo04</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260911-KY9VfQPoo04.mp3"
-        length="8954420"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:12:26</itunes:duration>
-      <itunes:episode>27</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>SpaceX Stock: BUY NOW</title>
-      <itunes:title>SpaceX Stock: BUY NOW</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=U-HOFWn4wJg</description>
-      <link>https://www.youtube.com/watch?v=U-HOFWn4wJg</link>
-      <pubDate>Fri, 11 Sep 2026 05:02:46 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-U-HOFWn4wJg</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260911-U-HOFWn4wJg.mp3"
-        length="17414320"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:24:11</itunes:duration>
-      <itunes:episode>26</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>CRITICAL Bubble Warning: OpenAI &amp; Oracle JUST *THREATENED* Elon &amp; SpaceX.</title>
-      <itunes:title>CRITICAL Bubble Warning: OpenAI &amp; Oracle JUST *THREATENED* Elon &amp; SpaceX.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Lhudd5BuFQo</description>
-      <link>https://www.youtube.com/watch?v=Lhudd5BuFQo</link>
-      <pubDate>Thu, 10 Sep 2026 23:20:10 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-Lhudd5BuFQo</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260910-Lhudd5BuFQo.mp3"
-        length="10517434"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:14:36</itunes:duration>
-      <itunes:episode>25</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
