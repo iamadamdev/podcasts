@@ -1404,22 +1404,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>this is peak fear.</title>
-      <itunes:title>this is peak fear.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=epE7Sak1I5k</description>
-      <link>https://www.youtube.com/watch?v=epE7Sak1I5k</link>
-      <pubDate>Fri, 11 Sep 2026 18:25:03 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-epE7Sak1I5k</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260911-epE7Sak1I5k.mp3"
-        length="14712037"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:20:25</itunes:duration>
-      <itunes:episode>28</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
