@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=j0mDc-ADqFU",
-    "duration_seconds": 1716,
-    "episode_number": 18,
-    "filename": "audio_files/meet-kevin-20260913-j0mDc-ADqFU.mp3",
-    "guid": "meet-kevin-j0mDc-ADqFU",
-    "published_timestamp": 1789329654,
-    "source_id": "j0mDc-ADqFU",
-    "source_url": "https://www.youtube.com/watch?v=j0mDc-ADqFU",
-    "title": "They're Wrong about Tesla Stock | Going to $775 Target."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=QCqLHSWhc7c",
     "duration_seconds": 712,
     "episode_number": 30,
@@ -958,5 +946,29 @@
     "source_id": "XHjzdg83n3k",
     "source_url": "https://www.youtube.com/watch?v=XHjzdg83n3k",
     "title": "We have *JUST* 7 days left."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=qYgPfFhV3d4",
+    "duration_seconds": 750,
+    "episode_number": 109,
+    "filename": "audio_files/meet-kevin-20261013-qYgPfFhV3d4.mp3",
+    "guid": "meet-kevin-qYgPfFhV3d4",
+    "published_timestamp": 1791917041,
+    "source_id": "qYgPfFhV3d4",
+    "source_url": "https://www.youtube.com/watch?v=qYgPfFhV3d4",
+    "title": "The Fed JUST Bailed us Out AGAIN | What do they SEE?!?!?!"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=A7yrr17VEDo",
+    "duration_seconds": 1380,
+    "episode_number": 110,
+    "filename": "audio_files/meet-kevin-20261013-A7yrr17VEDo.mp3",
+    "guid": "meet-kevin-A7yrr17VEDo",
+    "published_timestamp": 1791930448,
+    "source_id": "A7yrr17VEDo",
+    "source_url": "https://www.youtube.com/watch?v=A7yrr17VEDo",
+    "title": "The Shadow Debt Crisis JUST Got Twice as Bad."
   }
 ]

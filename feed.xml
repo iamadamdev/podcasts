@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 15:19:34 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 22:27:28 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>The Shadow Debt Crisis JUST Got Twice as Bad.</title>
+      <itunes:title>The Shadow Debt Crisis JUST Got Twice as Bad.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=A7yrr17VEDo</description>
+      <link>https://www.youtube.com/watch?v=A7yrr17VEDo</link>
+      <pubDate>Tue, 13 Oct 2026 22:27:28 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-A7yrr17VEDo</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261013-A7yrr17VEDo.mp3"
+        length="16575594"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:23:00</itunes:duration>
+      <itunes:episode>110</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Fed JUST Bailed us Out AGAIN | What do they SEE?!?!?!</title>
+      <itunes:title>The Fed JUST Bailed us Out AGAIN | What do they SEE?!?!?!</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=qYgPfFhV3d4</description>
+      <link>https://www.youtube.com/watch?v=qYgPfFhV3d4</link>
+      <pubDate>Tue, 13 Oct 2026 18:44:01 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-qYgPfFhV3d4</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261013-qYgPfFhV3d4.mp3"
+        length="9006640"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:12:30</itunes:duration>
+      <itunes:episode>109</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>We have *JUST* 7 days left.</title>
       <itunes:title>We have *JUST* 7 days left.</itunes:title>
@@ -1367,23 +1401,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:11:52</itunes:duration>
       <itunes:episode>30</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>They're Wrong about Tesla Stock | Going to $775 Target.</title>
-      <itunes:title>They're Wrong about Tesla Stock | Going to $775 Target.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=j0mDc-ADqFU</description>
-      <link>https://www.youtube.com/watch?v=j0mDc-ADqFU</link>
-      <pubDate>Sun, 13 Sep 2026 20:00:54 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-j0mDc-ADqFU</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260913-j0mDc-ADqFU.mp3"
-        length="20602620"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:28:36</itunes:duration>
-      <itunes:episode>18</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
