@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=1VEjXu0nZ8U",
-    "duration_seconds": 1211,
-    "episode_number": 17,
-    "filename": "audio_files/meet-kevin-20260913-1VEjXu0nZ8U.mp3",
-    "guid": "meet-kevin-1VEjXu0nZ8U",
-    "published_timestamp": 1789269017,
-    "source_id": "1VEjXu0nZ8U",
-    "source_url": "https://www.youtube.com/watch?v=1VEjXu0nZ8U",
-    "title": "I'm Making a Big Bet Everyone is WRONG."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=j0mDc-ADqFU",
     "duration_seconds": 1716,
     "episode_number": 18,
@@ -958,5 +946,17 @@
     "source_id": "4ZPfCp53vxI",
     "source_url": "https://www.youtube.com/watch?v=4ZPfCp53vxI",
     "title": "My $2 Million Dollar Fixer is getting RUINED by California"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=XHjzdg83n3k",
+    "duration_seconds": 1659,
+    "episode_number": 108,
+    "filename": "audio_files/meet-kevin-20261013-XHjzdg83n3k.mp3",
+    "guid": "meet-kevin-XHjzdg83n3k",
+    "published_timestamp": 1791904774,
+    "source_id": "XHjzdg83n3k",
+    "source_url": "https://www.youtube.com/watch?v=XHjzdg83n3k",
+    "title": "We have *JUST* 7 days left."
   }
 ]

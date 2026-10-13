@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Fri, 09 Oct 2026 08:23:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 15:19:34 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>We have *JUST* 7 days left.</title>
+      <itunes:title>We have *JUST* 7 days left.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=XHjzdg83n3k</description>
+      <link>https://www.youtube.com/watch?v=XHjzdg83n3k</link>
+      <pubDate>Tue, 13 Oct 2026 15:19:34 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-XHjzdg83n3k</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261013-XHjzdg83n3k.mp3"
+        length="19919822"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:27:39</itunes:duration>
+      <itunes:episode>108</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>My $2 Million Dollar Fixer is getting RUINED by California</title>
       <itunes:title>My $2 Million Dollar Fixer is getting RUINED by California</itunes:title>
@@ -1367,23 +1384,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:28:36</itunes:duration>
       <itunes:episode>18</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>I'm Making a Big Bet Everyone is WRONG.</title>
-      <itunes:title>I'm Making a Big Bet Everyone is WRONG.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=1VEjXu0nZ8U</description>
-      <link>https://www.youtube.com/watch?v=1VEjXu0nZ8U</link>
-      <pubDate>Sun, 13 Sep 2026 03:10:17 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-1VEjXu0nZ8U</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260913-1VEjXu0nZ8U.mp3"
-        length="14543126"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:20:11</itunes:duration>
-      <itunes:episode>17</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
