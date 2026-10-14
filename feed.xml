@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 22:27:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 13:27:25 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>This CPI Report is Bad for MANY Reasons...</title>
+      <itunes:title>This CPI Report is Bad for MANY Reasons...</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ITNtGon3oWU</description>
+      <link>https://www.youtube.com/watch?v=ITNtGon3oWU</link>
+      <pubDate>Wed, 14 Oct 2026 13:27:25 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-ITNtGon3oWU</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261014-ITNtGon3oWU.mp3"
+        length="10707837"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:14:51</itunes:duration>
+      <itunes:episode>111</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Shadow Debt Crisis JUST Got Twice as Bad.</title>
       <itunes:title>The Shadow Debt Crisis JUST Got Twice as Bad.</itunes:title>
@@ -1367,40 +1384,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:14:34</itunes:duration>
       <itunes:episode>32</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>What if the Fed does NOT Hike!??!?!</title>
-      <itunes:title>What if the Fed does NOT Hike!??!?!</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=_1AMCGl_x-U</description>
-      <link>https://www.youtube.com/watch?v=_1AMCGl_x-U</link>
-      <pubDate>Mon, 14 Sep 2026 15:09:15 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-_1AMCGl_x-U</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260914-_1AMCGl_x-U.mp3"
-        length="13332064"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:18:30</itunes:duration>
-      <itunes:episode>31</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>the next 72 hours...</title>
-      <itunes:title>the next 72 hours...</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=QCqLHSWhc7c</description>
-      <link>https://www.youtube.com/watch?v=QCqLHSWhc7c</link>
-      <pubDate>Sun, 13 Sep 2026 23:51:59 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-QCqLHSWhc7c</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260913-QCqLHSWhc7c.mp3"
-        length="8551047"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:11:52</itunes:duration>
-      <itunes:episode>30</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

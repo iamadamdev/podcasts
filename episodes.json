@@ -1,30 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=QCqLHSWhc7c",
-    "duration_seconds": 712,
-    "episode_number": 30,
-    "filename": "audio_files/meet-kevin-20260913-QCqLHSWhc7c.mp3",
-    "guid": "meet-kevin-QCqLHSWhc7c",
-    "published_timestamp": 1789343519,
-    "source_id": "QCqLHSWhc7c",
-    "source_url": "https://www.youtube.com/watch?v=QCqLHSWhc7c",
-    "title": "the next 72 hours..."
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=_1AMCGl_x-U",
-    "duration_seconds": 1110,
-    "episode_number": 31,
-    "filename": "audio_files/meet-kevin-20260914-_1AMCGl_x-U.mp3",
-    "guid": "meet-kevin-_1AMCGl_x-U",
-    "published_timestamp": 1789398555,
-    "source_id": "_1AMCGl_x-U",
-    "source_url": "https://www.youtube.com/watch?v=_1AMCGl_x-U",
-    "title": "What if the Fed does NOT Hike!??!?!"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=a1vtiOhXJcw",
     "duration_seconds": 874,
     "episode_number": 32,
@@ -970,5 +946,17 @@
     "source_id": "A7yrr17VEDo",
     "source_url": "https://www.youtube.com/watch?v=A7yrr17VEDo",
     "title": "The Shadow Debt Crisis JUST Got Twice as Bad."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ITNtGon3oWU",
+    "duration_seconds": 891,
+    "episode_number": 111,
+    "filename": "audio_files/meet-kevin-20261014-ITNtGon3oWU.mp3",
+    "guid": "meet-kevin-ITNtGon3oWU",
+    "published_timestamp": 1791984445,
+    "source_id": "ITNtGon3oWU",
+    "source_url": "https://www.youtube.com/watch?v=ITNtGon3oWU",
+    "title": "This CPI Report is Bad for MANY Reasons..."
   }
 ]
