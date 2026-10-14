@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Wed, 14 Oct 2026 13:27:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 21:00:43 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>why the market just tanked</title>
+      <itunes:title>why the market just tanked</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=m3cMmkH94to</description>
+      <link>https://www.youtube.com/watch?v=m3cMmkH94to</link>
+      <pubDate>Wed, 14 Oct 2026 21:00:43 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-m3cMmkH94to</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261014-m3cMmkH94to.mp3"
+        length="20758391"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:28:49</itunes:duration>
+      <itunes:episode>112</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>This CPI Report is Bad for MANY Reasons...</title>
       <itunes:title>This CPI Report is Bad for MANY Reasons...</itunes:title>
@@ -1350,40 +1367,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:39:28</itunes:duration>
       <itunes:episode>34</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>This is an INSANE Flip Flop on SpaceX Stock</title>
-      <itunes:title>This is an INSANE Flip Flop on SpaceX Stock</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=IkWPVpey5mA</description>
-      <link>https://www.youtube.com/watch?v=IkWPVpey5mA</link>
-      <pubDate>Mon, 14 Sep 2026 21:20:45 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-IkWPVpey5mA</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260914-IkWPVpey5mA.mp3"
-        length="11965130"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:16:36</itunes:duration>
-      <itunes:episode>33</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Trump is ALREADY *Starting* to TACO!!! HUUUGE</title>
-      <itunes:title>Trump is ALREADY *Starting* to TACO!!! HUUUGE</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=a1vtiOhXJcw</description>
-      <link>https://www.youtube.com/watch?v=a1vtiOhXJcw</link>
-      <pubDate>Mon, 14 Sep 2026 17:04:38 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-a1vtiOhXJcw</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260914-a1vtiOhXJcw.mp3"
-        length="10498996"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:14:34</itunes:duration>
-      <itunes:episode>32</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

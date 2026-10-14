@@ -1,30 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=a1vtiOhXJcw",
-    "duration_seconds": 874,
-    "episode_number": 32,
-    "filename": "audio_files/meet-kevin-20260914-a1vtiOhXJcw.mp3",
-    "guid": "meet-kevin-a1vtiOhXJcw",
-    "published_timestamp": 1789405478,
-    "source_id": "a1vtiOhXJcw",
-    "source_url": "https://www.youtube.com/watch?v=a1vtiOhXJcw",
-    "title": "Trump is ALREADY *Starting* to TACO!!! HUUUGE"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=IkWPVpey5mA",
-    "duration_seconds": 996,
-    "episode_number": 33,
-    "filename": "audio_files/meet-kevin-20260914-IkWPVpey5mA.mp3",
-    "guid": "meet-kevin-IkWPVpey5mA",
-    "published_timestamp": 1789420845,
-    "source_id": "IkWPVpey5mA",
-    "source_url": "https://www.youtube.com/watch?v=IkWPVpey5mA",
-    "title": "This is an INSANE Flip Flop on SpaceX Stock"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=VdSm5QCA3sg",
     "duration_seconds": 2368,
     "episode_number": 34,
@@ -958,5 +934,17 @@
     "source_id": "ITNtGon3oWU",
     "source_url": "https://www.youtube.com/watch?v=ITNtGon3oWU",
     "title": "This CPI Report is Bad for MANY Reasons..."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=m3cMmkH94to",
+    "duration_seconds": 1729,
+    "episode_number": 112,
+    "filename": "audio_files/meet-kevin-20261014-m3cMmkH94to.mp3",
+    "guid": "meet-kevin-m3cMmkH94to",
+    "published_timestamp": 1792011643,
+    "source_id": "m3cMmkH94to",
+    "source_url": "https://www.youtube.com/watch?v=m3cMmkH94to",
+    "title": "why the market just tanked"
   }
 ]
