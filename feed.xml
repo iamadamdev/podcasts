@@ -1336,22 +1336,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>Clarity Act FAILS | What Now?!?!?!</title>
-      <itunes:title>Clarity Act FAILS | What Now?!?!?!</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=iQRLu0ZMmOs</description>
-      <link>https://www.youtube.com/watch?v=iQRLu0ZMmOs</link>
-      <pubDate>Tue, 15 Sep 2026 19:10:41 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-iQRLu0ZMmOs</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260915-iQRLu0ZMmOs.mp3"
-        length="9621461"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:13:21</itunes:duration>
-      <itunes:episode>36</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
