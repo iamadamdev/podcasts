@@ -1,30 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=VdSm5QCA3sg",
-    "duration_seconds": 2368,
-    "episode_number": 34,
-    "filename": "audio_files/meet-kevin-20260915-VdSm5QCA3sg.mp3",
-    "guid": "meet-kevin-VdSm5QCA3sg",
-    "published_timestamp": 1789435061,
-    "source_id": "VdSm5QCA3sg",
-    "source_url": "https://www.youtube.com/watch?v=VdSm5QCA3sg",
-    "title": "Prepare for the -83% Market Crash"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=27zrqxuFKpQ",
-    "duration_seconds": 1291,
-    "episode_number": 35,
-    "filename": "audio_files/meet-kevin-20260915-27zrqxuFKpQ.mp3",
-    "guid": "meet-kevin-27zrqxuFKpQ",
-    "published_timestamp": 1789485030,
-    "source_id": "27zrqxuFKpQ",
-    "source_url": "https://www.youtube.com/watch?v=27zrqxuFKpQ",
-    "title": "Warning: Fed Chair Warsh is about to Middle Finger Trump."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=iQRLu0ZMmOs",
     "duration_seconds": 801,
     "episode_number": 36,
@@ -946,5 +922,17 @@
     "source_id": "m3cMmkH94to",
     "source_url": "https://www.youtube.com/watch?v=m3cMmkH94to",
     "title": "why the market just tanked"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=C358wmTbV3I",
+    "duration_seconds": 1243,
+    "episode_number": 113,
+    "filename": "audio_files/meet-kevin-20261015-C358wmTbV3I.mp3",
+    "guid": "meet-kevin-C358wmTbV3I",
+    "published_timestamp": 1792070291,
+    "source_id": "C358wmTbV3I",
+    "source_url": "https://www.youtube.com/watch?v=C358wmTbV3I",
+    "title": "Is the Recession Beginning?!?!?!"
   }
 ]
