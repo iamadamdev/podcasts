@@ -1,30 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=qISyErK8cd8",
-    "duration_seconds": 1393,
-    "episode_number": 41,
-    "filename": "audio_files/meet-kevin-20260916-qISyErK8cd8.mp3",
-    "guid": "meet-kevin-qISyErK8cd8",
-    "published_timestamp": 1789587227,
-    "source_id": "qISyErK8cd8",
-    "source_url": "https://www.youtube.com/watch?v=qISyErK8cd8",
-    "title": "The Fed is PISSED."
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ivfor21qz3U",
-    "duration_seconds": 841,
-    "episode_number": 42,
-    "filename": "audio_files/meet-kevin-20260916-ivfor21qz3U.mp3",
-    "guid": "meet-kevin-ivfor21qz3U",
-    "published_timestamp": 1789596044,
-    "source_id": "ivfor21qz3U",
-    "source_url": "https://www.youtube.com/watch?v=ivfor21qz3U",
-    "title": "Cause of Crash? DEADLY NBC News Helicopter Crash [N358TV]"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=eUS1QM-w9-Q",
     "duration_seconds": 846,
     "episode_number": 43,
@@ -910,5 +886,17 @@
     "source_id": "W3pmAjJmX1A",
     "source_url": "https://www.youtube.com/watch?v=W3pmAjJmX1A",
     "title": "Elon Musk & Republicans are Freaking Out."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Yj24QTdKhJ0",
+    "duration_seconds": 518,
+    "episode_number": 117,
+    "filename": "audio_files/meet-kevin-20261016-Yj24QTdKhJ0.mp3",
+    "guid": "meet-kevin-Yj24QTdKhJ0",
+    "published_timestamp": 1792173448,
+    "source_id": "Yj24QTdKhJ0",
+    "source_url": "https://www.youtube.com/watch?v=Yj24QTdKhJ0",
+    "title": "Apple JUST Suffered a \"NATIONWIDE\" Failure."
   }
 ]
