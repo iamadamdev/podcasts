@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Thu, 15 Oct 2026 13:18:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 15:27:49 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,57 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Elon Musk &amp; Republicans are Freaking Out.</title>
+      <itunes:title>Elon Musk &amp; Republicans are Freaking Out.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=W3pmAjJmX1A</description>
+      <link>https://www.youtube.com/watch?v=W3pmAjJmX1A</link>
+      <pubDate>Fri, 16 Oct 2026 15:27:49 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-W3pmAjJmX1A</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261016-W3pmAjJmX1A.mp3"
+        length="19571384"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:27:10</itunes:duration>
+      <itunes:episode>116</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Kevin Warsh *JUST* Bailed out the Stock Market HIMSELF</title>
+      <itunes:title>Kevin Warsh *JUST* Bailed out the Stock Market HIMSELF</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=r0m6zs83Eo0</description>
+      <link>https://www.youtube.com/watch?v=r0m6zs83Eo0</link>
+      <pubDate>Fri, 16 Oct 2026 04:54:52 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-r0m6zs83Eo0</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261016-r0m6zs83Eo0.mp3"
+        length="14396351"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:19:59</itunes:duration>
+      <itunes:episode>115</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Holy Sh*t Elon Musk's Roadster Reveal [Tesla SpaceX Stock]</title>
+      <itunes:title>Holy Sh*t Elon Musk's Roadster Reveal [Tesla SpaceX Stock]</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=9c6v-yLww5w</description>
+      <link>https://www.youtube.com/watch?v=9c6v-yLww5w</link>
+      <pubDate>Fri, 16 Oct 2026 02:04:49 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-9c6v-yLww5w</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261016-9c6v-yLww5w.mp3"
+        length="21426443"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:29:45</itunes:duration>
+      <itunes:episode>114</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Is the Recession Beginning?!?!?!</title>
       <itunes:title>Is the Recession Beginning?!?!?!</itunes:title>
@@ -1265,74 +1316,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:23:13</itunes:duration>
       <itunes:episode>41</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Final Warning on Fed [Watch Now]</title>
-      <itunes:title>Final Warning on Fed [Watch Now]</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=uXS337Waf7w</description>
-      <link>https://www.youtube.com/watch?v=uXS337Waf7w</link>
-      <pubDate>Wed, 16 Sep 2026 15:05:25 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-uXS337Waf7w</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260916-uXS337Waf7w.mp3"
-        length="7277723"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:10:06</itunes:duration>
-      <itunes:episode>40</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>The Fed MUST Hike Today.</title>
-      <itunes:title>The Fed MUST Hike Today.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ZHgxrjR5KgE</description>
-      <link>https://www.youtube.com/watch?v=ZHgxrjR5KgE</link>
-      <pubDate>Wed, 16 Sep 2026 06:55:07 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-ZHgxrjR5KgE</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260916-ZHgxrjR5KgE.mp3"
-        length="8300048"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:11:31</itunes:duration>
-      <itunes:episode>39</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>NBC News Helicopter JUST CRASHED | LIVE FOOTAGE | Analysis</title>
-      <itunes:title>NBC News Helicopter JUST CRASHED | LIVE FOOTAGE | Analysis</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=tnPDAasQK0g</description>
-      <link>https://www.youtube.com/watch?v=tnPDAasQK0g</link>
-      <pubDate>Wed, 16 Sep 2026 05:41:19 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-tnPDAasQK0g</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260916-tnPDAasQK0g.mp3"
-        length="10975677"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:15:14</itunes:duration>
-      <itunes:episode>38</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>The Iran War JUST Hit Rock Bottom.</title>
-      <itunes:title>The Iran War JUST Hit Rock Bottom.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=2pSUF0ITjAk</description>
-      <link>https://www.youtube.com/watch?v=2pSUF0ITjAk</link>
-      <pubDate>Tue, 15 Sep 2026 23:31:03 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-2pSUF0ITjAk</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260915-2pSUF0ITjAk.mp3"
-        length="12069735"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:16:45</itunes:duration>
-      <itunes:episode>37</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

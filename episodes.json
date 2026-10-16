@@ -1,54 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=2pSUF0ITjAk",
-    "duration_seconds": 1005,
-    "episode_number": 37,
-    "filename": "audio_files/meet-kevin-20260915-2pSUF0ITjAk.mp3",
-    "guid": "meet-kevin-2pSUF0ITjAk",
-    "published_timestamp": 1789515063,
-    "source_id": "2pSUF0ITjAk",
-    "source_url": "https://www.youtube.com/watch?v=2pSUF0ITjAk",
-    "title": "The Iran War JUST Hit Rock Bottom."
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=tnPDAasQK0g",
-    "duration_seconds": 914,
-    "episode_number": 38,
-    "filename": "audio_files/meet-kevin-20260916-tnPDAasQK0g.mp3",
-    "guid": "meet-kevin-tnPDAasQK0g",
-    "published_timestamp": 1789537279,
-    "source_id": "tnPDAasQK0g",
-    "source_url": "https://www.youtube.com/watch?v=tnPDAasQK0g",
-    "title": "NBC News Helicopter JUST CRASHED | LIVE FOOTAGE | Analysis"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ZHgxrjR5KgE",
-    "duration_seconds": 691,
-    "episode_number": 39,
-    "filename": "audio_files/meet-kevin-20260916-ZHgxrjR5KgE.mp3",
-    "guid": "meet-kevin-ZHgxrjR5KgE",
-    "published_timestamp": 1789541707,
-    "source_id": "ZHgxrjR5KgE",
-    "source_url": "https://www.youtube.com/watch?v=ZHgxrjR5KgE",
-    "title": "The Fed MUST Hike Today."
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=uXS337Waf7w",
-    "duration_seconds": 606,
-    "episode_number": 40,
-    "filename": "audio_files/meet-kevin-20260916-uXS337Waf7w.mp3",
-    "guid": "meet-kevin-uXS337Waf7w",
-    "published_timestamp": 1789571125,
-    "source_id": "uXS337Waf7w",
-    "source_url": "https://www.youtube.com/watch?v=uXS337Waf7w",
-    "title": "Final Warning on Fed [Watch Now]"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=qISyErK8cd8",
     "duration_seconds": 1393,
     "episode_number": 41,
@@ -922,5 +874,41 @@
     "source_id": "C358wmTbV3I",
     "source_url": "https://www.youtube.com/watch?v=C358wmTbV3I",
     "title": "Is the Recession Beginning?!?!?!"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=9c6v-yLww5w",
+    "duration_seconds": 1785,
+    "episode_number": 114,
+    "filename": "audio_files/meet-kevin-20261016-9c6v-yLww5w.mp3",
+    "guid": "meet-kevin-9c6v-yLww5w",
+    "published_timestamp": 1792116289,
+    "source_id": "9c6v-yLww5w",
+    "source_url": "https://www.youtube.com/watch?v=9c6v-yLww5w",
+    "title": "Holy Sh*t Elon Musk's Roadster Reveal [Tesla SpaceX Stock]"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=r0m6zs83Eo0",
+    "duration_seconds": 1199,
+    "episode_number": 115,
+    "filename": "audio_files/meet-kevin-20261016-r0m6zs83Eo0.mp3",
+    "guid": "meet-kevin-r0m6zs83Eo0",
+    "published_timestamp": 1792126492,
+    "source_id": "r0m6zs83Eo0",
+    "source_url": "https://www.youtube.com/watch?v=r0m6zs83Eo0",
+    "title": "Kevin Warsh *JUST* Bailed out the Stock Market HIMSELF"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=W3pmAjJmX1A",
+    "duration_seconds": 1630,
+    "episode_number": 116,
+    "filename": "audio_files/meet-kevin-20261016-W3pmAjJmX1A.mp3",
+    "guid": "meet-kevin-W3pmAjJmX1A",
+    "published_timestamp": 1792164469,
+    "source_id": "W3pmAjJmX1A",
+    "source_url": "https://www.youtube.com/watch?v=W3pmAjJmX1A",
+    "title": "Elon Musk & Republicans are Freaking Out."
   }
 ]
