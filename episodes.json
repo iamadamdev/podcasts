@@ -1,42 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=eUS1QM-w9-Q",
-    "duration_seconds": 846,
-    "episode_number": 43,
-    "filename": "audio_files/meet-kevin-20260917-eUS1QM-w9-Q.mp3",
-    "guid": "meet-kevin-eUS1QM-w9-Q",
-    "published_timestamp": 1789608548,
-    "source_id": "eUS1QM-w9-Q",
-    "source_url": "https://www.youtube.com/watch?v=eUS1QM-w9-Q",
-    "title": "Trump *JUST* Lashed Out | Big Mistakes."
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=b92Fzo1GkSY",
-    "duration_seconds": 1072,
-    "episode_number": 44,
-    "filename": "audio_files/meet-kevin-20260917-b92Fzo1GkSY.mp3",
-    "guid": "meet-kevin-b92Fzo1GkSY",
-    "published_timestamp": 1789622098,
-    "source_id": "b92Fzo1GkSY",
-    "source_url": "https://www.youtube.com/watch?v=b92Fzo1GkSY",
-    "title": "THIS Stock is about to 2x!"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Y3FOZfOm_mU",
-    "duration_seconds": 877,
-    "episode_number": 45,
-    "filename": "audio_files/meet-kevin-20260917-Y3FOZfOm_mU.mp3",
-    "guid": "meet-kevin-Y3FOZfOm_mU",
-    "published_timestamp": 1789659010,
-    "source_id": "Y3FOZfOm_mU",
-    "source_url": "https://www.youtube.com/watch?v=Y3FOZfOm_mU",
-    "title": "Trump is TACO'ing on Iran!!"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=mOKAVplATpY",
     "duration_seconds": 1091,
     "episode_number": 46,
@@ -898,5 +862,17 @@
     "source_id": "Yj24QTdKhJ0",
     "source_url": "https://www.youtube.com/watch?v=Yj24QTdKhJ0",
     "title": "Apple JUST Suffered a \"NATIONWIDE\" Failure."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=_K-t9h6VrEU",
+    "duration_seconds": 606,
+    "episode_number": 118,
+    "filename": "audio_files/meet-kevin-20261017-_K-t9h6VrEU.mp3",
+    "guid": "meet-kevin-_K-t9h6VrEU",
+    "published_timestamp": 1792196394,
+    "source_id": "_K-t9h6VrEU",
+    "source_url": "https://www.youtube.com/watch?v=_K-t9h6VrEU",
+    "title": "Prepare: Gold Prices are Set to Skyrocket on THIS DATE."
   }
 ]
