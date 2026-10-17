@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=mOKAVplATpY",
-    "duration_seconds": 1091,
-    "episode_number": 46,
-    "filename": "audio_files/meet-kevin-20260917-mOKAVplATpY.mp3",
-    "guid": "meet-kevin-mOKAVplATpY",
-    "published_timestamp": 1789663959,
-    "source_id": "mOKAVplATpY",
-    "source_url": "https://www.youtube.com/watch?v=mOKAVplATpY",
-    "title": "Palantir CEO Leaves CNBC SPEECHLES | UNHINGED INTERVIEW"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=HQTGvFMVNRQ",
     "duration_seconds": 1002,
     "episode_number": 47,
@@ -874,5 +862,17 @@
     "source_id": "_K-t9h6VrEU",
     "source_url": "https://www.youtube.com/watch?v=_K-t9h6VrEU",
     "title": "Prepare: Gold Prices are Set to Skyrocket on THIS DATE."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=4cHxN5i0-ZE",
+    "duration_seconds": 806,
+    "episode_number": 119,
+    "filename": "audio_files/meet-kevin-20261017-4cHxN5i0-ZE.mp3",
+    "guid": "meet-kevin-4cHxN5i0-ZE",
+    "published_timestamp": 1792259226,
+    "source_id": "4cHxN5i0-ZE",
+    "source_url": "https://www.youtube.com/watch?v=4cHxN5i0-ZE",
+    "title": "The Collapse is Starting: Is this the Black Swan?"
   }
 ]
