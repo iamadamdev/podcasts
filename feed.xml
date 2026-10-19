@@ -1200,22 +1200,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>Palantir BLAMED: 123 Children Deaths in Iran [Pentagon Failure]</title>
-      <itunes:title>Palantir BLAMED: 123 Children Deaths in Iran [Pentagon Failure]</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=cgW7x3wi6DI</description>
-      <link>https://www.youtube.com/watch?v=cgW7x3wi6DI</link>
-      <pubDate>Sat, 19 Sep 2026 21:28:23 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-cgW7x3wi6DI</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260919-cgW7x3wi6DI.mp3"
-        length="14128988"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:19:37</itunes:duration>
-      <itunes:episode>51</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
