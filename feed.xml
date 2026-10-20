@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Tue, 20 Oct 2026 15:15:58 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 21:26:46 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>The NEXT Frontier: THESE 3 Stocks Boom</title>
+      <itunes:title>The NEXT Frontier: THESE 3 Stocks Boom</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=YWko9ktMKgA</description>
+      <link>https://www.youtube.com/watch?v=YWko9ktMKgA</link>
+      <pubDate>Tue, 20 Oct 2026 21:26:46 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-YWko9ktMKgA</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261020-YWko9ktMKgA.mp3"
+        length="12161709"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:16:53</itunes:duration>
+      <itunes:episode>122</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Holy Iran</title>
       <itunes:title>Holy Iran</itunes:title>
