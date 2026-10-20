@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=VXfzcEdZhQE",
-    "duration_seconds": 1284,
-    "episode_number": 52,
-    "filename": "audio_files/meet-kevin-20260920-VXfzcEdZhQE.mp3",
-    "guid": "meet-kevin-VXfzcEdZhQE",
-    "published_timestamp": 1789915993,
-    "source_id": "VXfzcEdZhQE",
-    "source_url": "https://www.youtube.com/watch?v=VXfzcEdZhQE",
-    "title": "The Oil & Iran Situation JUST got Really Bad."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ImLNQWvwLus",
     "duration_seconds": 1505,
     "episode_number": 53,
@@ -826,5 +814,17 @@
     "source_id": "4DrkLyosnvk",
     "source_url": "https://www.youtube.com/watch?v=4DrkLyosnvk",
     "title": "The UNTHINKABLE is About to Happen to the Stock Market"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=3tSopkKTPFk",
+    "duration_seconds": 1672,
+    "episode_number": 121,
+    "filename": "audio_files/meet-kevin-20261020-3tSopkKTPFk.mp3",
+    "guid": "meet-kevin-3tSopkKTPFk",
+    "published_timestamp": 1792509358,
+    "source_id": "3tSopkKTPFk",
+    "source_url": "https://www.youtube.com/watch?v=3tSopkKTPFk",
+    "title": "Holy Iran"
   }
 ]
