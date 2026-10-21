@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ImLNQWvwLus",
-    "duration_seconds": 1505,
-    "episode_number": 53,
-    "filename": "audio_files/meet-kevin-20260921-ImLNQWvwLus.mp3",
-    "guid": "meet-kevin-ImLNQWvwLus",
-    "published_timestamp": 1790002923,
-    "source_id": "ImLNQWvwLus",
-    "source_url": "https://www.youtube.com/watch?v=ImLNQWvwLus",
-    "title": "why stocks are skyrocketing [spoiler: it's just getting started]"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=21bJunhHjDQ",
     "duration_seconds": 1454,
     "episode_number": 54,
@@ -838,5 +826,17 @@
     "source_id": "YWko9ktMKgA",
     "source_url": "https://www.youtube.com/watch?v=YWko9ktMKgA",
     "title": "The NEXT Frontier: THESE 3 Stocks Boom"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Jeg_bWQzWLk",
+    "duration_seconds": 893,
+    "episode_number": 123,
+    "filename": "audio_files/meet-kevin-20261020-Jeg_bWQzWLk.mp3",
+    "guid": "meet-kevin-Jeg_bWQzWLk",
+    "published_timestamp": 1792538216,
+    "source_id": "Jeg_bWQzWLk",
+    "source_url": "https://www.youtube.com/watch?v=Jeg_bWQzWLk",
+    "title": "holy sh*t spaceX stock"
   }
 ]
