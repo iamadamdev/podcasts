@@ -1,30 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Ub560vVBwJ8",
-    "duration_seconds": 1021,
-    "episode_number": 58,
-    "filename": "audio_files/meet-kevin-20260922-Ub560vVBwJ8.mp3",
-    "guid": "meet-kevin-Ub560vVBwJ8",
-    "published_timestamp": 1790103717,
-    "source_id": "Ub560vVBwJ8",
-    "source_url": "https://www.youtube.com/watch?v=Ub560vVBwJ8",
-    "title": "Goldman ISSUES Warning for the Total Stock Market | 2027 will SUCK."
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=1i_QB1qGkMs",
-    "duration_seconds": 1003,
-    "episode_number": 59,
-    "filename": "audio_files/meet-kevin-20260922-1i_QB1qGkMs.mp3",
-    "guid": "meet-kevin-1i_QB1qGkMs",
-    "published_timestamp": 1790116162,
-    "source_id": "1i_QB1qGkMs",
-    "source_url": "https://www.youtube.com/watch?v=1i_QB1qGkMs",
-    "title": "The Fed JUST Issued a New Warning. Damn."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Fd-wKbnG-34",
     "duration_seconds": 1542,
     "episode_number": 60,
@@ -838,5 +814,29 @@
     "source_id": "LU4FDsvAk4o",
     "source_url": "https://www.youtube.com/watch?v=LU4FDsvAk4o",
     "title": "F**K: \"Restarting Strikes\""
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=xRYpZoPRPh8",
+    "duration_seconds": 1187,
+    "episode_number": 128,
+    "filename": "audio_files/meet-kevin-20261022-xRYpZoPRPh8.mp3",
+    "guid": "meet-kevin-xRYpZoPRPh8",
+    "published_timestamp": 1792692787,
+    "source_id": "xRYpZoPRPh8",
+    "source_url": "https://www.youtube.com/watch?v=xRYpZoPRPh8",
+    "title": "DO THIS *BEFORE* The Tesla SpaceX Merger!!"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=-HXNDeabnaM",
+    "duration_seconds": 1636,
+    "episode_number": 129,
+    "filename": "audio_files/meet-kevin-20261022--HXNDeabnaM.mp3",
+    "guid": "meet-kevin--HXNDeabnaM",
+    "published_timestamp": 1792706550,
+    "source_id": "-HXNDeabnaM",
+    "source_url": "https://www.youtube.com/watch?v=-HXNDeabnaM",
+    "title": "The Collapse Begins"
   }
 ]

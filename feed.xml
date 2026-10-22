@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Thu, 22 Oct 2026 15:11:26 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 22:02:30 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>The Collapse Begins</title>
+      <itunes:title>The Collapse Begins</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=-HXNDeabnaM</description>
+      <link>https://www.youtube.com/watch?v=-HXNDeabnaM</link>
+      <pubDate>Thu, 22 Oct 2026 22:02:30 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin--HXNDeabnaM</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261022--HXNDeabnaM.mp3"
+        length="19640910"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:27:16</itunes:duration>
+      <itunes:episode>129</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>DO THIS *BEFORE* The Tesla SpaceX Merger!!</title>
+      <itunes:title>DO THIS *BEFORE* The Tesla SpaceX Merger!!</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=xRYpZoPRPh8</description>
+      <link>https://www.youtube.com/watch?v=xRYpZoPRPh8</link>
+      <pubDate>Thu, 22 Oct 2026 18:13:07 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-xRYpZoPRPh8</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261022-xRYpZoPRPh8.mp3"
+        length="14251505"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:19:47</itunes:duration>
+      <itunes:episode>128</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>F**K: "Restarting Strikes"</title>
       <itunes:title>F**K: "Restarting Strikes"</itunes:title>
@@ -1180,40 +1214,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:25:42</itunes:duration>
       <itunes:episode>60</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>The Fed JUST Issued a New Warning. Damn.</title>
-      <itunes:title>The Fed JUST Issued a New Warning. Damn.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=1i_QB1qGkMs</description>
-      <link>https://www.youtube.com/watch?v=1i_QB1qGkMs</link>
-      <pubDate>Tue, 22 Sep 2026 22:29:22 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-1i_QB1qGkMs</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260922-1i_QB1qGkMs.mp3"
-        length="12047915"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:16:43</itunes:duration>
-      <itunes:episode>59</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Goldman ISSUES Warning for the Total Stock Market | 2027 will SUCK.</title>
-      <itunes:title>Goldman ISSUES Warning for the Total Stock Market | 2027 will SUCK.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Ub560vVBwJ8</description>
-      <link>https://www.youtube.com/watch?v=Ub560vVBwJ8</link>
-      <pubDate>Tue, 22 Sep 2026 19:01:57 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-Ub560vVBwJ8</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260922-Ub560vVBwJ8.mp3"
-        length="12266068"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:17:01</itunes:duration>
-      <itunes:episode>58</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
