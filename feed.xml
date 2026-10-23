@@ -1166,22 +1166,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>i like this stock</title>
-      <itunes:title>i like this stock</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=bytxhgSZTWI</description>
-      <link>https://www.youtube.com/watch?v=bytxhgSZTWI</link>
-      <pubDate>Wed, 23 Sep 2026 20:07:17 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-bytxhgSZTWI</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260923-bytxhgSZTWI.mp3"
-        length="15548606"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:21:35</itunes:duration>
-      <itunes:episode>63</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
