@@ -1,42 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Fd-wKbnG-34",
-    "duration_seconds": 1542,
-    "episode_number": 60,
-    "filename": "audio_files/meet-kevin-20260923-Fd-wKbnG-34.mp3",
-    "guid": "meet-kevin-Fd-wKbnG-34",
-    "published_timestamp": 1790137338,
-    "source_id": "Fd-wKbnG-34",
-    "source_url": "https://www.youtube.com/watch?v=Fd-wKbnG-34",
-    "title": "Why Software & Money Stocks Dumped"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Esbopj4n75w",
-    "duration_seconds": 1515,
-    "episode_number": 61,
-    "filename": "audio_files/meet-kevin-20260923-Esbopj4n75w.mp3",
-    "guid": "meet-kevin-Esbopj4n75w",
-    "published_timestamp": 1790174845,
-    "source_id": "Esbopj4n75w",
-    "source_url": "https://www.youtube.com/watch?v=Esbopj4n75w",
-    "title": "WTF just Happened"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=v0D9sptcGfU",
-    "duration_seconds": 1058,
-    "episode_number": 62,
-    "filename": "audio_files/meet-kevin-20260923-v0D9sptcGfU.mp3",
-    "guid": "meet-kevin-v0D9sptcGfU",
-    "published_timestamp": 1790183450,
-    "source_id": "v0D9sptcGfU",
-    "source_url": "https://www.youtube.com/watch?v=v0D9sptcGfU",
-    "title": "WTF with Iran now...."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=bytxhgSZTWI",
     "duration_seconds": 1295,
     "episode_number": 63,
@@ -838,5 +802,17 @@
     "source_id": "-HXNDeabnaM",
     "source_url": "https://www.youtube.com/watch?v=-HXNDeabnaM",
     "title": "The Collapse Begins"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=d5sUN3Gx18Q",
+    "duration_seconds": 1606,
+    "episode_number": 130,
+    "filename": "audio_files/meet-kevin-20261023-d5sUN3Gx18Q.mp3",
+    "guid": "meet-kevin-d5sUN3Gx18Q",
+    "published_timestamp": 1792768641,
+    "source_id": "d5sUN3Gx18Q",
+    "source_url": "https://www.youtube.com/watch?v=d5sUN3Gx18Q",
+    "title": "PREPARE: The Bailout is Coming."
   }
 ]

@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Thu, 22 Oct 2026 22:02:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 15:17:21 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>PREPARE: The Bailout is Coming.</title>
+      <itunes:title>PREPARE: The Bailout is Coming.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=d5sUN3Gx18Q</description>
+      <link>https://www.youtube.com/watch?v=d5sUN3Gx18Q</link>
+      <pubDate>Fri, 23 Oct 2026 15:17:21 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-d5sUN3Gx18Q</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261023-d5sUN3Gx18Q.mp3"
+        length="19280326"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:26:46</itunes:duration>
+      <itunes:episode>130</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Collapse Begins</title>
       <itunes:title>The Collapse Begins</itunes:title>
@@ -1163,57 +1180,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:21:35</itunes:duration>
       <itunes:episode>63</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>WTF with Iran now....</title>
-      <itunes:title>WTF with Iran now....</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=v0D9sptcGfU</description>
-      <link>https://www.youtube.com/watch?v=v0D9sptcGfU</link>
-      <pubDate>Wed, 23 Sep 2026 17:10:50 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-v0D9sptcGfU</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260923-v0D9sptcGfU.mp3"
-        length="12711946"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:17:38</itunes:duration>
-      <itunes:episode>62</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>WTF just Happened</title>
-      <itunes:title>WTF just Happened</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Esbopj4n75w</description>
-      <link>https://www.youtube.com/watch?v=Esbopj4n75w</link>
-      <pubDate>Wed, 23 Sep 2026 14:47:25 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-Esbopj4n75w</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260923-Esbopj4n75w.mp3"
-        length="18193560"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:25:15</itunes:duration>
-      <itunes:episode>61</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Why Software &amp; Money Stocks Dumped</title>
-      <itunes:title>Why Software &amp; Money Stocks Dumped</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Fd-wKbnG-34</description>
-      <link>https://www.youtube.com/watch?v=Fd-wKbnG-34</link>
-      <pubDate>Wed, 23 Sep 2026 04:22:18 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-Fd-wKbnG-34</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260923-Fd-wKbnG-34.mp3"
-        length="18513855"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:25:42</itunes:duration>
-      <itunes:episode>60</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
