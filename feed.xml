@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Tue, 27 Oct 2026 15:41:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 20:31:31 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,261 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Anthropic JUST Crashed the Market: Explained.</title>
+      <itunes:title>Anthropic JUST Crashed the Market: Explained.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=jt9kvVqzo0M</description>
+      <link>https://www.youtube.com/watch?v=jt9kvVqzo0M</link>
+      <pubDate>Fri, 30 Oct 2026 20:31:31 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-jt9kvVqzo0M</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261030-jt9kvVqzo0M.mp3"
+        length="23413168"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:32:30</itunes:duration>
+      <itunes:episode>149</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The War is about to get REALLY BAD</title>
+      <itunes:title>The War is about to get REALLY BAD</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=SrueFYphB4Y</description>
+      <link>https://www.youtube.com/watch?v=SrueFYphB4Y</link>
+      <pubDate>Fri, 30 Oct 2026 16:51:48 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-SrueFYphB4Y</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261030-SrueFYphB4Y.mp3"
+        length="19034703"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:26:25</itunes:duration>
+      <itunes:episode>148</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Binance Hack | Explained.</title>
+      <itunes:title>The Binance Hack | Explained.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=BMO6RQAFGhM</description>
+      <link>https://www.youtube.com/watch?v=BMO6RQAFGhM</link>
+      <pubDate>Fri, 30 Oct 2026 04:27:50 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-BMO6RQAFGhM</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261030-BMO6RQAFGhM.mp3"
+        length="18550128"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:25:45</itunes:duration>
+      <itunes:episode>147</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Negative One Trillion Dollars.</title>
+      <itunes:title>Negative One Trillion Dollars.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=pmqaaMHfcm8</description>
+      <link>https://www.youtube.com/watch?v=pmqaaMHfcm8</link>
+      <pubDate>Thu, 29 Oct 2026 18:22:40 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-pmqaaMHfcm8</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261029-pmqaaMHfcm8.mp3"
+        length="8226053"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:11:25</itunes:duration>
+      <itunes:episode>146</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>We need to Talk.</title>
+      <itunes:title>We need to Talk.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=sP9bfi2Tbvg</description>
+      <link>https://www.youtube.com/watch?v=sP9bfi2Tbvg</link>
+      <pubDate>Thu, 29 Oct 2026 15:03:00 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-sP9bfi2Tbvg</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261029-sP9bfi2Tbvg.mp3"
+        length="16061847"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:22:18</itunes:duration>
+      <itunes:episode>145</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>HOLY AI Merger: Nvidia's AI Stocks Marvell &amp; Lumentum MERGING</title>
+      <itunes:title>HOLY AI Merger: Nvidia's AI Stocks Marvell &amp; Lumentum MERGING</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=7j2C87An-SM</description>
+      <link>https://www.youtube.com/watch?v=7j2C87An-SM</link>
+      <pubDate>Thu, 29 Oct 2026 04:34:04 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-7j2C87An-SM</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261029-7j2C87An-SM.mp3"
+        length="17946592"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:24:55</itunes:duration>
+      <itunes:episode>144</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>It's OVER for these Home Buyers | The Housing Crash.</title>
+      <itunes:title>It's OVER for these Home Buyers | The Housing Crash.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=tCY71_jQp24</description>
+      <link>https://www.youtube.com/watch?v=tCY71_jQp24</link>
+      <pubDate>Thu, 29 Oct 2026 02:58:52 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-tCY71_jQp24</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261029-tCY71_jQp24.mp3"
+        length="10944119"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:15:11</itunes:duration>
+      <itunes:episode>143</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>RIP | GOOGLE STOCK CRASH</title>
+      <itunes:title>RIP | GOOGLE STOCK CRASH</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=IPYxNoC1aL4</description>
+      <link>https://www.youtube.com/watch?v=IPYxNoC1aL4</link>
+      <pubDate>Wed, 28 Oct 2026 21:32:58 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-IPYxNoC1aL4</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261028-IPYxNoC1aL4.mp3"
+        length="15600841"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:21:39</itunes:duration>
+      <itunes:episode>142</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>holy f**k | What the Fed JUST SAID</title>
+      <itunes:title>holy f**k | What the Fed JUST SAID</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Q7fUNbiYTTc</description>
+      <link>https://www.youtube.com/watch?v=Q7fUNbiYTTc</link>
+      <pubDate>Wed, 28 Oct 2026 19:35:56 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-Q7fUNbiYTTc</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261028-Q7fUNbiYTTc.mp3"
+        length="11452783"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:15:53</itunes:duration>
+      <itunes:episode>141</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>omg Trump just SIGNALED the Iran Deal!!!</title>
+      <itunes:title>omg Trump just SIGNALED the Iran Deal!!!</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ISBrgpVqdEU</description>
+      <link>https://www.youtube.com/watch?v=ISBrgpVqdEU</link>
+      <pubDate>Wed, 28 Oct 2026 18:25:26 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-ISBrgpVqdEU</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261028-ISBrgpVqdEU.mp3"
+        length="5993475"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:08:19</itunes:duration>
+      <itunes:episode>140</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>my final warning</title>
+      <itunes:title>my final warning</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=nvu1YtsJ5Z0</description>
+      <link>https://www.youtube.com/watch?v=nvu1YtsJ5Z0</link>
+      <pubDate>Wed, 28 Oct 2026 15:14:37 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-nvu1YtsJ5Z0</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261028-nvu1YtsJ5Z0.mp3"
+        length="8343735"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:11:34</itunes:duration>
+      <itunes:episode>139</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>oh **** warsh is MAAAAADDDD</title>
+      <itunes:title>oh **** warsh is MAAAAADDDD</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=aV0yYYGZ5LE</description>
+      <link>https://www.youtube.com/watch?v=aV0yYYGZ5LE</link>
+      <pubDate>Wed, 28 Oct 2026 01:58:36 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-aV0yYYGZ5LE</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261028-aV0yYYGZ5LE.mp3"
+        length="13304032"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:18:28</itunes:duration>
+      <itunes:episode>138</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>holy sh*t JENSEN!!!</title>
+      <itunes:title>holy sh*t JENSEN!!!</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=LpMoj9cnfCo</description>
+      <link>https://www.youtube.com/watch?v=LpMoj9cnfCo</link>
+      <pubDate>Tue, 27 Oct 2026 22:56:15 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-LpMoj9cnfCo</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261027-LpMoj9cnfCo.mp3"
+        length="18225424"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:25:18</itunes:duration>
+      <itunes:episode>137</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Robinhood's Warning | HOOD Stock</title>
+      <itunes:title>Robinhood's Warning | HOOD Stock</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=WH_NeyCLFA8</description>
+      <link>https://www.youtube.com/watch?v=WH_NeyCLFA8</link>
+      <pubDate>Tue, 27 Oct 2026 20:56:14 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-WH_NeyCLFA8</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261027-WH_NeyCLFA8.mp3"
+        length="11095081"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:15:24</itunes:duration>
+      <itunes:episode>136</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>what if I'm WRONG about Iran</title>
+      <itunes:title>what if I'm WRONG about Iran</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=g3WWOicq7GM</description>
+      <link>https://www.youtube.com/watch?v=g3WWOicq7GM</link>
+      <pubDate>Tue, 27 Oct 2026 17:52:20 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-g3WWOicq7GM</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261027-g3WWOicq7GM.mp3"
+        length="15080293"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:20:56</itunes:duration>
+      <itunes:episode>135</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Credit Market *JUST* Sent a Warning</title>
       <itunes:title>The Credit Market *JUST* Sent a Warning</itunes:title>
@@ -823,193 +1078,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:23:45</itunes:duration>
       <itunes:episode>88</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>The Two BEST Investments *NOW* in THIS Economy.</title>
-      <itunes:title>The Two BEST Investments *NOW* in THIS Economy.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=0Cj-rRA_wog</description>
-      <link>https://www.youtube.com/watch?v=0Cj-rRA_wog</link>
-      <pubDate>Wed, 30 Sep 2026 18:49:54 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-0Cj-rRA_wog</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260930-0Cj-rRA_wog.mp3"
-        length="21552438"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:29:55</itunes:duration>
-      <itunes:episode>87</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>We have Problems.</title>
-      <itunes:title>We have Problems.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=p6L7s1BjRgs</description>
-      <link>https://www.youtube.com/watch?v=p6L7s1BjRgs</link>
-      <pubDate>Wed, 30 Sep 2026 16:05:21 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-p6L7s1BjRgs</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260930-p6L7s1BjRgs.mp3"
-        length="19904000"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:27:38</itunes:duration>
-      <itunes:episode>86</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>737 Max *JUST* Hijacked: FlyDubai - Israel Aircraft Hijack [Dubai to Tel Aviv Hijack FZ1073 A6-FKF]</title>
-      <itunes:title>737 Max *JUST* Hijacked: FlyDubai - Israel Aircraft Hijack [Dubai to Tel Aviv Hijack FZ1073 A6-FKF]</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=IVbfu7kzCIE</description>
-      <link>https://www.youtube.com/watch?v=IVbfu7kzCIE</link>
-      <pubDate>Wed, 30 Sep 2026 13:09:31 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-IVbfu7kzCIE</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260930-IVbfu7kzCIE.mp3"
-        length="12759084"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:17:42</itunes:duration>
-      <itunes:episode>85</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>HOLY SH*T: THE FED RESERVE *JUST* BAILED US OUT</title>
-      <itunes:title>HOLY SH*T: THE FED RESERVE *JUST* BAILED US OUT</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Jj6In4c4180</description>
-      <link>https://www.youtube.com/watch?v=Jj6In4c4180</link>
-      <pubDate>Wed, 30 Sep 2026 02:36:53 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-Jj6In4c4180</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260930-Jj6In4c4180.mp3"
-        length="9808112"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:13:36</itunes:duration>
-      <itunes:episode>84</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>THESE Stocks might Get SCREWED</title>
-      <itunes:title>THESE Stocks might Get SCREWED</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=QEswpKUPn4g</description>
-      <link>https://www.youtube.com/watch?v=QEswpKUPn4g</link>
-      <pubDate>Wed, 30 Sep 2026 00:23:10 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-QEswpKUPn4g</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260930-QEswpKUPn4g.mp3"
-        length="9911349"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:13:45</itunes:duration>
-      <itunes:episode>83</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>what Trump and AI Executives JUST SAID at the White House</title>
-      <itunes:title>what Trump and AI Executives JUST SAID at the White House</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=fWvNuaXI5EI</description>
-      <link>https://www.youtube.com/watch?v=fWvNuaXI5EI</link>
-      <pubDate>Tue, 29 Sep 2026 21:05:57 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-fWvNuaXI5EI</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260929-fWvNuaXI5EI.mp3"
-        length="12067666"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:16:45</itunes:duration>
-      <itunes:episode>82</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>buy now.</title>
-      <itunes:title>buy now.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=4-vUYqlX6v4</description>
-      <link>https://www.youtube.com/watch?v=4-vUYqlX6v4</link>
-      <pubDate>Tue, 29 Sep 2026 16:12:13 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-4-vUYqlX6v4</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260929-4-vUYqlX6v4.mp3"
-        length="15168367"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:21:03</itunes:duration>
-      <itunes:episode>81</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>the fed JUST warned | hiking could be a big mistake</title>
-      <itunes:title>the fed JUST warned | hiking could be a big mistake</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=hUdk2DuTDYM</description>
-      <link>https://www.youtube.com/watch?v=hUdk2DuTDYM</link>
-      <pubDate>Tue, 29 Sep 2026 12:27:01 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-hUdk2DuTDYM</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260929-hUdk2DuTDYM.mp3"
-        length="18392386"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:25:32</itunes:duration>
-      <itunes:episode>80</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>holy moly... Anthropic financials JUST dropped</title>
-      <itunes:title>holy moly... Anthropic financials JUST dropped</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=qJLS_dpVtbU</description>
-      <link>https://www.youtube.com/watch?v=qJLS_dpVtbU</link>
-      <pubDate>Tue, 29 Sep 2026 02:07:09 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-qJLS_dpVtbU</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260929-qJLS_dpVtbU.mp3"
-        length="11256183"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:15:37</itunes:duration>
-      <itunes:episode>79</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>The Warning Signal: The AI Bubble TOP.</title>
-      <itunes:title>The Warning Signal: The AI Bubble TOP.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ouENieeI9Xs</description>
-      <link>https://www.youtube.com/watch?v=ouENieeI9Xs</link>
-      <pubDate>Mon, 28 Sep 2026 22:18:26 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-ouENieeI9Xs</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260928-ouENieeI9Xs.mp3"
-        length="9594369"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:13:19</itunes:duration>
-      <itunes:episode>78</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>CRAP: Worst Since 2000.</title>
-      <itunes:title>CRAP: Worst Since 2000.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=cQW2LuMtlFU</description>
-      <link>https://www.youtube.com/watch?v=cQW2LuMtlFU</link>
-      <pubDate>Mon, 28 Sep 2026 15:27:02 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-cQW2LuMtlFU</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20260928-cQW2LuMtlFU.mp3"
-        length="18403246"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:25:33</itunes:duration>
-      <itunes:episode>77</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
