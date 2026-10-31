@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=0p8_ou8dUpM",
-    "duration_seconds": 1425,
-    "episode_number": 88,
-    "filename": "audio_files/meet-kevin-20261001-0p8_ou8dUpM.mp3",
-    "guid": "meet-kevin-0p8_ou8dUpM",
-    "published_timestamp": 1790825325,
-    "source_id": "0p8_ou8dUpM",
-    "source_url": "https://www.youtube.com/watch?v=0p8_ou8dUpM",
-    "title": "The Ultimate Tax Hack for Wealth Compounders."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=-e9je44Oju8",
     "duration_seconds": 1015,
     "episode_number": 89,
@@ -742,5 +730,17 @@
     "source_id": "jt9kvVqzo0M",
     "source_url": "https://www.youtube.com/watch?v=jt9kvVqzo0M",
     "title": "Anthropic JUST Crashed the Market: Explained."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=R6CTLeHIJBY",
+    "duration_seconds": 1562,
+    "episode_number": 150,
+    "filename": "audio_files/meet-kevin-20261031-R6CTLeHIJBY.mp3",
+    "guid": "meet-kevin-R6CTLeHIJBY",
+    "published_timestamp": 1793415049,
+    "source_id": "R6CTLeHIJBY",
+    "source_url": "https://www.youtube.com/watch?v=R6CTLeHIJBY",
+    "title": "They JUST Accidentally Revealed the Truth: The AI Bubble"
   }
 ]
