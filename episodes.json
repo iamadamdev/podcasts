@@ -1,42 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=cevpGyjZfKk",
-    "duration_seconds": 1222,
-    "episode_number": 91,
-    "filename": "audio_files/meet-kevin-20261002-cevpGyjZfKk.mp3",
-    "guid": "meet-kevin-cevpGyjZfKk",
-    "published_timestamp": 1790960427,
-    "source_id": "cevpGyjZfKk",
-    "source_url": "https://www.youtube.com/watch?v=cevpGyjZfKk",
-    "title": "The Iran War is Flipping | Warning."
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=1y9JuHMvkyc",
-    "duration_seconds": 1485,
-    "episode_number": 92,
-    "filename": "audio_files/meet-kevin-20261002-1y9JuHMvkyc.mp3",
-    "guid": "meet-kevin-1y9JuHMvkyc",
-    "published_timestamp": 1790971187,
-    "source_id": "1y9JuHMvkyc",
-    "source_url": "https://www.youtube.com/watch?v=1y9JuHMvkyc",
-    "title": "Holy Sh*t Tesla"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=VUPuNo__yYU",
-    "duration_seconds": 893,
-    "episode_number": 93,
-    "filename": "audio_files/meet-kevin-20261002-VUPuNo__yYU.mp3",
-    "guid": "meet-kevin-VUPuNo__yYU",
-    "published_timestamp": 1790976312,
-    "source_id": "VUPuNo__yYU",
-    "source_url": "https://www.youtube.com/watch?v=VUPuNo__yYU",
-    "title": "F**K Systemic Risk Is EXPLODING In Financial Markets"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=kCSOWAoCeXs",
     "duration_seconds": 1266,
     "episode_number": 94,
@@ -730,5 +694,29 @@
     "source_id": "5PPwXRkbNxM",
     "source_url": "https://www.youtube.com/watch?v=5PPwXRkbNxM",
     "title": "You've been WARNED."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=7KqjagCM80I",
+    "duration_seconds": 1365,
+    "episode_number": 152,
+    "filename": "audio_files/meet-kevin-20261101-7KqjagCM80I.mp3",
+    "guid": "meet-kevin-7KqjagCM80I",
+    "published_timestamp": 1793560723,
+    "source_id": "7KqjagCM80I",
+    "source_url": "https://www.youtube.com/watch?v=7KqjagCM80I",
+    "title": "How the Election will Damage Stocks: Prepare."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=M8Gjk4rTNaQ",
+    "duration_seconds": 1324,
+    "episode_number": 153,
+    "filename": "audio_files/meet-kevin-20261101-M8Gjk4rTNaQ.mp3",
+    "guid": "meet-kevin-M8Gjk4rTNaQ",
+    "published_timestamp": 1793571697,
+    "source_id": "M8Gjk4rTNaQ",
+    "source_url": "https://www.youtube.com/watch?v=M8Gjk4rTNaQ",
+    "title": "HORRIFIC: Florida Learjet Crash Audio [9 Dead] | Explained."
   }
 ]
