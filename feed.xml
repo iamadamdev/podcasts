@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Sun, 01 Nov 2026 22:21:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 19:28:53 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>SHOCKING DATA *Update*: Florida Lear Jet CRASH.</title>
+      <itunes:title>SHOCKING DATA *Update*: Florida Lear Jet CRASH.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=X1Cu5InB6k4</description>
+      <link>https://www.youtube.com/watch?v=X1Cu5InB6k4</link>
+      <pubDate>Mon, 02 Nov 2026 19:28:53 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-X1Cu5InB6k4</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261102-X1Cu5InB6k4.mp3"
+        length="20947450"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:29:05</itunes:duration>
+      <itunes:episode>155</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Final Hours on Iran: Prepare.</title>
+      <itunes:title>The Final Hours on Iran: Prepare.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=t0BEVSmy5xk</description>
+      <link>https://www.youtube.com/watch?v=t0BEVSmy5xk</link>
+      <pubDate>Mon, 02 Nov 2026 15:11:54 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-t0BEVSmy5xk</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261102-t0BEVSmy5xk.mp3"
+        length="12990206"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:18:02</itunes:duration>
+      <itunes:episode>154</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>HORRIFIC: Florida Learjet Crash Audio [9 Dead] | Explained.</title>
       <itunes:title>HORRIFIC: Florida Learjet Crash Audio [9 Dead] | Explained.</itunes:title>
