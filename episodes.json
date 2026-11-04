@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=kCSOWAoCeXs",
-    "duration_seconds": 1266,
-    "episode_number": 94,
-    "filename": "audio_files/meet-kevin-20261005-kCSOWAoCeXs.mp3",
-    "guid": "meet-kevin-kCSOWAoCeXs",
-    "published_timestamp": 1791216140,
-    "source_id": "kCSOWAoCeXs",
-    "source_url": "https://www.youtube.com/watch?v=kCSOWAoCeXs",
-    "title": "Nervous About Economic DOOM"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=2G642xbFBig",
     "duration_seconds": 1265,
     "episode_number": 95,
@@ -778,5 +766,41 @@
     "source_id": "SLG4LOeBjek",
     "source_url": "https://www.youtube.com/watch?v=SLG4LOeBjek",
     "title": "The Start of the AI Boom (Or Depression) [How Cooked are We?!?!]"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=sRAzMmbzAYc",
+    "duration_seconds": 1358,
+    "episode_number": 159,
+    "filename": "audio_files/meet-kevin-20261104-sRAzMmbzAYc.mp3",
+    "guid": "meet-kevin-sRAzMmbzAYc",
+    "published_timestamp": 1793770151,
+    "source_id": "sRAzMmbzAYc",
+    "source_url": "https://www.youtube.com/watch?v=sRAzMmbzAYc",
+    "title": "YIKES: The Election JUST Flipped Everything."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=JYTNMKnbr2E",
+    "duration_seconds": 1033,
+    "episode_number": 160,
+    "filename": "audio_files/meet-kevin-20261104-JYTNMKnbr2E.mp3",
+    "guid": "meet-kevin-JYTNMKnbr2E",
+    "published_timestamp": 1793799641,
+    "source_id": "JYTNMKnbr2E",
+    "source_url": "https://www.youtube.com/watch?v=JYTNMKnbr2E",
+    "title": "Investing in AI Venture Capital with Just $500 (Here’s How)"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=rf6eHOe_jT0",
+    "duration_seconds": 1446,
+    "episode_number": 161,
+    "filename": "audio_files/meet-kevin-20261104-rf6eHOe_jT0.mp3",
+    "guid": "meet-kevin-rf6eHOe_jT0",
+    "published_timestamp": 1793808132,
+    "source_id": "rf6eHOe_jT0",
+    "source_url": "https://www.youtube.com/watch?v=rf6eHOe_jT0",
+    "title": "OMG WHAT'S HAPPENING"
   }
 ]

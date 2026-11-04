@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Tue, 03 Nov 2026 22:52:30 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 16:02:12 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,57 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>OMG WHAT'S HAPPENING</title>
+      <itunes:title>OMG WHAT'S HAPPENING</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=rf6eHOe_jT0</description>
+      <link>https://www.youtube.com/watch?v=rf6eHOe_jT0</link>
+      <pubDate>Wed, 04 Nov 2026 16:02:12 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-rf6eHOe_jT0</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261104-rf6eHOe_jT0.mp3"
+        length="17365945"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:24:06</itunes:duration>
+      <itunes:episode>161</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Investing in AI Venture Capital with Just $500 (Here’s How)</title>
+      <itunes:title>Investing in AI Venture Capital with Just $500 (Here’s How)</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=JYTNMKnbr2E</description>
+      <link>https://www.youtube.com/watch?v=JYTNMKnbr2E</link>
+      <pubDate>Wed, 04 Nov 2026 13:40:41 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-JYTNMKnbr2E</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261104-JYTNMKnbr2E.mp3"
+        length="12406410"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:17:13</itunes:duration>
+      <itunes:episode>160</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>YIKES: The Election JUST Flipped Everything.</title>
+      <itunes:title>YIKES: The Election JUST Flipped Everything.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=sRAzMmbzAYc</description>
+      <link>https://www.youtube.com/watch?v=sRAzMmbzAYc</link>
+      <pubDate>Wed, 04 Nov 2026 05:29:11 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-sRAzMmbzAYc</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261104-sRAzMmbzAYc.mp3"
+        length="16305325"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:22:38</itunes:duration>
+      <itunes:episode>159</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Start of the AI Boom (Or Depression) [How Cooked are We?!?!]</title>
       <itunes:title>The Start of the AI Boom (Or Depression) [How Cooked are We?!?!]</itunes:title>
@@ -1112,23 +1163,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:21:05</itunes:duration>
       <itunes:episode>95</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Nervous About Economic DOOM</title>
-      <itunes:title>Nervous About Economic DOOM</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=kCSOWAoCeXs</description>
-      <link>https://www.youtube.com/watch?v=kCSOWAoCeXs</link>
-      <pubDate>Mon, 05 Oct 2026 16:02:20 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-kCSOWAoCeXs</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261005-kCSOWAoCeXs.mp3"
-        length="15196564"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:21:06</itunes:duration>
-      <itunes:episode>94</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
