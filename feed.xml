@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Mon, 02 Nov 2026 19:28:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 22:52:30 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,57 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>The Start of the AI Boom (Or Depression) [How Cooked are We?!?!]</title>
+      <itunes:title>The Start of the AI Boom (Or Depression) [How Cooked are We?!?!]</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=SLG4LOeBjek</description>
+      <link>https://www.youtube.com/watch?v=SLG4LOeBjek</link>
+      <pubDate>Tue, 03 Nov 2026 22:52:30 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-SLG4LOeBjek</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261103-SLG4LOeBjek.mp3"
+        length="25007593"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:34:43</itunes:duration>
+      <itunes:episode>158</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Learjet Crash Stabilizer Found (BROKE OFF!!) &amp; Victim Profiles: N722BD Crash.</title>
+      <itunes:title>Learjet Crash Stabilizer Found (BROKE OFF!!) &amp; Victim Profiles: N722BD Crash.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=-UiDN400X-c</description>
+      <link>https://www.youtube.com/watch?v=-UiDN400X-c</link>
+      <pubDate>Tue, 03 Nov 2026 18:41:44 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin--UiDN400X-c</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261103--UiDN400X-c.mp3"
+        length="20640222"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:28:39</itunes:duration>
+      <itunes:episode>157</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Trump Accepts Iran Deal Framework | Market Dot Com CRASH Levels.</title>
+      <itunes:title>Trump Accepts Iran Deal Framework | Market Dot Com CRASH Levels.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=uEAn9TO6aew</description>
+      <link>https://www.youtube.com/watch?v=uEAn9TO6aew</link>
+      <pubDate>Tue, 03 Nov 2026 14:11:45 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-uEAn9TO6aew</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261103-uEAn9TO6aew.mp3"
+        length="11627977"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:16:08</itunes:duration>
+      <itunes:episode>156</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>SHOCKING DATA *Update*: Florida Lear Jet CRASH.</title>
       <itunes:title>SHOCKING DATA *Update*: Florida Lear Jet CRASH.</itunes:title>
