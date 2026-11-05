@@ -1,30 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=2G642xbFBig",
-    "duration_seconds": 1265,
-    "episode_number": 95,
-    "filename": "audio_files/meet-kevin-20261006-2G642xbFBig.mp3",
-    "guid": "meet-kevin-2G642xbFBig",
-    "published_timestamp": 1791257975,
-    "source_id": "2G642xbFBig",
-    "source_url": "https://www.youtube.com/watch?v=2G642xbFBig",
-    "title": "Our Economy is about to EXPLODE | Agentic AI SHOCK"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=6jJaBG0_UkE",
-    "duration_seconds": 1716,
-    "episode_number": 96,
-    "filename": "audio_files/meet-kevin-20261006-6jJaBG0_UkE.mp3",
-    "guid": "meet-kevin-6jJaBG0_UkE",
-    "published_timestamp": 1791303122,
-    "source_id": "6jJaBG0_UkE",
-    "source_url": "https://www.youtube.com/watch?v=6jJaBG0_UkE",
-    "title": "DO THIS NOW"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=e-h6qfvdgBY",
     "duration_seconds": 1307,
     "episode_number": 97,
@@ -802,5 +778,29 @@
     "source_id": "rf6eHOe_jT0",
     "source_url": "https://www.youtube.com/watch?v=rf6eHOe_jT0",
     "title": "OMG WHAT'S HAPPENING"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=9wPXrD_uKz8",
+    "duration_seconds": 2619,
+    "episode_number": 162,
+    "filename": "audio_files/meet-kevin-20261105-9wPXrD_uKz8.mp3",
+    "guid": "meet-kevin-9wPXrD_uKz8",
+    "published_timestamp": 1793847532,
+    "source_id": "9wPXrD_uKz8",
+    "source_url": "https://www.youtube.com/watch?v=9wPXrD_uKz8",
+    "title": "I Analyzed Alex Hormozi’s Best & Worst Advice"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=x8vZaAqV0Vg",
+    "duration_seconds": 2325,
+    "episode_number": 163,
+    "filename": "audio_files/meet-kevin-20261105-x8vZaAqV0Vg.mp3",
+    "guid": "meet-kevin-x8vZaAqV0Vg",
+    "published_timestamp": 1793898885,
+    "source_id": "x8vZaAqV0Vg",
+    "source_url": "https://www.youtube.com/watch?v=x8vZaAqV0Vg",
+    "title": "f**k"
   }
 ]
