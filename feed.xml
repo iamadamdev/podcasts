@@ -1064,22 +1064,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>The Bubble *JUST* Popped | WTF Just Happened.</title>
-      <itunes:title>The Bubble *JUST* Popped | WTF Just Happened.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=WGpCozeaTks</description>
-      <link>https://www.youtube.com/watch?v=WGpCozeaTks</link>
-      <pubDate>Thu, 08 Oct 2026 21:07:27 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-WGpCozeaTks</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261008-WGpCozeaTks.mp3"
-        length="23759208"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:32:59</itunes:duration>
-      <itunes:episode>105</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
