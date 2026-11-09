@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Sun, 08 Nov 2026 19:42:10 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 01:55:48 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Jensen Cheated | AI got F**K'd</title>
+      <itunes:title>Jensen Cheated | AI got F**K'd</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Ft6ce7F3U8s</description>
+      <link>https://www.youtube.com/watch?v=Ft6ce7F3U8s</link>
+      <pubDate>Mon, 09 Nov 2026 01:55:48 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-Ft6ce7F3U8s</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261109-Ft6ce7F3U8s.mp3"
+        length="21817605"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:30:17</itunes:duration>
+      <itunes:episode>168</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Trump's NEW Operation in Iran: Prepare.</title>
       <itunes:title>Trump's NEW Operation in Iran: Prepare.</itunes:title>
