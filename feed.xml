@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Mon, 09 Nov 2026 17:32:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 17:00:21 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Lawsuit Filed: Nvidia Stock &amp; Corruption Allegations.</title>
+      <itunes:title>Lawsuit Filed: Nvidia Stock &amp; Corruption Allegations.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=WDosULDZRDI</description>
+      <link>https://www.youtube.com/watch?v=WDosULDZRDI</link>
+      <pubDate>Tue, 10 Nov 2026 17:00:21 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-WDosULDZRDI</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261110-WDosULDZRDI.mp3"
+        length="20449852"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:28:23</itunes:duration>
+      <itunes:episode>171</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>New Evidence Found: Learjet 60 Crash</title>
+      <itunes:title>New Evidence Found: Learjet 60 Crash</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=mWpmwgkjW5I</description>
+      <link>https://www.youtube.com/watch?v=mWpmwgkjW5I</link>
+      <pubDate>Tue, 10 Nov 2026 00:51:26 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-mWpmwgkjW5I</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261110-mWpmwgkjW5I.mp3"
+        length="28418939"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:39:27</itunes:duration>
+      <itunes:episode>170</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Prepare for Tomorrow: VIOLENT Stock Market</title>
       <itunes:title>Prepare for Tomorrow: VIOLENT Stock Market</itunes:title>
