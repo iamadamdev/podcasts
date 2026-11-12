@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=XHjzdg83n3k",
-    "duration_seconds": 1659,
-    "episode_number": 108,
-    "filename": "audio_files/meet-kevin-20261013-XHjzdg83n3k.mp3",
-    "guid": "meet-kevin-XHjzdg83n3k",
-    "published_timestamp": 1791904774,
-    "source_id": "XHjzdg83n3k",
-    "source_url": "https://www.youtube.com/watch?v=XHjzdg83n3k",
-    "title": "We have *JUST* 7 days left."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=qYgPfFhV3d4",
     "duration_seconds": 750,
     "episode_number": 109,
@@ -790,5 +778,29 @@
     "source_id": "k3KkWr5DgyE",
     "source_url": "https://www.youtube.com/watch?v=k3KkWr5DgyE",
     "title": "Prepare for the Anthropic IPO [Full Warning]."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=2I9KLQSHn_s",
+    "duration_seconds": 1008,
+    "episode_number": 174,
+    "filename": "audio_files/meet-kevin-20261112-2I9KLQSHn_s.mp3",
+    "guid": "meet-kevin-2I9KLQSHn_s",
+    "published_timestamp": 1794443697,
+    "source_id": "2I9KLQSHn_s",
+    "source_url": "https://www.youtube.com/watch?v=2I9KLQSHn_s",
+    "title": "*Caught on Camera* JENSEN is getting FIRED | 2nd Affair REVEALED"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=0A9uTZ4Q27M",
+    "duration_seconds": 710,
+    "episode_number": 175,
+    "filename": "audio_files/meet-kevin-20261112-0A9uTZ4Q27M.mp3",
+    "guid": "meet-kevin-0A9uTZ4Q27M",
+    "published_timestamp": 1794496092,
+    "source_id": "0A9uTZ4Q27M",
+    "source_url": "https://www.youtube.com/watch?v=0A9uTZ4Q27M",
+    "title": "Nvidia *JUST* FIRED Jensen. Elon Offers Jensen Job!!!!"
   }
 ]

@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Wed, 11 Nov 2026 22:05:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 15:08:12 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Nvidia *JUST* FIRED Jensen. Elon Offers Jensen Job!!!!</title>
+      <itunes:title>Nvidia *JUST* FIRED Jensen. Elon Offers Jensen Job!!!!</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=0A9uTZ4Q27M</description>
+      <link>https://www.youtube.com/watch?v=0A9uTZ4Q27M</link>
+      <pubDate>Thu, 12 Nov 2026 15:08:12 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-0A9uTZ4Q27M</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261112-0A9uTZ4Q27M.mp3"
+        length="8529513"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:11:50</itunes:duration>
+      <itunes:episode>175</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>*Caught on Camera* JENSEN is getting FIRED | 2nd Affair REVEALED</title>
+      <itunes:title>*Caught on Camera* JENSEN is getting FIRED | 2nd Affair REVEALED</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=2I9KLQSHn_s</description>
+      <link>https://www.youtube.com/watch?v=2I9KLQSHn_s</link>
+      <pubDate>Thu, 12 Nov 2026 00:34:57 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-2I9KLQSHn_s</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261112-2I9KLQSHn_s.mp3"
+        length="12104213"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:16:48</itunes:duration>
+      <itunes:episode>174</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Prepare for the Anthropic IPO [Full Warning].</title>
       <itunes:title>Prepare for the Anthropic IPO [Full Warning].</itunes:title>
@@ -1129,23 +1163,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:12:30</itunes:duration>
       <itunes:episode>109</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>We have *JUST* 7 days left.</title>
-      <itunes:title>We have *JUST* 7 days left.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=XHjzdg83n3k</description>
-      <link>https://www.youtube.com/watch?v=XHjzdg83n3k</link>
-      <pubDate>Tue, 13 Oct 2026 15:19:34 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-XHjzdg83n3k</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261013-XHjzdg83n3k.mp3"
-        length="19919822"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:27:39</itunes:duration>
-      <itunes:episode>108</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
