@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Wed, 11 Nov 2026 16:37:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 22:05:08 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Prepare for the Anthropic IPO [Full Warning].</title>
+      <itunes:title>Prepare for the Anthropic IPO [Full Warning].</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=k3KkWr5DgyE</description>
+      <link>https://www.youtube.com/watch?v=k3KkWr5DgyE</link>
+      <pubDate>Wed, 11 Nov 2026 22:05:08 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-k3KkWr5DgyE</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261111-k3KkWr5DgyE.mp3"
+        length="21648646"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:30:03</itunes:duration>
+      <itunes:episode>173</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Fed JUST Released their Great Reset Economic Playbook.</title>
       <itunes:title>The Fed JUST Released their Great Reset Economic Playbook.</itunes:title>
