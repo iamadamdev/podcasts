@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Thu, 12 Nov 2026 15:08:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 14:18:17 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>The Fed Just Hit the Panic Button.</title>
+      <itunes:title>The Fed Just Hit the Panic Button.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=JdDKaP_xdh0</description>
+      <link>https://www.youtube.com/watch?v=JdDKaP_xdh0</link>
+      <pubDate>Fri, 13 Nov 2026 14:18:17 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-JdDKaP_xdh0</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261113-JdDKaP_xdh0.mp3"
+        length="10641795"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:14:46</itunes:duration>
+      <itunes:episode>177</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nvidia CEO *JUST* Lawyered Up! 3rd Affair &amp; FIRED</title>
+      <itunes:title>Nvidia CEO *JUST* Lawyered Up! 3rd Affair &amp; FIRED</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=fbC79vAIWWM</description>
+      <link>https://www.youtube.com/watch?v=fbC79vAIWWM</link>
+      <pubDate>Fri, 13 Nov 2026 03:05:09 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-fbC79vAIWWM</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261113-fbC79vAIWWM.mp3"
+        length="20257756"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:28:07</itunes:duration>
+      <itunes:episode>176</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nvidia *JUST* FIRED Jensen. Elon Offers Jensen Job!!!!</title>
       <itunes:title>Nvidia *JUST* FIRED Jensen. Elon Offers Jensen Job!!!!</itunes:title>
@@ -1112,23 +1146,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:28:49</itunes:duration>
       <itunes:episode>112</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>This CPI Report is Bad for MANY Reasons...</title>
-      <itunes:title>This CPI Report is Bad for MANY Reasons...</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ITNtGon3oWU</description>
-      <link>https://www.youtube.com/watch?v=ITNtGon3oWU</link>
-      <pubDate>Wed, 14 Oct 2026 13:27:25 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-ITNtGon3oWU</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261014-ITNtGon3oWU.mp3"
-        length="10707837"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:14:51</itunes:duration>
-      <itunes:episode>111</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

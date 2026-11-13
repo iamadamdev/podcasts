@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ITNtGon3oWU",
-    "duration_seconds": 891,
-    "episode_number": 111,
-    "filename": "audio_files/meet-kevin-20261014-ITNtGon3oWU.mp3",
-    "guid": "meet-kevin-ITNtGon3oWU",
-    "published_timestamp": 1791984445,
-    "source_id": "ITNtGon3oWU",
-    "source_url": "https://www.youtube.com/watch?v=ITNtGon3oWU",
-    "title": "This CPI Report is Bad for MANY Reasons..."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=m3cMmkH94to",
     "duration_seconds": 1729,
     "episode_number": 112,
@@ -778,5 +766,29 @@
     "source_id": "0A9uTZ4Q27M",
     "source_url": "https://www.youtube.com/watch?v=0A9uTZ4Q27M",
     "title": "Nvidia *JUST* FIRED Jensen. Elon Offers Jensen Job!!!!"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=fbC79vAIWWM",
+    "duration_seconds": 1687,
+    "episode_number": 176,
+    "filename": "audio_files/meet-kevin-20261113-fbC79vAIWWM.mp3",
+    "guid": "meet-kevin-fbC79vAIWWM",
+    "published_timestamp": 1794539109,
+    "source_id": "fbC79vAIWWM",
+    "source_url": "https://www.youtube.com/watch?v=fbC79vAIWWM",
+    "title": "Nvidia CEO *JUST* Lawyered Up! 3rd Affair & FIRED"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=JdDKaP_xdh0",
+    "duration_seconds": 886,
+    "episode_number": 177,
+    "filename": "audio_files/meet-kevin-20261113-JdDKaP_xdh0.mp3",
+    "guid": "meet-kevin-JdDKaP_xdh0",
+    "published_timestamp": 1794579497,
+    "source_id": "JdDKaP_xdh0",
+    "source_url": "https://www.youtube.com/watch?v=JdDKaP_xdh0",
+    "title": "The Fed Just Hit the Panic Button."
   }
 ]
