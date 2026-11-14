@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=C358wmTbV3I",
-    "duration_seconds": 1243,
-    "episode_number": 113,
-    "filename": "audio_files/meet-kevin-20261015-C358wmTbV3I.mp3",
-    "guid": "meet-kevin-C358wmTbV3I",
-    "published_timestamp": 1792070291,
-    "source_id": "C358wmTbV3I",
-    "source_url": "https://www.youtube.com/watch?v=C358wmTbV3I",
-    "title": "Is the Recession Beginning?!?!?!"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=9c6v-yLww5w",
     "duration_seconds": 1785,
     "episode_number": 114,
@@ -790,5 +778,17 @@
     "source_id": "vGjX5vARV9Q",
     "source_url": "https://www.youtube.com/watch?v=vGjX5vARV9Q",
     "title": "Airbase Red Alert & NATIONWIDE FAA Ground Stop Explained"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=pg1ucywxTh0",
+    "duration_seconds": 1132,
+    "episode_number": 179,
+    "filename": "audio_files/meet-kevin-20261114-pg1ucywxTh0.mp3",
+    "guid": "meet-kevin-pg1ucywxTh0",
+    "published_timestamp": 1794622201,
+    "source_id": "pg1ucywxTh0",
+    "source_url": "https://www.youtube.com/watch?v=pg1ucywxTh0",
+    "title": "Elon JUST Started Selling Cybercabs for $299/mo"
   }
 ]
