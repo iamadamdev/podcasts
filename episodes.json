@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=m3cMmkH94to",
-    "duration_seconds": 1729,
-    "episode_number": 112,
-    "filename": "audio_files/meet-kevin-20261014-m3cMmkH94to.mp3",
-    "guid": "meet-kevin-m3cMmkH94to",
-    "published_timestamp": 1792011643,
-    "source_id": "m3cMmkH94to",
-    "source_url": "https://www.youtube.com/watch?v=m3cMmkH94to",
-    "title": "why the market just tanked"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=C358wmTbV3I",
     "duration_seconds": 1243,
     "episode_number": 113,
@@ -790,5 +778,17 @@
     "source_id": "JdDKaP_xdh0",
     "source_url": "https://www.youtube.com/watch?v=JdDKaP_xdh0",
     "title": "The Fed Just Hit the Panic Button."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=vGjX5vARV9Q",
+    "duration_seconds": 1793,
+    "episode_number": 178,
+    "filename": "audio_files/meet-kevin-20261113-vGjX5vARV9Q.mp3",
+    "guid": "meet-kevin-vGjX5vARV9Q",
+    "published_timestamp": 1794613981,
+    "source_id": "vGjX5vARV9Q",
+    "source_url": "https://www.youtube.com/watch?v=vGjX5vARV9Q",
+    "title": "Airbase Red Alert & NATIONWIDE FAA Ground Stop Explained"
   }
 ]
