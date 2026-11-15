@@ -790,5 +790,17 @@
     "source_id": "pg1ucywxTh0",
     "source_url": "https://www.youtube.com/watch?v=pg1ucywxTh0",
     "title": "Elon JUST Started Selling Cybercabs for $299/mo"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=axiCoySOyBY",
+    "duration_seconds": 1217,
+    "episode_number": 180,
+    "filename": "audio_files/meet-kevin-20261114-axiCoySOyBY.mp3",
+    "guid": "meet-kevin-axiCoySOyBY",
+    "published_timestamp": 1794682949,
+    "source_id": "axiCoySOyBY",
+    "source_url": "https://www.youtube.com/watch?v=axiCoySOyBY",
+    "title": "The Return of Nvidia's CEO Jensen Huang."
   }
 ]
