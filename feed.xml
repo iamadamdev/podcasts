@@ -1115,56 +1115,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>Elon Musk &amp; Republicans are Freaking Out.</title>
-      <itunes:title>Elon Musk &amp; Republicans are Freaking Out.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=W3pmAjJmX1A</description>
-      <link>https://www.youtube.com/watch?v=W3pmAjJmX1A</link>
-      <pubDate>Fri, 16 Oct 2026 15:27:49 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-W3pmAjJmX1A</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261016-W3pmAjJmX1A.mp3"
-        length="19571384"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:27:10</itunes:duration>
-      <itunes:episode>116</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Kevin Warsh *JUST* Bailed out the Stock Market HIMSELF</title>
-      <itunes:title>Kevin Warsh *JUST* Bailed out the Stock Market HIMSELF</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=r0m6zs83Eo0</description>
-      <link>https://www.youtube.com/watch?v=r0m6zs83Eo0</link>
-      <pubDate>Fri, 16 Oct 2026 04:54:52 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-r0m6zs83Eo0</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261016-r0m6zs83Eo0.mp3"
-        length="14396351"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:19:59</itunes:duration>
-      <itunes:episode>115</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Holy Sh*t Elon Musk's Roadster Reveal [Tesla SpaceX Stock]</title>
-      <itunes:title>Holy Sh*t Elon Musk's Roadster Reveal [Tesla SpaceX Stock]</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=9c6v-yLww5w</description>
-      <link>https://www.youtube.com/watch?v=9c6v-yLww5w</link>
-      <pubDate>Fri, 16 Oct 2026 02:04:49 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-9c6v-yLww5w</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261016-9c6v-yLww5w.mp3"
-        length="21426443"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:29:45</itunes:duration>
-      <itunes:episode>114</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
