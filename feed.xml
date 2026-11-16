@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Sat, 14 Nov 2026 19:02:29 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 23:16:47 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Jensen Accepts: Return as Nvidia CEO.</title>
+      <itunes:title>Jensen Accepts: Return as Nvidia CEO.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=WJv-1MammyE</description>
+      <link>https://www.youtube.com/watch?v=WJv-1MammyE</link>
+      <pubDate>Sun, 15 Nov 2026 23:16:47 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-WJv-1MammyE</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261115-WJv-1MammyE.mp3"
+        length="21595338"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:29:59</itunes:duration>
+      <itunes:episode>181</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Return of Nvidia's CEO Jensen Huang.</title>
       <itunes:title>The Return of Nvidia's CEO Jensen Huang.</itunes:title>
@@ -1095,23 +1112,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:10:06</itunes:duration>
       <itunes:episode>118</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Apple JUST Suffered a "NATIONWIDE" Failure.</title>
-      <itunes:title>Apple JUST Suffered a "NATIONWIDE" Failure.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Yj24QTdKhJ0</description>
-      <link>https://www.youtube.com/watch?v=Yj24QTdKhJ0</link>
-      <pubDate>Fri, 16 Oct 2026 17:57:28 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-Yj24QTdKhJ0</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261016-Yj24QTdKhJ0.mp3"
-        length="6232326"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:08:38</itunes:duration>
-      <itunes:episode>117</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

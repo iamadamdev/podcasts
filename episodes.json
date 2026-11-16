@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Yj24QTdKhJ0",
-    "duration_seconds": 518,
-    "episode_number": 117,
-    "filename": "audio_files/meet-kevin-20261016-Yj24QTdKhJ0.mp3",
-    "guid": "meet-kevin-Yj24QTdKhJ0",
-    "published_timestamp": 1792173448,
-    "source_id": "Yj24QTdKhJ0",
-    "source_url": "https://www.youtube.com/watch?v=Yj24QTdKhJ0",
-    "title": "Apple JUST Suffered a \"NATIONWIDE\" Failure."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=_K-t9h6VrEU",
     "duration_seconds": 606,
     "episode_number": 118,
@@ -766,5 +754,17 @@
     "source_id": "axiCoySOyBY",
     "source_url": "https://www.youtube.com/watch?v=axiCoySOyBY",
     "title": "The Return of Nvidia's CEO Jensen Huang."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=WJv-1MammyE",
+    "duration_seconds": 1799,
+    "episode_number": 181,
+    "filename": "audio_files/meet-kevin-20261115-WJv-1MammyE.mp3",
+    "guid": "meet-kevin-WJv-1MammyE",
+    "published_timestamp": 1794784607,
+    "source_id": "WJv-1MammyE",
+    "source_url": "https://www.youtube.com/watch?v=WJv-1MammyE",
+    "title": "Jensen Accepts: Return as Nvidia CEO."
   }
 ]
