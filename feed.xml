@@ -1098,22 +1098,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>Prepare: Gold Prices are Set to Skyrocket on THIS DATE.</title>
-      <itunes:title>Prepare: Gold Prices are Set to Skyrocket on THIS DATE.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=_K-t9h6VrEU</description>
-      <link>https://www.youtube.com/watch?v=_K-t9h6VrEU</link>
-      <pubDate>Sat, 17 Oct 2026 00:19:54 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-_K-t9h6VrEU</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261017-_K-t9h6VrEU.mp3"
-        length="7279582"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:10:06</itunes:duration>
-      <itunes:episode>118</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
