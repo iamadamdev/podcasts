@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=4cHxN5i0-ZE",
-    "duration_seconds": 806,
-    "episode_number": 119,
-    "filename": "audio_files/meet-kevin-20261017-4cHxN5i0-ZE.mp3",
-    "guid": "meet-kevin-4cHxN5i0-ZE",
-    "published_timestamp": 1792259226,
-    "source_id": "4cHxN5i0-ZE",
-    "source_url": "https://www.youtube.com/watch?v=4cHxN5i0-ZE",
-    "title": "The Collapse is Starting: Is this the Black Swan?"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=4DrkLyosnvk",
     "duration_seconds": 1750,
     "episode_number": 120,
@@ -754,5 +742,17 @@
     "source_id": "WJv-1MammyE",
     "source_url": "https://www.youtube.com/watch?v=WJv-1MammyE",
     "title": "Jensen Accepts: Return as Nvidia CEO."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=jUlIobFTg5E",
+    "duration_seconds": 1463,
+    "episode_number": 182,
+    "filename": "audio_files/meet-kevin-20261116-jUlIobFTg5E.mp3",
+    "guid": "meet-kevin-jUlIobFTg5E",
+    "published_timestamp": 1794852035,
+    "source_id": "jUlIobFTg5E",
+    "source_url": "https://www.youtube.com/watch?v=jUlIobFTg5E",
+    "title": "The Nvidia & Jensen Market Collapse Begins."
   }
 ]
