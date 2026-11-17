@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Mon, 16 Nov 2026 18:00:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 12:30:38 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>-92% | Liquidated AGAIN.</title>
+      <itunes:title>-92% | Liquidated AGAIN.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=NsnimG4dBlI</description>
+      <link>https://www.youtube.com/watch?v=NsnimG4dBlI</link>
+      <pubDate>Tue, 17 Nov 2026 12:30:38 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-NsnimG4dBlI</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261117-NsnimG4dBlI.mp3"
+        length="12097779"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:16:47</itunes:duration>
+      <itunes:episode>184</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Truth About the Nationwide Ground Stop: EXPOSED</title>
+      <itunes:title>The Truth About the Nationwide Ground Stop: EXPOSED</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=gmp9ium-mVY</description>
+      <link>https://www.youtube.com/watch?v=gmp9ium-mVY</link>
+      <pubDate>Tue, 17 Nov 2026 02:20:38 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-gmp9ium-mVY</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261117-gmp9ium-mVY.mp3"
+        length="15576474"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:21:37</itunes:duration>
+      <itunes:episode>183</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Nvidia &amp; Jensen Market Collapse Begins.</title>
       <itunes:title>The Nvidia &amp; Jensen Market Collapse Begins.</itunes:title>
