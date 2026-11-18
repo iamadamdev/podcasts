@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=4DrkLyosnvk",
-    "duration_seconds": 1750,
-    "episode_number": 120,
-    "filename": "audio_files/meet-kevin-20261019-4DrkLyosnvk.mp3",
-    "guid": "meet-kevin-4DrkLyosnvk",
-    "published_timestamp": 1792423723,
-    "source_id": "4DrkLyosnvk",
-    "source_url": "https://www.youtube.com/watch?v=4DrkLyosnvk",
-    "title": "The UNTHINKABLE is About to Happen to the Stock Market"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=3tSopkKTPFk",
     "duration_seconds": 1672,
     "episode_number": 121,
@@ -802,5 +790,17 @@
     "source_id": "OzdQRWazdE4",
     "source_url": "https://www.youtube.com/watch?v=OzdQRWazdE4",
     "title": "Cops Called: Nvidia Earnings Breakdown & SEC Investigation"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=cXMprxBM7Ug",
+    "duration_seconds": 1424,
+    "episode_number": 187,
+    "filename": "audio_files/meet-kevin-20261118-cXMprxBM7Ug.mp3",
+    "guid": "meet-kevin-cXMprxBM7Ug",
+    "published_timestamp": 1794965127,
+    "source_id": "cXMprxBM7Ug",
+    "source_url": "https://www.youtube.com/watch?v=cXMprxBM7Ug",
+    "title": "Nvidia DISASTER | Jensen *REJECTED*"
   }
 ]
