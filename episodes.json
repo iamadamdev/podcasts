@@ -778,5 +778,29 @@
     "source_id": "NsnimG4dBlI",
     "source_url": "https://www.youtube.com/watch?v=NsnimG4dBlI",
     "title": "-92% | Liquidated AGAIN."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=dogmDx8j2fA",
+    "duration_seconds": 1274,
+    "episode_number": 185,
+    "filename": "audio_files/meet-kevin-20261117-dogmDx8j2fA.mp3",
+    "guid": "meet-kevin-dogmDx8j2fA",
+    "published_timestamp": 1794937696,
+    "source_id": "dogmDx8j2fA",
+    "source_url": "https://www.youtube.com/watch?v=dogmDx8j2fA",
+    "title": "JENSEN CONFIRMS"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=OzdQRWazdE4",
+    "duration_seconds": 1071,
+    "episode_number": 186,
+    "filename": "audio_files/meet-kevin-20261117-OzdQRWazdE4.mp3",
+    "guid": "meet-kevin-OzdQRWazdE4",
+    "published_timestamp": 1794952754,
+    "source_id": "OzdQRWazdE4",
+    "source_url": "https://www.youtube.com/watch?v=OzdQRWazdE4",
+    "title": "Cops Called: Nvidia Earnings Breakdown & SEC Investigation"
   }
 ]
