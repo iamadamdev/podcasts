@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=3tSopkKTPFk",
-    "duration_seconds": 1672,
-    "episode_number": 121,
-    "filename": "audio_files/meet-kevin-20261020-3tSopkKTPFk.mp3",
-    "guid": "meet-kevin-3tSopkKTPFk",
-    "published_timestamp": 1792509358,
-    "source_id": "3tSopkKTPFk",
-    "source_url": "https://www.youtube.com/watch?v=3tSopkKTPFk",
-    "title": "Holy Iran"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=YWko9ktMKgA",
     "duration_seconds": 1013,
     "episode_number": 122,
@@ -814,5 +802,29 @@
     "source_id": "Tn8IEhp_iq4",
     "source_url": "https://www.youtube.com/watch?v=Tn8IEhp_iq4",
     "title": "The Stock Market is about to do something UNBELIEVABLE."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=vzGR3e7jkvk",
+    "duration_seconds": 1350,
+    "episode_number": 189,
+    "filename": "audio_files/meet-kevin-20261119-vzGR3e7jkvk.mp3",
+    "guid": "meet-kevin-vzGR3e7jkvk",
+    "published_timestamp": 1795054814,
+    "source_id": "vzGR3e7jkvk",
+    "source_url": "https://www.youtube.com/watch?v=vzGR3e7jkvk",
+    "title": "Prepare for War."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=3ftcmy8Fi2o",
+    "duration_seconds": 915,
+    "episode_number": 190,
+    "filename": "audio_files/meet-kevin-20261119-3ftcmy8Fi2o.mp3",
+    "guid": "meet-kevin-3ftcmy8Fi2o",
+    "published_timestamp": 1795103383,
+    "source_id": "3ftcmy8Fi2o",
+    "source_url": "https://www.youtube.com/watch?v=3ftcmy8Fi2o",
+    "title": "Watch Immediately: The Anthropic IPO [Should you Buy]"
   }
 ]

@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Wed, 18 Nov 2026 18:11:03 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:49:43 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Watch Immediately: The Anthropic IPO [Should you Buy]</title>
+      <itunes:title>Watch Immediately: The Anthropic IPO [Should you Buy]</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=3ftcmy8Fi2o</description>
+      <link>https://www.youtube.com/watch?v=3ftcmy8Fi2o</link>
+      <pubDate>Thu, 19 Nov 2026 15:49:43 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-3ftcmy8Fi2o</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261119-3ftcmy8Fi2o.mp3"
+        length="10988070"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:15:15</itunes:duration>
+      <itunes:episode>190</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Prepare for War.</title>
+      <itunes:title>Prepare for War.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=vzGR3e7jkvk</description>
+      <link>https://www.youtube.com/watch?v=vzGR3e7jkvk</link>
+      <pubDate>Thu, 19 Nov 2026 02:20:14 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-vzGR3e7jkvk</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261119-vzGR3e7jkvk.mp3"
+        length="16214225"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:22:30</itunes:duration>
+      <itunes:episode>189</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Stock Market is about to do something UNBELIEVABLE.</title>
       <itunes:title>The Stock Market is about to do something UNBELIEVABLE.</itunes:title>
@@ -1163,23 +1197,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:16:53</itunes:duration>
       <itunes:episode>122</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Holy Iran</title>
-      <itunes:title>Holy Iran</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=3tSopkKTPFk</description>
-      <link>https://www.youtube.com/watch?v=3tSopkKTPFk</link>
-      <pubDate>Tue, 20 Oct 2026 15:15:58 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-3tSopkKTPFk</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261020-3tSopkKTPFk.mp3"
-        length="20069240"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:27:52</itunes:duration>
-      <itunes:episode>121</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
