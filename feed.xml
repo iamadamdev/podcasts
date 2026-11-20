@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Thu, 19 Nov 2026 23:33:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 17:11:03 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Jensen Huang NEW Startup to Crush Nvidia</title>
+      <itunes:title>Jensen Huang NEW Startup to Crush Nvidia</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=zlvcEuxM5xU</description>
+      <link>https://www.youtube.com/watch?v=zlvcEuxM5xU</link>
+      <pubDate>Fri, 20 Nov 2026 17:11:03 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-zlvcEuxM5xU</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261120-zlvcEuxM5xU.mp3"
+        length="13494217"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:18:44</itunes:duration>
+      <itunes:episode>194</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Fed is Engineering a Total Stock Market Wipeout.</title>
+      <itunes:title>The Fed is Engineering a Total Stock Market Wipeout.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=8GU-V2QEPQ0</description>
+      <link>https://www.youtube.com/watch?v=8GU-V2QEPQ0</link>
+      <pubDate>Fri, 20 Nov 2026 13:50:15 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-8GU-V2QEPQ0</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261120-8GU-V2QEPQ0.mp3"
+        length="22498571"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:31:14</itunes:duration>
+      <itunes:episode>193</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Stock Up NOW: We're Under Attack.</title>
       <itunes:title>Stock Up NOW: We're Under Attack.</itunes:title>
@@ -1180,23 +1214,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:32:59</itunes:duration>
       <itunes:episode>125</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Even I’m Getting Nervous</title>
-      <itunes:title>Even I’m Getting Nervous</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=mc02XlcQmWA</description>
-      <link>https://www.youtube.com/watch?v=mc02XlcQmWA</link>
-      <pubDate>Wed, 21 Oct 2026 16:51:54 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-mc02XlcQmWA</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261021-mc02XlcQmWA.mp3"
-        length="20954848"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:29:05</itunes:duration>
-      <itunes:episode>124</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

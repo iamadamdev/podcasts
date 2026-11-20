@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=mc02XlcQmWA",
-    "duration_seconds": 1745,
-    "episode_number": 124,
-    "filename": "audio_files/meet-kevin-20261021-mc02XlcQmWA.mp3",
-    "guid": "meet-kevin-mc02XlcQmWA",
-    "published_timestamp": 1792601514,
-    "source_id": "mc02XlcQmWA",
-    "source_url": "https://www.youtube.com/watch?v=mc02XlcQmWA",
-    "title": "Even I’m Getting Nervous"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=DT2hYrVSeZE",
     "duration_seconds": 1979,
     "episode_number": 125,
@@ -826,5 +814,29 @@
     "source_id": "hdIdY3l96BA",
     "source_url": "https://www.youtube.com/watch?v=hdIdY3l96BA",
     "title": "Stock Up NOW: We're Under Attack."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=8GU-V2QEPQ0",
+    "duration_seconds": 1874,
+    "episode_number": 193,
+    "filename": "audio_files/meet-kevin-20261120-8GU-V2QEPQ0.mp3",
+    "guid": "meet-kevin-8GU-V2QEPQ0",
+    "published_timestamp": 1795182615,
+    "source_id": "8GU-V2QEPQ0",
+    "source_url": "https://www.youtube.com/watch?v=8GU-V2QEPQ0",
+    "title": "The Fed is Engineering a Total Stock Market Wipeout."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=zlvcEuxM5xU",
+    "duration_seconds": 1124,
+    "episode_number": 194,
+    "filename": "audio_files/meet-kevin-20261120-zlvcEuxM5xU.mp3",
+    "guid": "meet-kevin-zlvcEuxM5xU",
+    "published_timestamp": 1795194663,
+    "source_id": "zlvcEuxM5xU",
+    "source_url": "https://www.youtube.com/watch?v=zlvcEuxM5xU",
+    "title": "Jensen Huang NEW Startup to Crush Nvidia"
   }
 ]
