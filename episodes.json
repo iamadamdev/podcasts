@@ -1,30 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=YWko9ktMKgA",
-    "duration_seconds": 1013,
-    "episode_number": 122,
-    "filename": "audio_files/meet-kevin-20261020-YWko9ktMKgA.mp3",
-    "guid": "meet-kevin-YWko9ktMKgA",
-    "published_timestamp": 1792531606,
-    "source_id": "YWko9ktMKgA",
-    "source_url": "https://www.youtube.com/watch?v=YWko9ktMKgA",
-    "title": "The NEXT Frontier: THESE 3 Stocks Boom"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Jeg_bWQzWLk",
-    "duration_seconds": 893,
-    "episode_number": 123,
-    "filename": "audio_files/meet-kevin-20261020-Jeg_bWQzWLk.mp3",
-    "guid": "meet-kevin-Jeg_bWQzWLk",
-    "published_timestamp": 1792538216,
-    "source_id": "Jeg_bWQzWLk",
-    "source_url": "https://www.youtube.com/watch?v=Jeg_bWQzWLk",
-    "title": "holy sh*t spaceX stock"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=mc02XlcQmWA",
     "duration_seconds": 1745,
     "episode_number": 124,
@@ -826,5 +802,29 @@
     "source_id": "3ftcmy8Fi2o",
     "source_url": "https://www.youtube.com/watch?v=3ftcmy8Fi2o",
     "title": "Watch Immediately: The Anthropic IPO [Should you Buy]"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=5m4AIfW_56U",
+    "duration_seconds": 882,
+    "episode_number": 191,
+    "filename": "audio_files/meet-kevin-20261119-5m4AIfW_56U.mp3",
+    "guid": "meet-kevin-5m4AIfW_56U",
+    "published_timestamp": 1795112425,
+    "source_id": "5m4AIfW_56U",
+    "source_url": "https://www.youtube.com/watch?v=5m4AIfW_56U",
+    "title": "The Next Jensen of Nvidia is CRASHING the MARKET"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=hdIdY3l96BA",
+    "duration_seconds": 1465,
+    "episode_number": 192,
+    "filename": "audio_files/meet-kevin-20261119-hdIdY3l96BA.mp3",
+    "guid": "meet-kevin-hdIdY3l96BA",
+    "published_timestamp": 1795131226,
+    "source_id": "hdIdY3l96BA",
+    "source_url": "https://www.youtube.com/watch?v=hdIdY3l96BA",
+    "title": "Stock Up NOW: We're Under Attack."
   }
 ]

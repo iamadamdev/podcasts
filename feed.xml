@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Thu, 19 Nov 2026 15:49:43 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:33:46 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>Stock Up NOW: We're Under Attack.</title>
+      <itunes:title>Stock Up NOW: We're Under Attack.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=hdIdY3l96BA</description>
+      <link>https://www.youtube.com/watch?v=hdIdY3l96BA</link>
+      <pubDate>Thu, 19 Nov 2026 23:33:46 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-hdIdY3l96BA</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261119-hdIdY3l96BA.mp3"
+        length="17587776"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:24:25</itunes:duration>
+      <itunes:episode>192</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>The Next Jensen of Nvidia is CRASHING the MARKET</title>
+      <itunes:title>The Next Jensen of Nvidia is CRASHING the MARKET</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=5m4AIfW_56U</description>
+      <link>https://www.youtube.com/watch?v=5m4AIfW_56U</link>
+      <pubDate>Thu, 19 Nov 2026 18:20:25 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-5m4AIfW_56U</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261119-5m4AIfW_56U.mp3"
+        length="10592307"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:14:42</itunes:duration>
+      <itunes:episode>191</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Watch Immediately: The Anthropic IPO [Should you Buy]</title>
       <itunes:title>Watch Immediately: The Anthropic IPO [Should you Buy]</itunes:title>
@@ -1163,40 +1197,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:29:05</itunes:duration>
       <itunes:episode>124</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>holy sh*t spaceX stock</title>
-      <itunes:title>holy sh*t spaceX stock</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Jeg_bWQzWLk</description>
-      <link>https://www.youtube.com/watch?v=Jeg_bWQzWLk</link>
-      <pubDate>Tue, 20 Oct 2026 23:16:56 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-Jeg_bWQzWLk</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261020-Jeg_bWQzWLk.mp3"
-        length="10730033"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:14:53</itunes:duration>
-      <itunes:episode>123</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>The NEXT Frontier: THESE 3 Stocks Boom</title>
-      <itunes:title>The NEXT Frontier: THESE 3 Stocks Boom</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=YWko9ktMKgA</description>
-      <link>https://www.youtube.com/watch?v=YWko9ktMKgA</link>
-      <pubDate>Tue, 20 Oct 2026 21:26:46 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-YWko9ktMKgA</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261020-YWko9ktMKgA.mp3"
-        length="12161709"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:16:53</itunes:duration>
-      <itunes:episode>122</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
