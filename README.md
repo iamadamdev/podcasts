@@ -58,7 +58,7 @@ python3 scripts/publish_feed.py --hours 168 --max-scan 100
 ```
 
 This scans up to 100 videos for the last seven days, still retaining only 30 days
-of episodes. The daily schedule continues to use its normal 96-hour window.
+of episodes. The weekday schedule continues to use its normal 96-hour window.
 
 The publisher pins both the commit author and committer to **Adam
 <36013816+iamadamdev@users.noreply.github.com>**, overriding Git configuration and
@@ -83,7 +83,7 @@ before checking each video. Discovery requests use a 30-second socket timeout,
 and each channel listing or video metadata command has a two-minute total limit.
 Exceeding the total limit stops the update before any feed files or audio are changed.
 
-## Twice-daily macOS automation
+## Weekday macOS automation
 
 Install or reinstall the background job from this checkout:
 
@@ -91,18 +91,20 @@ Install or reinstall the background job from this checkout:
 python3 scripts/install_daily_update.py
 ```
 
-The job runs every day at **9:30am and 4:00pm in the Mac's local timezone** (currently
-America/Los_Angeles), including daylight saving changes. It stays installed across
-reboots and loads when you log in. The installer records this checkout's location
-and Python path; rerun it if either changes.
-The existing job automatically uses the 30-day cleanup; no reinstall is needed.
+The job runs **Monday–Friday at 8:00am, 9:30am, and 4:00pm in the Mac's local timezone**
+(currently America/Los_Angeles), including daylight saving changes. No runs are
+scheduled on weekends. It stays installed across reboots and loads when you log
+in. The installer records this checkout's location and Python path; rerun it if
+either changes.
+Rerun the installer to apply this schedule to an existing job.
+The job also automatically uses the 30-day cleanup.
 
 The screen can be locked and Terminal can be closed. You must remain logged in,
 have network access, and have Git credentials available without interaction.
 `caffeinate` prevents idle sleep during an active update. If the Mac is already
-asleep at either scheduled time, [launchd runs the job after wake](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html).
+asleep at a scheduled time, [launchd runs the job after wake](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html).
 It cannot run while the Mac is shut down, and shutting down at the scheduled time
-does not create a catch-up run. To run at both scheduled times, leave the Mac awake
+does not create a catch-up run. To run at all scheduled times, leave the Mac awake
 and online.
 
 ### Run now or check status

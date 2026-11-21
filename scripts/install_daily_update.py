@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Install a macOS launch agent that publishes daily at 9:30am and 4:00pm."""
+"""Install a macOS launch agent that publishes weekdays at 8am, 9:30am, and 4pm."""
 
 from __future__ import annotations
 
@@ -71,8 +71,9 @@ def main() -> None:
             "PYTHONUNBUFFERED": "1",
         },
         "StartCalendarInterval": [
-            {"Hour": 9, "Minute": 30},
-            {"Hour": 16, "Minute": 0},
+            {"Weekday": weekday, "Hour": hour, "Minute": minute}
+            for weekday in range(1, 6)  # launchd: Sunday = 0, Monday = 1.
+            for hour, minute in ((8, 0), (9, 30), (16, 0))
         ],
         "StandardOutPath": str(logs_dir / "daily-update.log"),
         "StandardErrorPath": str(logs_dir / "daily-update.error.log"),
@@ -90,7 +91,7 @@ def main() -> None:
     subprocess.run(["launchctl", "enable", service], check=True)
     subprocess.run(["launchctl", "bootstrap", domain, str(plist_path)], check=True)
     print(f"Installed {plist_path}")
-    print("Scheduled daily at 9:30am and 4:00pm in the Mac's local timezone.")
+    print("Scheduled Monday–Friday at 8:00am, 9:30am, and 4:00pm in the Mac's local timezone.")
     print(f"Logs: {logs_dir}")
     print(f"Run now: launchctl kickstart {service}")
 
