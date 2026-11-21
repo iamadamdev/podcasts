@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=DT2hYrVSeZE",
-    "duration_seconds": 1979,
-    "episode_number": 125,
-    "filename": "audio_files/meet-kevin-20261021-DT2hYrVSeZE.mp3",
-    "guid": "meet-kevin-DT2hYrVSeZE",
-    "published_timestamp": 1792625896,
-    "source_id": "DT2hYrVSeZE",
-    "source_url": "https://www.youtube.com/watch?v=DT2hYrVSeZE",
-    "title": "wtf Tesla Earnings [Full Breakdown]"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Grzu1RJig3w",
     "duration_seconds": 1027,
     "episode_number": 126,
@@ -838,5 +826,17 @@
     "source_id": "zlvcEuxM5xU",
     "source_url": "https://www.youtube.com/watch?v=zlvcEuxM5xU",
     "title": "Jensen Huang NEW Startup to Crush Nvidia"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=dFOLw_CTRPY",
+    "duration_seconds": 1775,
+    "episode_number": 195,
+    "filename": "audio_files/meet-kevin-20261120-dFOLw_CTRPY.mp3",
+    "guid": "meet-kevin-dFOLw_CTRPY",
+    "published_timestamp": 1795202237,
+    "source_id": "dFOLw_CTRPY",
+    "source_url": "https://www.youtube.com/watch?v=dFOLw_CTRPY",
+    "title": "How to Hedge THE CRASH Before It's Too Late."
   }
 ]
