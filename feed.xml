@@ -1149,22 +1149,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>a finance bro's HONEST review of the iPhone Duo</title>
-      <itunes:title>a finance bro's HONEST review of the iPhone Duo</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=PlQk8tOSHWw</description>
-      <link>https://www.youtube.com/watch?v=PlQk8tOSHWw</link>
-      <pubDate>Sat, 24 Oct 2026 17:11:48 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-PlQk8tOSHWw</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261024-PlQk8tOSHWw.mp3"
-        length="16101116"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:22:21</itunes:duration>
-      <itunes:episode>131</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
