@@ -1,66 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Grzu1RJig3w",
-    "duration_seconds": 1027,
-    "episode_number": 126,
-    "filename": "audio_files/meet-kevin-20261022-Grzu1RJig3w.mp3",
-    "guid": "meet-kevin-Grzu1RJig3w",
-    "published_timestamp": 1792644456,
-    "source_id": "Grzu1RJig3w",
-    "source_url": "https://www.youtube.com/watch?v=Grzu1RJig3w",
-    "title": "holy moly META stock!"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=LU4FDsvAk4o",
-    "duration_seconds": 1380,
-    "episode_number": 127,
-    "filename": "audio_files/meet-kevin-20261022-LU4FDsvAk4o.mp3",
-    "guid": "meet-kevin-LU4FDsvAk4o",
-    "published_timestamp": 1792681886,
-    "source_id": "LU4FDsvAk4o",
-    "source_url": "https://www.youtube.com/watch?v=LU4FDsvAk4o",
-    "title": "F**K: \"Restarting Strikes\""
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=xRYpZoPRPh8",
-    "duration_seconds": 1187,
-    "episode_number": 128,
-    "filename": "audio_files/meet-kevin-20261022-xRYpZoPRPh8.mp3",
-    "guid": "meet-kevin-xRYpZoPRPh8",
-    "published_timestamp": 1792692787,
-    "source_id": "xRYpZoPRPh8",
-    "source_url": "https://www.youtube.com/watch?v=xRYpZoPRPh8",
-    "title": "DO THIS *BEFORE* The Tesla SpaceX Merger!!"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=-HXNDeabnaM",
-    "duration_seconds": 1636,
-    "episode_number": 129,
-    "filename": "audio_files/meet-kevin-20261022--HXNDeabnaM.mp3",
-    "guid": "meet-kevin--HXNDeabnaM",
-    "published_timestamp": 1792706550,
-    "source_id": "-HXNDeabnaM",
-    "source_url": "https://www.youtube.com/watch?v=-HXNDeabnaM",
-    "title": "The Collapse Begins"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=d5sUN3Gx18Q",
-    "duration_seconds": 1606,
-    "episode_number": 130,
-    "filename": "audio_files/meet-kevin-20261023-d5sUN3Gx18Q.mp3",
-    "guid": "meet-kevin-d5sUN3Gx18Q",
-    "published_timestamp": 1792768641,
-    "source_id": "d5sUN3Gx18Q",
-    "source_url": "https://www.youtube.com/watch?v=d5sUN3Gx18Q",
-    "title": "PREPARE: The Bailout is Coming."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=PlQk8tOSHWw",
     "duration_seconds": 1341,
     "episode_number": 131,
@@ -838,5 +778,29 @@
     "source_id": "dFOLw_CTRPY",
     "source_url": "https://www.youtube.com/watch?v=dFOLw_CTRPY",
     "title": "How to Hedge THE CRASH Before It's Too Late."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=SKkiIdfsHGo",
+    "duration_seconds": 1803,
+    "episode_number": 196,
+    "filename": "audio_files/meet-kevin-20261122-SKkiIdfsHGo.mp3",
+    "guid": "meet-kevin-SKkiIdfsHGo",
+    "published_timestamp": 1795376135,
+    "source_id": "SKkiIdfsHGo",
+    "source_url": "https://www.youtube.com/watch?v=SKkiIdfsHGo",
+    "title": "The Start of Recession."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=fCEY_9vg6Xk",
+    "duration_seconds": 567,
+    "episode_number": 197,
+    "filename": "audio_files/meet-kevin-20261123-fCEY_9vg6Xk.mp3",
+    "guid": "meet-kevin-fCEY_9vg6Xk",
+    "published_timestamp": 1795443506,
+    "source_id": "fCEY_9vg6Xk",
+    "source_url": "https://www.youtube.com/watch?v=fCEY_9vg6Xk",
+    "title": "Jensen is OFFICIALLY BACK!!! Nvidia!!"
   }
 ]
