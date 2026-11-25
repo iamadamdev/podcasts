@@ -1200,22 +1200,5 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
-    <item>
-      <title>Prepare for the *MEGA* Flip THIS WEEK</title>
-      <itunes:title>Prepare for the *MEGA* Flip THIS WEEK</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Wx-iQkhT46M</description>
-      <link>https://www.youtube.com/watch?v=Wx-iQkhT46M</link>
-      <pubDate>Mon, 26 Oct 2026 12:26:01 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-Wx-iQkhT46M</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261026-Wx-iQkhT46M.mp3"
-        length="17358156"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:24:06</itunes:duration>
-      <itunes:episode>132</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
   </channel>
 </rss>
