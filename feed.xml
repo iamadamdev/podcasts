@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Tue, 24 Nov 2026 16:52:18 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 20:26:44 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>The Collapse of Stocks: Bottom &amp; Recession.</title>
+      <itunes:title>The Collapse of Stocks: Bottom &amp; Recession.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=zD8aD03pj90</description>
+      <link>https://www.youtube.com/watch?v=zD8aD03pj90</link>
+      <pubDate>Tue, 24 Nov 2026 20:26:44 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-zD8aD03pj90</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261124-zD8aD03pj90.mp3"
+        length="14557860"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:20:12</itunes:duration>
+      <itunes:episode>201</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Why the Stock Market Collapse is Continuing.</title>
       <itunes:title>Why the Stock Market Collapse is Continuing.</itunes:title>
