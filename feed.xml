@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Wed, 25 Nov 2026 23:10:16 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 03:37:31 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>THE F**KING BOTTOM</title>
+      <itunes:title>THE F**KING BOTTOM</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=JpC9T7K9NYI</description>
+      <link>https://www.youtube.com/watch?v=JpC9T7K9NYI</link>
+      <pubDate>Thu, 26 Nov 2026 03:37:31 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-JpC9T7K9NYI</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261126-JpC9T7K9NYI.mp3"
+        length="20847573"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:28:56</itunes:duration>
+      <itunes:episode>204</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Coming 2027 Housing Market Disaster.</title>
       <itunes:title>The Coming 2027 Housing Market Disaster.</itunes:title>
@@ -1197,23 +1214,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:20:56</itunes:duration>
       <itunes:episode>135</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>The Credit Market *JUST* Sent a Warning</title>
-      <itunes:title>The Credit Market *JUST* Sent a Warning</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=U09SMaCL3uo</description>
-      <link>https://www.youtube.com/watch?v=U09SMaCL3uo</link>
-      <pubDate>Tue, 27 Oct 2026 15:41:10 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-U09SMaCL3uo</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261027-U09SMaCL3uo.mp3"
-        length="13889264"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:19:17</itunes:duration>
-      <itunes:episode>134</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
