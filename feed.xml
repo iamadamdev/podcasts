@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Tue, 24 Nov 2026 20:26:44 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 23:10:16 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,40 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>The Coming 2027 Housing Market Disaster.</title>
+      <itunes:title>The Coming 2027 Housing Market Disaster.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Imw9-50PJWI</description>
+      <link>https://www.youtube.com/watch?v=Imw9-50PJWI</link>
+      <pubDate>Wed, 25 Nov 2026 23:10:16 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-Imw9-50PJWI</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261125-Imw9-50PJWI.mp3"
+        length="20763484"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:28:49</itunes:duration>
+      <itunes:episode>203</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>How R*tarded is Buying the Dip Right NOW?</title>
+      <itunes:title>How R*tarded is Buying the Dip Right NOW?</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=SecQgkVR1sU</description>
+      <link>https://www.youtube.com/watch?v=SecQgkVR1sU</link>
+      <pubDate>Wed, 25 Nov 2026 18:19:11 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-SecQgkVR1sU</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261125-SecQgkVR1sU.mp3"
+        length="33649892"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:46:43</itunes:duration>
+      <itunes:episode>202</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Collapse of Stocks: Bottom &amp; Recession.</title>
       <itunes:title>The Collapse of Stocks: Bottom &amp; Recession.</itunes:title>
@@ -1180,23 +1214,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:19:17</itunes:duration>
       <itunes:episode>134</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>The Bond Market *JUST* Broke: Major Fed Warning JUST Issued.</title>
-      <itunes:title>The Bond Market *JUST* Broke: Major Fed Warning JUST Issued.</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=S5og5FxshWk</description>
-      <link>https://www.youtube.com/watch?v=S5og5FxshWk</link>
-      <pubDate>Mon, 26 Oct 2026 20:43:47 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-S5og5FxshWk</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261026-S5og5FxshWk.mp3"
-        length="14028445"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:19:28</itunes:duration>
-      <itunes:episode>133</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>

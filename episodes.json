@@ -1,18 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=S5og5FxshWk",
-    "duration_seconds": 1168,
-    "episode_number": 133,
-    "filename": "audio_files/meet-kevin-20261026-S5og5FxshWk.mp3",
-    "guid": "meet-kevin-S5og5FxshWk",
-    "published_timestamp": 1793047427,
-    "source_id": "S5og5FxshWk",
-    "source_url": "https://www.youtube.com/watch?v=S5og5FxshWk",
-    "title": "The Bond Market *JUST* Broke: Major Fed Warning JUST Issued."
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=U09SMaCL3uo",
     "duration_seconds": 1157,
     "episode_number": 134,
@@ -826,5 +814,29 @@
     "source_id": "zD8aD03pj90",
     "source_url": "https://www.youtube.com/watch?v=zD8aD03pj90",
     "title": "The Collapse of Stocks: Bottom & Recession."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=SecQgkVR1sU",
+    "duration_seconds": 2803,
+    "episode_number": 202,
+    "filename": "audio_files/meet-kevin-20261125-SecQgkVR1sU.mp3",
+    "guid": "meet-kevin-SecQgkVR1sU",
+    "published_timestamp": 1795630751,
+    "source_id": "SecQgkVR1sU",
+    "source_url": "https://www.youtube.com/watch?v=SecQgkVR1sU",
+    "title": "How R*tarded is Buying the Dip Right NOW?"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Imw9-50PJWI",
+    "duration_seconds": 1729,
+    "episode_number": 203,
+    "filename": "audio_files/meet-kevin-20261125-Imw9-50PJWI.mp3",
+    "guid": "meet-kevin-Imw9-50PJWI",
+    "published_timestamp": 1795648216,
+    "source_id": "Imw9-50PJWI",
+    "source_url": "https://www.youtube.com/watch?v=Imw9-50PJWI",
+    "title": "The Coming 2027 Housing Market Disaster."
   }
 ]
