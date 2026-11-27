@@ -1,42 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=g3WWOicq7GM",
-    "duration_seconds": 1256,
-    "episode_number": 135,
-    "filename": "audio_files/meet-kevin-20261027-g3WWOicq7GM.mp3",
-    "guid": "meet-kevin-g3WWOicq7GM",
-    "published_timestamp": 1793123540,
-    "source_id": "g3WWOicq7GM",
-    "source_url": "https://www.youtube.com/watch?v=g3WWOicq7GM",
-    "title": "what if I'm WRONG about Iran"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=WH_NeyCLFA8",
-    "duration_seconds": 924,
-    "episode_number": 136,
-    "filename": "audio_files/meet-kevin-20261027-WH_NeyCLFA8.mp3",
-    "guid": "meet-kevin-WH_NeyCLFA8",
-    "published_timestamp": 1793134574,
-    "source_id": "WH_NeyCLFA8",
-    "source_url": "https://www.youtube.com/watch?v=WH_NeyCLFA8",
-    "title": "Robinhood's Warning | HOOD Stock"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=LpMoj9cnfCo",
-    "duration_seconds": 1518,
-    "episode_number": 137,
-    "filename": "audio_files/meet-kevin-20261027-LpMoj9cnfCo.mp3",
-    "guid": "meet-kevin-LpMoj9cnfCo",
-    "published_timestamp": 1793141775,
-    "source_id": "LpMoj9cnfCo",
-    "source_url": "https://www.youtube.com/watch?v=LpMoj9cnfCo",
-    "title": "holy sh*t JENSEN!!!"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=aV0yYYGZ5LE",
     "duration_seconds": 1108,
     "episode_number": 138,
@@ -838,5 +802,29 @@
     "source_id": "JpC9T7K9NYI",
     "source_url": "https://www.youtube.com/watch?v=JpC9T7K9NYI",
     "title": "THE F**KING BOTTOM"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=KyCmi9A64-Y",
+    "duration_seconds": 447,
+    "episode_number": 205,
+    "filename": "audio_files/meet-kevin-20261126-KyCmi9A64-Y.mp3",
+    "guid": "meet-kevin-KyCmi9A64-Y",
+    "published_timestamp": 1795725795,
+    "source_id": "KyCmi9A64-Y",
+    "source_url": "https://www.youtube.com/watch?v=KyCmi9A64-Y",
+    "title": "What is ReinvestOne?"
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=h3K7JwY_za4",
+    "duration_seconds": 1757,
+    "episode_number": 206,
+    "filename": "audio_files/meet-kevin-20261126-h3K7JwY_za4.mp3",
+    "guid": "meet-kevin-h3K7JwY_za4",
+    "published_timestamp": 1795734120,
+    "source_id": "h3K7JwY_za4",
+    "source_url": "https://www.youtube.com/watch?v=h3K7JwY_za4",
+    "title": "oh sh*t... i might be wrong."
   }
 ]
