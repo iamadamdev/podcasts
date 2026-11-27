@@ -10,7 +10,7 @@
     <description>Audio editions of selected YouTube videos and original audio briefings.</description>
     <language>en-us</language>
     <copyright>&#xA9; 2026 Adam</copyright>
-    <lastBuildDate>Thu, 26 Nov 2026 23:02:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 13:49:23 GMT</lastBuildDate>
     <generator>scripts/update_mk.py</generator>
     <ttl>60</ttl>
 
@@ -27,6 +27,23 @@
     <itunes:category text="Technology" />
     <itunes:image href="https://iamadamdev.github.io/podcasts/cover.png" />
 
+    <item>
+      <title>The Nvidia Arrests are Starting.</title>
+      <itunes:title>The Nvidia Arrests are Starting.</itunes:title>
+      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=5kLx33n7F9s</description>
+      <link>https://www.youtube.com/watch?v=5kLx33n7F9s</link>
+      <pubDate>Fri, 27 Nov 2026 13:49:23 GMT</pubDate>
+      <guid isPermaLink="false">meet-kevin-5kLx33n7F9s</guid>
+      <enclosure
+        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261127-5kLx33n7F9s.mp3"
+        length="13013695"
+        type="audio/mpeg" />
+      <itunes:author>Meet Kevin</itunes:author>
+      <itunes:duration>00:18:03</itunes:duration>
+      <itunes:episode>207</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>oh sh*t... i might be wrong.</title>
       <itunes:title>oh sh*t... i might be wrong.</itunes:title>
@@ -1163,40 +1180,6 @@
       <itunes:author>Meet Kevin</itunes:author>
       <itunes:duration>00:08:19</itunes:duration>
       <itunes:episode>140</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>my final warning</title>
-      <itunes:title>my final warning</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=nvu1YtsJ5Z0</description>
-      <link>https://www.youtube.com/watch?v=nvu1YtsJ5Z0</link>
-      <pubDate>Wed, 28 Oct 2026 15:14:37 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-nvu1YtsJ5Z0</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261028-nvu1YtsJ5Z0.mp3"
-        length="8343735"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:11:34</itunes:duration>
-      <itunes:episode>139</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>oh **** warsh is MAAAAADDDD</title>
-      <itunes:title>oh **** warsh is MAAAAADDDD</itunes:title>
-      <description>Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=aV0yYYGZ5LE</description>
-      <link>https://www.youtube.com/watch?v=aV0yYYGZ5LE</link>
-      <pubDate>Wed, 28 Oct 2026 01:58:36 GMT</pubDate>
-      <guid isPermaLink="false">meet-kevin-aV0yYYGZ5LE</guid>
-      <enclosure
-        url="https://iamadamdev.github.io/podcasts/audio_files/meet-kevin-20261028-aV0yYYGZ5LE.mp3"
-        length="13304032"
-        type="audio/mpeg" />
-      <itunes:author>Meet Kevin</itunes:author>
-      <itunes:duration>00:18:28</itunes:duration>
-      <itunes:episode>138</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
