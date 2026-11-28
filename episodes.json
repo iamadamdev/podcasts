@@ -1,42 +1,6 @@
 [
   {
     "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=ISBrgpVqdEU",
-    "duration_seconds": 499,
-    "episode_number": 140,
-    "filename": "audio_files/meet-kevin-20261028-ISBrgpVqdEU.mp3",
-    "guid": "meet-kevin-ISBrgpVqdEU",
-    "published_timestamp": 1793211926,
-    "source_id": "ISBrgpVqdEU",
-    "source_url": "https://www.youtube.com/watch?v=ISBrgpVqdEU",
-    "title": "omg Trump just SIGNALED the Iran Deal!!!"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Q7fUNbiYTTc",
-    "duration_seconds": 953,
-    "episode_number": 141,
-    "filename": "audio_files/meet-kevin-20261028-Q7fUNbiYTTc.mp3",
-    "guid": "meet-kevin-Q7fUNbiYTTc",
-    "published_timestamp": 1793216156,
-    "source_id": "Q7fUNbiYTTc",
-    "source_url": "https://www.youtube.com/watch?v=Q7fUNbiYTTc",
-    "title": "holy f**k | What the Fed JUST SAID"
-  },
-  {
-    "author": "Meet Kevin",
-    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=IPYxNoC1aL4",
-    "duration_seconds": 1299,
-    "episode_number": 142,
-    "filename": "audio_files/meet-kevin-20261028-IPYxNoC1aL4.mp3",
-    "guid": "meet-kevin-IPYxNoC1aL4",
-    "published_timestamp": 1793223178,
-    "source_id": "IPYxNoC1aL4",
-    "source_url": "https://www.youtube.com/watch?v=IPYxNoC1aL4",
-    "title": "RIP | GOOGLE STOCK CRASH"
-  },
-  {
-    "author": "Meet Kevin",
     "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=tCY71_jQp24",
     "duration_seconds": 911,
     "episode_number": 143,
@@ -814,5 +778,29 @@
     "source_id": "5kLx33n7F9s",
     "source_url": "https://www.youtube.com/watch?v=5kLx33n7F9s",
     "title": "The Nvidia Arrests are Starting."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=Ufx_lTaCwLA",
+    "duration_seconds": 817,
+    "episode_number": 208,
+    "filename": "audio_files/meet-kevin-20261127-Ufx_lTaCwLA.mp3",
+    "guid": "meet-kevin-Ufx_lTaCwLA",
+    "published_timestamp": 1795804683,
+    "source_id": "Ufx_lTaCwLA",
+    "source_url": "https://www.youtube.com/watch?v=Ufx_lTaCwLA",
+    "title": "WARNING: The Next 10 Days."
+  },
+  {
+    "author": "Meet Kevin",
+    "description": "Audio edition of Meet Kevin's YouTube video. Original video: https://www.youtube.com/watch?v=DO-eWNkpcHs",
+    "duration_seconds": 2054,
+    "episode_number": 209,
+    "filename": "audio_files/meet-kevin-20261127-DO-eWNkpcHs.mp3",
+    "guid": "meet-kevin-DO-eWNkpcHs",
+    "published_timestamp": 1795813427,
+    "source_id": "DO-eWNkpcHs",
+    "source_url": "https://www.youtube.com/watch?v=DO-eWNkpcHs",
+    "title": "How to Survive the Coming Job Recession."
   }
 ]
